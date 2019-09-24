@@ -1,0 +1,14 @@
+{
+    "word": "Palabra",
+    "wordLength": "Límite de palabras",
+    "editorBoldIcon": "N",
+    "editorBoldTitle": "Negrita",
+    "editorItalicsIcon": "K",
+    "editorItalicsTitle": "Cursiva",
+    "editorUnderlineIcon": "S",
+    "editorUnderlineTitle": "Subrayado",
+    "graphingTools.parabola": "Parábola",
+    "reset": "Reiniciar",
+    "undo": "Deshacer",
+    "redo": "Rehacer"
+}
