@@ -91,6 +91,6 @@
     "existingResponsesTitle": "Se encontraron respuestas existentes.",
     "existingResponsesMessage": "Esta actividad ya fue resuelta.",
     "existingResponsesDetail": "Por favor refresque la pagina para iniciar una nueva actividad.",
-    "reviewScreen" : "Revisión",
+    "reviewScreen": "Revisión",
     "flagItem": "Marcar pregunta"
 }
