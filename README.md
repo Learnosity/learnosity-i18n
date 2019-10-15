@@ -12,13 +12,25 @@ For example:
 ```bash
 ├── languages
 │   ├── arabic
-│   │   ├── assess-api.json
+│   │   ├── assess-api_ar-EG.json
 ├── README.md
 ```
 
+**Language Codes:**
+We suffix language codes to the end of each filename to support dialects within each top level language.
+
 **Supported Language List:**
-- Arabic
+- Arabic (Egyptian)
 - Spanish
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## TODO
+Add support for:
+* English (Great Britain)
+* Filipino
+* French
+* Russian
+* Portuguese
+* Korean
