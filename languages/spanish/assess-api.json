@@ -90,5 +90,7 @@
     "isAllResponsesAttempted": "{{allQuestionsAttempted}}. Está seguro que desea finalizar la actividad?",
     "existingResponsesTitle": "Se encontraron respuestas existentes.",
     "existingResponsesMessage": "Esta actividad ya fue resuelta.",
-    "existingResponsesDetail": "Por favor refresque la pagina para iniciar una nueva actividad."
+    "existingResponsesDetail": "Por favor refresque la pagina para iniciar una nueva actividad.",
+    “reviewScreen” : “Revisión”,
+    “flagItem”: “Marcar pregunta”
 }
