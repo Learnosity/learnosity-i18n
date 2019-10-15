@@ -10,5 +10,7 @@
     "graphingTools.parabola": "Parábola",
     "reset": "Reiniciar",
     "undo": "Deshacer",
-    "redo": "Rehacer"
+    "redo": "Rehacer",
+    “reviewScreen”: “Revisión”,
+    “flagItem”: “Marcar pregunta”
 }
