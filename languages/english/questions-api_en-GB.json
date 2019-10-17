@@ -1,0 +1,14 @@
+{
+    "word": "Word(s)",
+    "wordLength": "Word limit",
+    "editorBoldIcon": "B",
+    "editorBoldTitle": "Bold",
+    "editorItalicsIcon": "I",
+    "editorItalicsTitle": "Italics",
+    "editorUnderlineIcon": "U",
+    "editorUnderlineTitle": "Underline",
+    "graphingTools.parabola": "Parabola",
+    "reset": "Reset",
+    "undo": "Undo",
+    "redo": "Redo"
+}
