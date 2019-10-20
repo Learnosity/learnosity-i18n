@@ -11,13 +11,13 @@ For example:
 
 ```bash
 ├── languages
-│   ├── arabic
-│   │   ├── assess-api_ar-EG.json
+│   ├── en-GB
+│   │   ├── assess-api.json
 ├── README.md
 ```
 
 **Language Codes:**
-We suffix language codes to the end of each filename to support dialects within each top level language.
+We use language codes to support dialects within each top level language.
 
 **Supported Language List:**
 <table>
