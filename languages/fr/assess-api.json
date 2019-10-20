@@ -29,7 +29,7 @@
     "saveError": "Erreur lors de l'enregistrement.",
     "saveInProgress": "Enregistrement...",
     "savingInProgress": "Enregistrement en cours.",
-    "saving": "enregistrement",
+    "saving": "l'enregistrement",
     "saved": "enregistrée",
     "saveTestSuccessfully": "Votre activité a bien été enregistrée",
     "saveTestSuccessfullyPrompt": "Souhaitez-vous continuer votre {{test}}, ou quitter ?",
