@@ -89,7 +89,7 @@
     "zoomInResult": "Le navigateur effectuera un zoom avant lorsque vous appuyez sur la touche Plus (+).",
     "zoomOutResult": "Le navigateur diminue le zoom lorsque vous appuyez sur la touche Moins (-).",
     "collapseMenu": "Réduire le menu",
-    "submitActionConfirmation": "Êtes-vous sûr de vouloir {{action}} le {{test}}",
+    "submitActionConfirmation": "Êtes-vous sûr de vouloir {{action}} votre {{test}}",
     "submitWithUnattemptedQuestion":"Vous n'avez pas répondu à 1 question.",
     "submitWithUnattemptedQuestions":"Vous n'avez pas répondu à {{unattemptedResponsesCount}} questions.",
     "isAllResponsesAttempted":"{{allQuestionsAttempted}}. Voulez-vous {{action}} le {{test}} maintenant ?",
