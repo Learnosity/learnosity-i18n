@@ -92,7 +92,7 @@
     "submitActionConfirmation": "Êtes-vous sûr de vouloir {{action}} votre {{test}}",
     "submitWithUnattemptedQuestion":"Vous n'avez pas répondu à 1 question.",
     "submitWithUnattemptedQuestions":"Vous n'avez pas répondu à {{unattemptedResponsesCount}} questions.",
-    "isAllResponsesAttempted":"{{allQuestionsAttempted}}. Voulez-vous {{action}} le {{test}} maintenant ?",
+    "isAllResponsesAttempted":"{{allQuestionsAttempted}}. Voulez-vous {{action}} votre {{test}} maintenant ?",
     "existingResponsesTitle": "Des réponses existantes ont été trouvées.",
     "existingResponsesMessage":"Vous avez déjà répondu aux questions de cette activité. Il se peut que vous ayez atteint cette page en utilisant le bouton \"Précédent\" de votre navigateur",
     "existingResponsesDetail":"Si c'est le cas, cliquez sur le bouton \"Suivant\" de votre navigateur pour revenir à l'écran précédent.",
