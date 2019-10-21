@@ -45,7 +45,7 @@
     "tryAgain": "Réessayer",
     "idleSaveError": "Une erreur est survenue pendant l'enregistrement.",
     "errorOccurredWhile": "Une erreur est survenue pendant ",
-    "submitFailed": "Votre activité n'a pas pu être soumise. Vérifiez votre connexion réseau et réessayez.",
+    "submitFailed": "Votre activité n'a pas pu être soumise. Veulliez vérifier votre connexion réseau et réessayez.",
     "submitWarningMsg": "Votre activité a été mise en pause par un administrateur, et sera soumise automatiquement dans ",
     "submitFailedWithOnlyAccessRawDataOption": "Si le problème persiste, sélectionnez et copiez le texte ci-dessous, et envoyez le à votre administrateur. Ce texte contient les données de votre activité et vos réponses.",
     "submitFailedWithOtherOptions": "Si le problème persiste, choisissez une des options suivantes pour accéder aux données complètes de votre activité et vos réponses.",
