@@ -94,8 +94,8 @@
     "reviewScreen": "Revisión",
     "flagItem": "Marcar elemento",
     "saved": "guardada",
-    "saveTestSuccessfully": "Tu {{test}} ha sido guardada.",
-    "saveTestSuccessfullyPrompt": "Deseas resumir la {{test}}, o salir?",
+    "saveTestSuccessfully": "Tu {{test}} ha sido guardado/a.",
+    "saveTestSuccessfullyPrompt": "Deseas resumir tu {{test}}, o salir?",
     "resume": "Resumir",
     "savingInProgress": "Guardado en progreso"
 }
