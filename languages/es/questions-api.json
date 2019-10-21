@@ -10,5 +10,6 @@
     "graphingTools.parabola": "Parábola",
     "reset": "Reiniciar",
     "undo": "Deshacer",
-    "redo": "Rehacer"
+    "redo": "Rehacer",
+    "resume": "Resumir"
 }
