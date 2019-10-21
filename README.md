@@ -17,50 +17,60 @@ For example:
 ```
 
 **Language Codes:**
-We use language codes to support dialects within each top level language.
+We use language codes to support dialects within each top level language. English (United States) is the default language used in our APIs.
 
 **Supported Language List:**
 <table>
+    <thead>
+        <tr>
+            <th width="320">Language</th>
+            <th width="130">Code</th>
+            <th width="130">Assess API</th>
+            <th width="130">Author API</th>
+            <th width="130">Question Editor API</th>
+            <th width="130">Questions API</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-            <th width="175">Language</th>
-            <th width="175">Code</th>
-            <th width="175">Assess API</th>
-            <th width="175">Author API</th>
-            <th width="175">Question Editor API</th>
-            <th width="175">Questions API</th>
+            <td>Arabic (Egyptian)</td>
+            <td>ar-EG</td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
         </tr>
         <tr>
-            <td width="175">Arabic (Egyptian)</td>
-            <td width="175">ar-EG</td>
-            <td width="175">Y</td>
-            <td width="175">Y</td>
-            <td width="175">Y</td>
-            <td width="175">Y</td>
+            <td>English (United Kingdom)</td>
+            <td>en-GB</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
         </tr>
         <tr>
-            <td width="175">English (United Kingdom)</td>
-            <td width="175">en-GB</td>
-            <td width="175">Y</td>
-            <td width="175">N</td>
-            <td width="175">N</td>
-            <td width="175">Y</td>
+            <td>English (United States) - Default</td>
+            <td>en-US</td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
         </tr>
         <tr>
-            <td width="175">Spanish</td>
-            <td width="175">es</td>
-            <td width="175">Y</td>
-            <td width="175">N</td>
-            <td width="175">N</td>
-            <td width="175">Y</td>
+            <td>French</td>
+            <td>fr</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
         </tr>
         <tr>
-            <td width="175">French</td>
-            <td width="175">fr</td>
-            <td width="175">Y</td>
-            <td width="175">N</td>
-            <td width="175">N</td>
-            <td width="175">Y</td>
+            <td>Spanish</td>
+            <td>es</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
         </tr>
     </tbody>
 </table>
