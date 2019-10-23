@@ -1,0 +1,17 @@
+{
+    "word": "Parola",
+    "wordLength": "Limite di parole",
+    "editorBoldIcon": "G",
+    "editorBoldTitle": "Grassetto",
+    "editorItalicsIcon": "C",
+    "editorItalicsTitle": "Corsivo",
+    "editorUnderlineIcon": "S",
+    "editorUnderlineTitle": "Sottolinea",
+    "editorBulletedListTitle": "Elenco puntato",
+    "editorNumberedListTitle": "Elenco numerato",
+    "graphingTools.parabola": "Parabola",
+    "reset": "Reimposta",
+    "undo": "Annulla",
+    "redo": "Ripeti",
+    "resume": "Riprendi"
+}
