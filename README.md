@@ -65,6 +65,14 @@ We use language codes to support dialects within each top level language. Englis
             <td>Y</td>
         </tr>
         <tr>
+            <td>German</td>
+            <td>de-DE</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
+        </tr>
+        <tr>
             <td>Spanish</td>
             <td>es</td>
             <td>Y</td>
@@ -73,13 +81,14 @@ We use language codes to support dialects within each top level language. Englis
             <td>Y</td>
         </tr>
         <tr>
-            <td>German</td>
-            <td>de-DE</td>
+            <td>Tagalog</td>
+            <td>tl</td>
             <td>Y</td>
             <td>N</td>
             <td>N</td>
-            <td>Y</td>
+            <td>N</td>
         </tr>
+
     </tbody>
 </table>
 
