@@ -52,8 +52,8 @@ We use language codes to support dialects within each top level language. Englis
             <td>English (United States) - Default</td>
             <td>en-US</td>
             <td>Y</td>
-            <td>Y</td>
-            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
             <td>Y</td>
         </tr>
         <tr>
