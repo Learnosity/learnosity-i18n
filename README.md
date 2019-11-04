@@ -88,6 +88,14 @@ We use language codes to support dialects within each top level language. Englis
             <td>N</td>
             <td>N</td>
         </tr>
+        <tr>
+            <td>Italian</td>
+            <td>it</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
+        </tr>
     </tbody>
 </table>
 
