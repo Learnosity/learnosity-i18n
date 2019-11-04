@@ -13,5 +13,29 @@
     "reset": "Reimposta",
     "undo": "Annulla",
     "redo": "Ripeti",
-    "resume": "Riprendi"
+    "resume": "Riprendi",
+    "editor": {
+        "toolbar": {
+            "bold": "Grassetto",
+            "italic": "Corsivo",
+            "underline": "Sottolinea",
+            "removeFormat": "Rimuovi formato",
+            "orderedList": "Elenco numerato",
+            "unorderedList": "Elenco puntato",
+            "alignLeft": "Allinea a sinistra",
+            "alignCenter": "Allinea al centro",
+            "alignRight": "Allinea a destra",
+            "alignJustify": "Giustificato",
+            "indentIncrease": "Aumenta rientro",
+            "indentDecrease": "Diminuisci rientro",
+            "insertHorizontalRule": "Inserisci righello orizzontale",
+            "subscript": "Pedice",
+            "superscript": "Apice",
+            "charactermap": "Mappa caratteri",
+            "table": "Tabella",
+            "blockquote": "Citazione",
+            "undo": "Annulla",
+            "redo": "Ripeti"
+        }
+    }
 }

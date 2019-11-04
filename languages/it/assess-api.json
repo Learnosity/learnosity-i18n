@@ -1,6 +1,6 @@
 {
-    "actionsave": "salva",
-    "actionsubmit": "invia",
+    "actionsave": "salvare",
+    "actionsubmit": "inviare",
     "allQuestionsAttempted": "tutte le domande sono state tentate",
     "calculator": "Calcolatrice",
     "close": "Chiudi",
@@ -83,6 +83,7 @@
     "zero": "0",
     "zoomInResult": "Il browser ingrandirà progressivamente ogni volta che si preme il tasto più (+).",
     "zoomOutResult": "Il browser eseguirà lo zoom indietro progressivamente ogni volta che si preme il tasto meno (-).",
+    "expandMenu": "Espandi menu",
     "collapseMenu": "Comprimi menu",
     "submitActionConfirmation": "Sei sicuro di voler {{action}} il test?",
     "submitWithUnattemptedQuestion": "la domanda non è stata tentata",
@@ -92,10 +93,14 @@
     "existingResponsesMessage": "Questa attività è già stata tentata. Potresti essere arrivato qui usando il pulsante \"indietro\" del tuo browser.",
     "existingResponsesDetail": "Se è così si prega di fare clic sul pulsante \"avanti\" del browser per tornare alla pagina precedente.",
     "reviewScreen": "Revisione",
-    "flagItem": "segnare l'elemento",
+    "flagItem": "Segnare l'elemento",
     "saved": "salvato",
-    "saveTestSuccessfully": "il test è stato salvato correttamente.",
+    "saveTestSuccessfully": "Il test è stato salvato correttamente.",
     "saveTestSuccessfullyPrompt": "Vuoi riprendere il test o uscire?",
     "resume": "Riprendere",
-    "savingInProgress": "Salvataggio..."
+    "savingInProgress": "Salvataggio...",
+    "yes": "Si",
+    "no": "No",
+    "flagged": "Elementi contrassegnati",
+    "notAttempted": "Elementi non tentati"
 }
