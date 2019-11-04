@@ -73,6 +73,22 @@ We use language codes to support dialects within each top level language. Englis
             <td>Y</td>
         </tr>
         <tr>
+            <td>Italian</td>
+            <td>it</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>Russian</td>
+            <td>ru</td>
+            <td>Y (Full, 210 labels)</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y (MVP, 13 labels)</td>
+        </tr>
+        <tr>
             <td>Spanish</td>
             <td>es</td>
             <td>Y</td>
@@ -87,14 +103,6 @@ We use language codes to support dialects within each top level language. Englis
             <td>N</td>
             <td>N</td>
             <td>N</td>
-        </tr>
-        <tr>
-            <td>Italian</td>
-            <td>it</td>
-            <td>Y</td>
-            <td>N</td>
-            <td>N</td>
-            <td>Y</td>
         </tr>
     </tbody>
 </table>
