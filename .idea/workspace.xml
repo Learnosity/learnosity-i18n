@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d495179c-c8ac-4f05-80d6-8b39323e727d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/ru/questions-api.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ru/assess-api.json" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ru/assess-api.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages/ru/assess-api.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="152" column="23" selection-start-line="152" selection-start-column="3" selection-end-line="152" selection-end-column="23" />
+            <state relative-caret-position="-66">
+              <caret line="172" column="72" selection-start-line="172" selection-start-column="72" selection-end-line="172" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/languages/ru/questions-api.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -42,6 +51,7 @@
     <findStrings>
       <find>“</find>
       <find>”</find>
+      <find>zoomOutResult</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -51,6 +61,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/languages/ru/assess-api.json" />
+        <option value="$PROJECT_DIR$/languages/ru/questions-api.json" />
       </list>
     </option>
   </component>
@@ -119,18 +130,18 @@
       <updated>1572239712700</updated>
       <workItem from="1572239714559" duration="1003000" />
       <workItem from="1572389180900" duration="497000" />
-      <workItem from="1572836829399" duration="924000" />
+      <workItem from="1572836829399" duration="1607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2424000" />
+    <option name="totallyTimeSpent" value="3107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="23" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -143,7 +154,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -173,8 +184,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/ru/assess-api.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="152" column="23" selection-start-line="152" selection-start-column="3" selection-end-line="152" selection-end-column="23" />
+        <state relative-caret-position="-66">
+          <caret line="172" column="72" selection-start-line="172" selection-start-column="72" selection-end-line="172" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/ru/questions-api.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
