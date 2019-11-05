@@ -114,7 +114,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## TODO
 Add support for:
-* Filipino
-* Russian
 * Portuguese
 * Korean
