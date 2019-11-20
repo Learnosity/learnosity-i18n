@@ -1,12 +1,12 @@
 {
+    "cm": "Centimetre",
     "color": "colour",
     "colorPicker": "Colour Picker",
-    "liter": "Litre",
-    "ml": "Millilitre",
-    "meter": "Metre",
-    "cm": "Centimetre",
     "km": "Kilometre",
+    "liter": "Litre",
+    "meter": "Metre",
+    "ml": "Millilitre",
     "mm": "Millimetre",
-    "nm": "Nanometre",
-    "mum": "Micrometre"
+    "mum": "Micrometre",
+    "nm": "Nanometre"
 }
