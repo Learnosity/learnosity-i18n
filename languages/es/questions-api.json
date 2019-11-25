@@ -1,6 +1,4 @@
 {
-    "word": "Palabra",
-    "wordLength": "Límite de palabras",
     "editorBoldIcon": "N",
     "editorBoldTitle": "Negrita",
     "editorItalicsIcon": "K",
@@ -8,8 +6,10 @@
     "editorUnderlineIcon": "S",
     "editorUnderlineTitle": "Subrayado",
     "graphingTools.parabola": "Parábola",
-    "reset": "Reiniciar",
-    "undo": "Deshacer",
     "redo": "Rehacer",
-    "resume": "Resumir"
+    "reset": "Reiniciar",
+    "resume": "Resumir",
+    "undo": "Deshacer",
+    "word": "Palabra",
+    "wordLength": "Límite de palabras"
 }

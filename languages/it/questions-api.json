@@ -1,19 +1,4 @@
 {
-    "word": "Parola",
-    "wordLength": "Limite di parole",
-    "editorBoldIcon": "G",
-    "editorBoldTitle": "Grassetto",
-    "editorItalicsIcon": "C",
-    "editorItalicsTitle": "Corsivo",
-    "editorUnderlineIcon": "S",
-    "editorUnderlineTitle": "Sottolinea",
-    "editorBulletedListTitle": "Elenco puntato",
-    "editorNumberedListTitle": "Elenco numerato",
-    "graphingTools.parabola": "Parabola",
-    "reset": "Reimposta",
-    "undo": "Annulla",
-    "redo": "Ripeti",
-    "resume": "Riprendi",
     "editor": {
         "toolbar": {
             "bold": "Grassetto",
@@ -37,5 +22,20 @@
             "undo": "Annulla",
             "redo": "Ripeti"
         }
-    }
+    },
+    "editorBoldIcon": "G",
+    "editorBoldTitle": "Grassetto",
+    "editorBulletedListTitle": "Elenco puntato",
+    "editorItalicsIcon": "C",
+    "editorItalicsTitle": "Corsivo",
+    "editorNumberedListTitle": "Elenco numerato",
+    "editorUnderlineIcon": "S",
+    "editorUnderlineTitle": "Sottolinea",
+    "graphingTools.parabola": "Parabola",
+    "redo": "Ripeti",
+    "reset": "Reimposta",
+    "resume": "Riprendi",
+    "undo": "Annulla",
+    "word": "Parola",
+    "wordLength": "Limite di parole"
 }
