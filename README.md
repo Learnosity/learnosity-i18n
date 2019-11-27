@@ -74,7 +74,7 @@ We use language codes to support dialects within each top level language. Englis
         </tr>
         <tr>
             <td>Italian</td>
-            <td>it</td>
+            <td>it-IT</td>
             <td>Y</td>
             <td>N</td>
             <td>N</td>
@@ -82,7 +82,7 @@ We use language codes to support dialects within each top level language. Englis
         </tr>
         <tr>
             <td>Russian</td>
-            <td>ru</td>
+            <td>ru-RU</td>
             <td>Y (Full, 210 labels)</td>
             <td>N</td>
             <td>N</td>
@@ -90,7 +90,7 @@ We use language codes to support dialects within each top level language. Englis
         </tr>
         <tr>
             <td>Spanish</td>
-            <td>es</td>
+            <td>es-ES</td>
             <td>Y</td>
             <td>N</td>
             <td>N</td>
@@ -98,7 +98,7 @@ We use language codes to support dialects within each top level language. Englis
         </tr>
         <tr>
             <td>Tagalog</td>
-            <td>tl</td>
+            <td>tl-PH</td>
             <td>Y</td>
             <td>N</td>
             <td>N</td>
