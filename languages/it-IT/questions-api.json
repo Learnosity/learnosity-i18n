@@ -1,26 +1,26 @@
 {
     "editor": {
         "toolbar": {
-            "bold": "Grassetto",
-            "italic": "Corsivo",
-            "underline": "Sottolinea",
-            "removeFormat": "Rimuovi formato",
-            "orderedList": "Elenco numerato",
-            "unorderedList": "Elenco puntato",
-            "alignLeft": "Allinea a sinistra",
             "alignCenter": "Allinea al centro",
-            "alignRight": "Allinea a destra",
             "alignJustify": "Giustificato",
-            "indentIncrease": "Aumenta rientro",
+            "alignLeft": "Allinea a sinistra",
+            "alignRight": "Allinea a destra",
+            "blockquote": "Citazione",
+            "bold": "Grassetto",
+            "charactermap": "Mappa caratteri",
             "indentDecrease": "Diminuisci rientro",
+            "indentIncrease": "Aumenta rientro",
             "insertHorizontalRule": "Inserisci righello orizzontale",
+            "italic": "Corsivo",
+            "orderedList": "Elenco numerato",
+            "redo": "Ripeti",
+            "removeFormat": "Rimuovi formato",
             "subscript": "Pedice",
             "superscript": "Apice",
-            "charactermap": "Mappa caratteri",
             "table": "Tabella",
-            "blockquote": "Citazione",
+            "underline": "Sottolinea",
             "undo": "Annulla",
-            "redo": "Ripeti"
+            "unorderedList": "Elenco puntato"
         }
     },
     "editorBoldIcon": "G",

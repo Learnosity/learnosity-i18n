@@ -3,8 +3,8 @@
         "toolbar": {
             "bold": "Жирный",
             "italic": "Курсив",
-            "underline": "Подчеркнутый",
             "orderedList": "Нумерованный список",
+            "underline": "Подчеркнутый",
             "unorderedList": "Маркированный список"
         }
     },
