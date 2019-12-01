@@ -79,7 +79,7 @@
     "submitFailedWithOnlyAccessRawDataOption": "Se il problema persiste, seleziona tutto il testo nell'area sottostante, copialo e presentalo al tuo amministratore. Questo testo contiene i dati completi della tua attività e le risposte.",
     "submitFailedWithOtherOptions": "Se il problema persiste, utilizza una delle seguenti opzioni per accedere ai dati completi dell'attività e delle risposte.",
     "submitWarningMsg": "La tua attività è stata sospesa dal tuo amministratore e terminerà tra ",
-    "submitWithUnattemptedQuestion": "la domanda non è stata tentata",
+    "submitWithUnattemptedQuestion": "Una domanda non è stata tentata",
     "submitWithUnattemptedQuestions": "{{unattemptedResponsesCount}} domande non sono ancora state tentate",
     "submitting": "invio in corso",
     "submittingInProgress": "Invio in corso...",
