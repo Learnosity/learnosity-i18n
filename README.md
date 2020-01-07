@@ -41,6 +41,14 @@ We use language codes to support dialects within each top level language. Englis
             <td>Y</td>
         </tr>
         <tr>
+            <td>Chinese (Simplified)</td>
+            <td>zh-CN</td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
+        </tr>
+        <tr>
             <td>English (United Kingdom)</td>
             <td>en-GB</td>
             <td>Y</td>
