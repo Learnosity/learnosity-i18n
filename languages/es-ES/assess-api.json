@@ -133,6 +133,7 @@
     "zoom": "Zoom",
     "zoomIn": "Acercarse",
     "zoomInResult": "El navegador aumentará el zoom cuando presione la tecla de suma (+).",
+    "returnZoomResult": "El navegador volverá al nivel de zoom por defecto.",
     "zoomInstructions": "Puede acercarse o alejarse usando los siguientes atajos en el teclado :",
     "zoomOut": "Alejarse",
     "zoomOutResult": "El navegador disminuirá el zoom cuando presione la tecla de restar (-)."
