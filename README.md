@@ -65,7 +65,7 @@ We use language codes to support dialects within each top level language. Englis
         </tr>
         <tr>
             <td>French</td>
-            <td>fr</td>
+            <td>fr-FR</td>
             <td>Y</td>
             <td>N</td>
             <td>N</td>
