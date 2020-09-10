@@ -1,5 +1,5 @@
 # learnosity-i18n
-Learnosity internationalization language bundles. You can see these bundles in action in our [internationalization demo](https://demos.learnosity.com/assessment/activities-i18n.php).
+This repository contains Learnosity internationalization language bundles. You can see these bundles in action in our [internationalization demo](https://demos.learnosity.com/assessment/activities-i18n.php).
 
 Please refer to this [knowledge base article](https://help.learnosity.com/hc/en-us/articles/360002918818-Translating-the-Learnosity-user-interface-with-label-bundles) for more info.
 
@@ -14,6 +14,9 @@ For example:
 │   │   ├── assess-api.json
 ├── README.md
 ```
+
+## Note: not comprehensive
+Please note that most of these translations are a partial translation for demonstration purposes only, to show an example of translation in the [internationalization demo](https://demos.learnosity.com/assessment/activities-i18n.php). Most of these do not provide a full translation of the English text in the product.
 
 **Language Codes:**
 We use language codes to support dialects within each top level language. English (United States) is the default language used in our APIs.
