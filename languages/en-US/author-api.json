@@ -22,7 +22,7 @@
     "activityItems": "Items",
     "activityListEmptyItemCounter": "No Items",
     "activityListEmptyState": "Nothing here.",
-    "activityListEmptyStateImageURL": "",
+    "activityListEmptyStateImageURL": "https://authorapi.learnosity.com/latest/img/nothing-found.svg",
     "activityListItemButton": "Create",
     "activityListMinutesCounter": "minutes",
     "activityListPluralItemCounter": "Items",
