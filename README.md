@@ -1,7 +1,7 @@
 # learnosity-i18n
 This repository contains Learnosity internationalization language bundles. You can see these bundles in action in our [internationalization demo](https://demos.learnosity.com/assessment/activities-i18n.php).
 
-Please refer to this [knowledge base article](https://help.learnosity.com/hc/en-us/articles/360002918818-Translating-the-Learnosity-user-interface-with-label-bundles) for more info.
+Please refer to this [knowledge base article](https://help.learnosity.com/hc/en-us/articles/360002918818-Translating-the-Learnosity-user-interface-with-label-bundles) for more information about translating the Learnosity user interface.
 
 ## Translations
 If you would like to translate our APIs into another language, please make a pull request by adding `languages/<language>/<api>.json`.
