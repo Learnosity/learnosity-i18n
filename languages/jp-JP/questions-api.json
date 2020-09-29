@@ -1,5 +1,160 @@
 {
     "addData": "補記",
+
+    "ariaLabel": {
+        "association": {
+            "draggableItem": "引っ張る可能なアイテム. {{item}}",
+            "draggableItemContainer": "引っ張る可能なアイテムのコンテナ"
+        },
+        "audioAdv": {
+            "transcriptContent": "書き起こし: {{transcript}}"
+        },
+        "calculator": {
+            "addToMemory": "M+ (現在の価をメモリに追加します)",
+            "addition": "足し算",
+            "calculatorHeading": "電卓",
+            "clearEntireInput": "C (入力全体を消去)",
+            "clearLastSymbol": "CE (最後に入力した記号を消去します)",
+            "closeButton": "電卓を閉じる",
+            "combinations": "nCr (組み合わせ)",
+            "cosine": "余弦",
+            "cubicRoot": "立方根",
+            "decimalPoint": "小数点",
+            "division": "除算",
+            "eulersNumber": "e (ネイピア数)",
+            "evaluate": "方程式を評価する",
+            "exponent": "冪指数 (x の y)",
+            "factorial": "階乗",
+            "hyperbolicCosine": "双曲線余弦",
+            "hyperbolicInverseCosine": "双曲線逆余弦",
+            "hyperbolicInverseSine": "双曲線逆正弦",
+            "hyperbolicInverseTangent": "双曲線逆正接",
+            "hyperbolicSine": "双曲線正弦",
+            "hyperbolicTangent": "双曲線正接",
+            "inputLabel": "電卓",
+            "inverseCosine": "逆余弦",
+            "inverseSine": "逆正弦",
+            "inverseTangent": "逆正接",
+            "leftParenthesis": "左丸括弧",
+            "memoryClear": "MC (メモリ消去)",
+            "multiplication": "掛け算",
+            "naturalLogarithm": "自然対数 (logn)",
+            "nthRoot": "乗根",
+            "percent": "パーセント",
+            "permutations": "nPr (置換)",
+            "pi": "パイ",
+            "plusOrMinus": "プラスかマイナス",
+            "randomNumber": "乱数",
+            "recallValue": "MR (電卓のメモリから値を呼び出す)",
+            "reciprocal": "逆数 (1/x)",
+            "rightParenthesis": "右丸括弧",
+            "showAdvanced": "高度な三角関数を表示する",
+            "sine": "正弦",
+            "square": "平方 (x 二乗)",
+            "squareRoot": "二乗根",
+            "substractFromMemory": "M- (メモリの値から現在の値を引く)",
+            "subtraction": "引き算",
+            "tangent": "正接",
+            "toggleUnit": "角度の単位は {{currentUnit}}です, クリックして {{newUnit}}"
+        },
+        "classification": {
+            "cell": "列{{column}}の行{{row}}の応答をドロップします"
+        },
+        "clozeDropdown": {
+            "selectOption": "オプションを選択してください - "
+        },
+        "compass": {
+            "adjustRadius": "矢印キーを使用して半径のサイズを調整します",
+            "draw": "スペースバーを押したまま、矢印キーを使用して描画します",
+            "moveCenter": "矢印キーを使用してコンパスの中心を移動します",
+            "rotateRadius": "矢印キーを使用して半径を回転させます"
+        },
+        "distractorRationale": {
+            "distractorRationale": "間違った答えの説明を表示",
+            "perQuestion": "質問ごとに不正解の説明を表示",
+            "perResponseCorrect": "正しい回答ごとに不正解の説明を表示する",
+            "perResponseIncorrect": "不正解ごとに不正解の説明を表示する"
+        },
+        "dragDrop": {
+            "possibleResponses": "可能な応答",
+            "responseZone": "下のボタンを押して、応答をドロップターゲットに引っ張るか、ここに応答をドロップして、可能な応答プールに戻します."
+        },
+        "drawing": {
+            "highlight": "スペースキーを押したまま、矢印キーを使用して画像を強調表示します.",
+            "keyboardPaintable": "矢印キーを使用してカーソルを移動し、スペースを押すか、エンターキーを押して描画します.",
+            "textEditorMove": "矢印キーを使用してテキストエディターを移動する."
+        },
+        "fileUpload": {
+            "title": "ファイルアップロードの質問タイプ"
+        },
+        "graphPlotting": {
+            "axisHeading": "グラフの初期状態",
+            "circle": "{{origin}}で始まり{{point}}を通過する円",
+            "graph": "グラフに入った. 矢印を使用して移動し、スペースバーを押して選択したアクションを実行します.shift+tab を使用してツールバーに戻る. タブを使用してグラフを終了する.",
+            "horizontalAxisInfo": "横軸は {{min}} から {{max}} へ. 目盛りは {{step}} 単位ごとに配置されます.",
+            "labelled": "名前付き: {{label}}",
+            "line": "{{pointA}} と {{pointB}}を通る線",
+            "parabola": "{{vertex}}に頂点があり、{{point}}を通過する放物線",
+            "plotted": "{{shape}}をプロットしました",
+            "point": "座標{{point}}のある点",
+            "polygon": "座標を持つ多角形: {{points}}",
+            "questionResponseShapesHeading": "作成されたグラフ形状",
+            "ray": "{{pointA}}から始まり{{pointB}}を通過する光線",
+            "segment": "{{startPoint}}から{{endPoint}}への切片",
+            "sine": "{{pointA}}と{{pointB}}を通過する正弦",
+            "title": "グラフプロットの質問",
+            "toolbar": "ツールバーが表示されたら、Tabキーを押してツールバーに入力し、矢印を使用してツール内を移動します.",
+            "vector": "{{startPoint}}から{{endPoint}}へのベクトル",
+            "verticalAxisInfo": "縦軸は{{min}}から{{max}}へ、ステップは{{step}}単位で配置されています."
+        },
+        "griddedText": {
+            "decimal": "小数点",
+            "decimalPointInput": "小数点を入力してください",
+            "disclaimer": "正または負の値にプラスまたはマイナスを入力してください",
+            "rangeInput": "{{range1}}から{{range2}}までの価を入力してください ."
+        },
+        "imageUpload": {
+            "title": "画像アップロードの質問タイプ",
+            "toolbar": "画像アップロードツールバー"
+        },
+        "imageclozeassociationV2": {
+            "dropZonesContainer": "ドロップターゲット"
+        },
+        "longTextV2": {
+            "toolbar": "テキスト操作"
+        },
+        "mathKeyboard": {
+            "close": "数式キーパッドを閉じる",
+            "currentSymbolGroup": "現在のシンボルグループは {{title}} です。 このドロップダウンを使用して、新しいシンボルグループを選択するか、矢印キーを使用してキーボードでの作業を続行できます。",
+            "help": "数式キーパッドのヘルプ",
+            "selectSymbolGroup": "使用するシンボルグループを選択",
+            "symbolGroupRole": "ドロップダウン",
+            "title": "数式キーパッド"
+        },
+        "mcq": {
+            "responses": "回答"
+        },
+        "numberLinePlot": {
+            "title": "数直線プロットの質問"
+        },
+        "plainText": {
+            "answer": "{{stimulus}}の回答"
+        },
+        "simpleChart": {
+            "title": "簡単なチャートの質問"
+        },
+        "simpleShading": {
+            "cell": "セル: 行 {{row}}, 列 {{column}}",
+            "title": "簡単な網かけの質問 - タブを押して質問を入力してください"
+        },
+        "sortList": {
+            "draggableItem": "引っ張る可能なアイテム. {{item}}",
+            "draggableItemContainer": "引っ張る可能なアイテムのコンテナ"
+        },
+        "textHighlight": {
+            "title": "テキストハイライトの質問"
+        }
+    },
     "ariaLiveText": {
         "association": {
             "activatedResponse": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) 買収された. タブを押して、ドロップする場所を選択します. スペースバーキーを押してドロップします. エスケープを押して無効にします.",
@@ -9,6 +164,19 @@
             "droppedResponseBackInList": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) はオプションリストに戻されました. オプションはもう移動されません.",
             "droppedResponseInDropzone": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}})が\"{{dropzoneLabel}}\" ドロップゾーンにドロップされました. オプションはもう移動されません."
         },
+        "choiceMatrix": {
+            "correctResponse": "正解",
+            "expectedResponse": "予想される答え",
+            "group": "グループ: {{group}} - ",
+            "incorrectResponse": "不正解",
+            "noResponse": "応答なし. "
+        },
+        "classification": {
+            "column": "列 {{number}}",
+            "correct": "正しい",
+            "incorrect": "正しくない",
+            "row": "行 {{number}}"
+        },
         "clozeAssociation": {
             "activatedResponse": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) 買収された. タブを押して、ドロップする場所を選択します. スペースバーキーを押してドロップします. エスケープを押して無効にします.",
             "activatedResponseInDropzone": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) は位置 {{dropzoneNumber}}の{{totalDropzones}} から取得されました. タブを押して、ドロップする場所を選択します. スペースバーキーを押してドロップします. エスケープを押して無効にします.",
@@ -16,6 +184,46 @@
             "deactivatedResponseInDropzone": "操作はキャンセルされました. オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) が解放され、位置{{dropzoneNumber}}の{{totalDropzones}}に戻りました. オプションはもう移動されません.",
             "droppedResponseBackInList": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) はオプションリストに戻されました. オプションはもう移動されません.",
             "droppedResponseInDropzone": "オプション \"{{response}}\" ({{responseNumber}}の{{totalResponses}}) は位置 {{dropzoneNumber}}の{{totalDropzones}}にドロップされました. オプションはもう移動されません."
+        },
+        "correct": "{{prefix}}は正しい",
+        "correctResponse": "回答 - 正しいです",
+        "graphPlotting": {
+            "movingPoint": "点を移動する x={{x}}, y={{y}}",
+            "pointMoved": "点は次の場所に移動しました x={{x}}, y={{y}}",
+            "positionUpdated": "x {{x}}, y {{y}}, は現在の位置です"
+        },
+        "imageclozeassociationV2": {
+            "correctAnswer": "正解",
+            "dropTarget": "ドロップターゲット: {{target}}. ",
+            "expectedAnswer": "予想される答え",
+            "incorrectAnswer": "不正解"
+        },
+        "incorrect": "{{prefix}}は正しくない",
+        "incorrectResponse": "回答 - 正しくないです",
+        "mathKeyboard": {
+            "mathKeyboardClosed": "数式キーパッドが閉じられました. Control + Backslashを押して、もう一度開きます.",
+            "mathKeyboardOpened": "数式キーパッドが開かれました. Tabキーを押して使用し、矢印を使用してナビゲートします."
+        },
+        "maxResponseMessage": "{{prefix}} 1つの回答のみが許可されます",
+        "maxResponsesMessage": "{{prefix}} {{maxSelection}} 回答のみ許可されています",
+        "minResponseMessage": "{{prefix}} この質問には少なくとも1つの答えが必要です",
+        "minResponsesMessage": "{{prefix}} この質問には少なくとも {{minSelection}} つの答えが必要です",
+        "missed": "{{prefix}}応答なし - 逃した",
+        "noResponseGiven": "{{prefix}}応答なし",
+        "numberOfCorrectAnswers": "{{number}} 正解: ",
+        "numberOfExpectedAnswers": "{{number}} 予想される答え: ",
+        "numberOfIncorrectAnswers": "{{number}} 不正解: ",
+        "oneCorrectAnswer": "正解: ",
+        "oneExpectedAnswer": "予想される答え: ",
+        "oneIncorrectAnswer": "不正解: ",
+        "orderList": {
+            "correctAnswer": "アイテムの正解は {{index}}: {{text}}. ",
+            "itemValidity": "アイテム {{index}}: {{response}} - {{validity}}. "
+        },
+        "tokenHighlight": {
+            "correctAnswers": "正解は: {{answers}} ",
+            "expectedAnswers": "予想される答えは: {{answers}} ",
+            "incorrectAnswers": "不正解は: {{answers}} "
         }
     },
     "ariaRoleDescription": {
@@ -164,7 +372,7 @@
     "characterMathMapTitle": "和算文字",
     "checkAnswer": "解答を確認する",
     "checkAnswers": "解答を確認する",
-    "clear": "取り去る",
+    "clear": "消去",
     "clickToRecord": "開始するにはレコードをクリックしてください",
     "clickToStartPlayback": "再生を押して開始します.",
     "closeThisWindow": "このウィンドウを閉じます",
@@ -172,43 +380,74 @@
     "colorPicker": "色の選択",
     "confirmVideoOverwrite": "以前のビデオはすでに存在しています。 続行すると交換されます.",
     "confirmrecordoverwrite": "以前のオーディオはすでに存在しています。 続行すると交換されます",
-    "continuelabel": "続ける",
+    "continuelabel": "続け",
     "copy": "写す",
     "correctAnswer": "正解",
     "correctAnswers": "正解",
     "counterTemplate": "{num}秒で開始...",
     "cut": "切る",
-    "delete": "抹消",
+    "delete": "削除",
+    "distractorRationale": {
+        "correctTitle": "正しい",
+        "incorrectTitle": "正しくない"
+    },
     "downloadAudio": "ダウンロード",
     "downloadVideo": "ビデオファイルをダウンロードする",
-    "draggableItem": "ドラッグ可能なアイテムt",
+    "draggableItem": "引っ張る可能なアイテム",
     "drawing": {
+        "textEditor": {
+            "addTextButton": "テキストを追加",
+            "placeholder": "ここにテキストを追加..."
+        },
         "toolbar": {
-            "clear": "取り去る",
+            "clear": "消去",
             "compass": "コンパス",
             "eraser": "消しゴム",
             "redo": "やり直す",
             "scribble": "落書き",
             "straightedge": "定規",
+            "text": "テキスト",
             "undo": "元に戻す"
         }
     },
     "editor": {
-        "editTable": "テーブルを編集",
+        "editTable": "表を編集",
         "inputAriaLabel": "ここに回答を挿入",
+        "messages": {
+            "failedLoadingImage": "画像処理誤差. もう一度試すか、システム管理者に連絡してください.",
+            "imageHasBeenOptimized": "画像サイズが最適化されました."
+        },
         "modals": {
             "apply": "適用",
+            "cancel": "取消",
+            "close": "閉じる",
             "columns": "列",
             "deleteColumn": "列を削除",
             "deleteRow": "行を削除",
             "deleteTable": "表を削除",
             "editTableTitle": "表を編集",
+            "imagePreviewText": "画像サイズ: {{width}}px × {{height}}px",
+            "imageReplace": "取り替える",
+            "imageRotate": "回す",
+            "imageSize": {
+                "fullSize": "原寸 - {{width}} × {{height}}",
+                "large": "大 - {{width}} × {{height}}",
+                "medium": "中 - {{width}} × {{height}}",
+                "small": "小 - {{width}} × {{height}}",
+                "title": "画像表示サイズ"
+            },
+            "imageTitle": "画像",
             "insertColumnAfter": "後に列を挿入",
             "insertColumnBefore": "前に列を挿入",
             "insertRowAbove": "上に行を挿入",
             "insertRowBelow": "下に行を挿入",
+            "openImageURL": "新しいタブで開く",
             "rows": "行",
-            "tableTitle": "表"
+            "tableTitle": "表",
+            "upload": "アップロード",
+            "uploadText": "クリックして画像を追加",
+            "zoomIn": "拡大",
+            "zoomOut": "縮小"
         },
         "toolbar": {
             "alignCenter": "中央揃え",
@@ -218,16 +457,26 @@
             "blockquote": "区画引用 (テキストブロック)",
             "bold": "太宇",
             "charactermap": "文字コード表",
+            "deleteImage": "画像を削除する",
+            "editImage": "画像を編集する",
+            "image": "画像 (最大画像: 12)",
             "indentDecrease": "インデントを減らす",
             "indentIncrease": "インデントを増やします",
             "insertHorizontalRule": "横罫線を挿入する",
             "italic": "斜体",
+            "mathCharacterMap": "数学文字",
             "orderedList": "番号付きリスト",
+            "previewImage": "画像を見る",
             "redo": "遣り直す",
             "removeFormat": "書式を削除する",
+            "selectColor": "色を選択",
+            "selectFontSize": "文字サイズを選択. {{title}} 選択済み.",
+            "specialCharacterMap": "特殊文字",
             "subscript": "添字",
             "superscript": "上付き文字",
             "table": "表",
+            "textDirectionLtr": "テキストの方向は左から右",
+            "textDirectionRtl": "テキストの方向は右から左",
             "underline": "下線",
             "undo": "元に戻す",
             "unorderedList": "箇条書きリスト"
@@ -246,7 +495,13 @@
     "editorUnderlineTitle": "下線",
     "error": "誤差",
     "fileUpload": {
+        "characterLimit": "文字数制限",
+        "characterLimitReachedAriaLabel": "{{maxCharacters}} 文字数制限を超えました.",
         "deleteFileMode": "ファイル削除モード",
+        "fileDeleteDisclaimer": "ファイルの削除は元に戻せません. 補足説明はすべて失われます.",
+        "fileDescriptionAriaLabel": "タップして、アップロードされたファイルの説明を入力します ({{maxCharacters}} 最大文字数).",
+        "fileDescriptionLabel": "{{icon}} を押して、アップロードされたファイルの説明を入力します ({{maxCharacters}} 最大文字数).",
+        "fileDescriptionMode": "ファイル記述モード",
         "fileFormatsSupported": "サポートされているファイル形式",
         "fileLimit": "ファイル制限",
         "notification": {
@@ -260,27 +515,37 @@
         "photoCapture": {
             "accept": "受け入れる",
             "accessToCamera": {
+                "denied": "カメラが検出されない. ブラウザの設定を確認するか、ページを更新してもう一度お試しください.",
                 "description": "写真を撮る前に、カメラへのアクセスが必要です.",
                 "title": "カメラへのアクセスを待っています"
             },
             "cancel": "取消",
             "capture": "写真を撮る",
             "chooseName": "写真のタイトル",
+            "close": "閉じる",
             "confirmDelete": "写真を削除する?",
             "countdownCapturingIn": "写真を撮るで開始...",
             "defaultFileName": "写真",
-            "delete": "削除する",
+            "delete": "削除",
             "launch": "写真を撮る",
             "retake": "もう一度写真を撮る",
-            "save": "保存する"
+            "save": "保存"
         },
         "uploadFailed": "アップロードに成功していません",
         "uploadFiles": "ファイルをアップロードする"
     },
+    "fontSize": {
+        "large": "大",
+        "normal": "通常",
+        "small": "小",
+        "xlarge": "特大",
+        "xxlarge": "巨大"
+    },
+    "fontSizeTitle": "文字サイズ",
     "givenResponses": "回答",
     "graphingTools": {
         "circle": "円",
-        "delete": "削除する",
+        "delete": "削除",
         "label": "ラベル",
         "line": "直線",
         "move": "移す",
@@ -294,10 +559,22 @@
     },
     "handwritingApiError": "手書きを識別できません. あとでもう一度試してみてください.",
     "imageTool": "画像ツール",
+    "imageUpload": {
+        "addAnnotation": "注釈を追加",
+        "configureImage": "画像を構成する",
+        "deleteMode": "削除モード",
+        "enterAnnotation": "注釈を入力してください",
+        "noResponse": "何も入力されていません",
+        "removeAllAnnotations": "画像をアップロードするときにすべての注釈を削除します",
+        "replaceImage": "現在の画像を置き換える",
+        "rotateImage": "画像を回す",
+        "uploadImage": "画像をアップロード",
+        "uploadNewImage": "新しい画像をアップロード"
+    },
     "imageValidationArea": "画像検証場",
     "incorrectAnswer": "間違った答え",
     "incorrectAnswers": "間違った答え",
-    "itemPositionTemplate": "{length}の項目{num}",
+    "itemPositionTemplate": "{length}のアイテム{num}",
     "lineChartNewPointDefaultName": "新しい点",
     "lineReader": "ラインリーダー",
     "lineReaderClose": "ラインリーダーを閉じる",
@@ -313,6 +590,7 @@
     },
     "mathKeyboardHelp": {
         "disclaimer": "キーボードショートカットの組み合わせは地域によって異なる場合があります. これらは英語を使用して作成されました：USキーボード.",
+        "shortcuts": "いつでも ctrl + \\ (バックスラッシュ) を使用して数学キーボードを再度開くことができます.",
         "title": "キーボードショートカット"
     },
     "mathKeyboardSymbols": {
@@ -339,7 +617,7 @@
         "TAU": "タウ (大文字)",
         "THETA": "テータ (大文字)",
         "UPI": "ユプシロン (大文字)",
-        "Vmatrix": "二重の垂直線で囲まれた行列\n",
+        "Vmatrix": "二重の垂直線で囲まれた行列",
         "XI": "クシー (大文字)",
         "ZETA": "ゼータ (大文字)",
         "a": "a",
@@ -368,6 +646,7 @@
         "cdots": "中央揃えの水平点",
         "cg": "センチグラム",
         "chi": "キー",
+        "circ": "合成",
         "circledot": "円",
         "cm": "センチメートル",
         "comma": "読点",
@@ -388,6 +667,7 @@
         "dot": "循環小数",
         "doublebond": "二重結合",
         "doubleprime": "秒角",
+        "downarrow": "下矢印",
         "eight": "八",
         "empty": "",
         "epsilon": "エプシロン",
@@ -467,6 +747,7 @@
         "multiply": "掛ける",
         "mum": "マイクロメーター",
         "mus": "マイクロ秒",
+        "ncong": "に合同ではない",
         "ne": "等しくない",
         "ng": "ナノグラム",
         "ngtr": "より大きくない",
@@ -483,6 +764,7 @@
         "notsupseteq": "上位集合ありません",
         "nparallel": "平行ではない",
         "ns": "ナノ秒",
+        "nsim": "似ていない",
         "nthroot": "冪根",
         "nu": "ニュー",
         "omega": "オメガ",
@@ -536,8 +818,8 @@
         "singlebond": "単結合",
         "six": "六",
         "slash": "スラッシュ",
-        "sqrt": "平方根",
-        "square": "自乗",
+        "sqrt": "二乗根",
+        "square": "平方",
         "subscript": "添字",
         "subset": "部分集合 (強い意味で)",
         "subseteq": "部分集合",
@@ -596,9 +878,14 @@
     },
     "maxPlayAttempts": "再生制限に達しました",
     "maxRecordAttempts": "記録の最大試行回数に達しました",
+    "maxResponseMessage": "1つの回答のみが許可されます.",
+    "maxResponsesMessage": "{{maxSelection}} つの回答のみが許可されます.",
     "microphoneDeviceMissing": "マイクデバイスなし.",
     "microphoneDeviceNoAuth": "マイクは許可されていません",
+    "minResponseMessage": "この質問には少なくとも1つの回答が必要です.",
+    "minResponsesMessage": "この質問には少なくとも{{minSelection}}つの回答が必要です.",
     "noAudio": "再生するオーディオがありません",
+    "noCorrectAnswersSet": "正解が設定されていません",
     "ok": "OK",
     "onbeforeunload": "一部の回答は保存されていません. 続行すると、それらは失われます.",
     "orderListChangeTemplate": "項目 {start} が位置 {end} に移動しました.",
@@ -607,6 +894,8 @@
     "pause": "一時停止",
     "play": "プレー",
     "playConversationTitle": "質問をプレイング",
+    "playNext": "次に再生",
+    "playPrevious": "前に再生",
     "playback": "再生",
     "playbackPaused": "再生を一時停止しました",
     "playbackUnavailable": "再生できません",
@@ -657,7 +946,7 @@
     "stopconversation": "会話を止める",
     "submitButtonLabel": "回答を提出",
     "submitComplete": "正常に送信されました",
-    "submitInProgress": "提出する...",
+    "submitInProgress": "提出中...",
     "tapToStartPlayback": "タップして再生を開始します",
     "target": "目標",
     "uierrorfeedback": "問題が発生しました. あとでもう一度試してみてください. 問題が解決しない場合は、管理者に連絡してください.",
