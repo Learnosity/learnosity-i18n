@@ -91,6 +91,14 @@ We use language codes to support dialects within each top level language. Englis
             <td>Y</td>
         </tr>
         <tr>
+            <td>Japanese</td>
+            <td>jp-JP</td>
+            <td>N</td>
+            <td>N</td>
+            <td>N</td>
+            <td>Y</td>
+        </tr>
+        <tr>
             <td>Russian</td>
             <td>ru-RU</td>
             <td>Y (Full, 210 labels)</td>
