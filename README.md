@@ -100,6 +100,14 @@ We use language codes to support dialects within each top level language. Englis
             <td>Y</td>
         </tr>
         <tr>
+            <td>Portuguese</td>
+            <td>pt-PT</td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
+        </tr>
+        <tr>
             <td>Russian</td>
             <td>ru-RU</td>
             <td>Y (Full, 210 labels)</td>
