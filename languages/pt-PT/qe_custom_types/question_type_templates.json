@@ -32,7 +32,7 @@
                 "description",
                 "penalty_score"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/mcq-standard.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-standard.png",
             "name": "Múltipla escolha - padrão",
             "hidden_search_terms": [
                 "mcq",
@@ -78,7 +78,7 @@
                 "description",
                 "penalty_score"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/mcq-multi.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-multi.png",
             "name": "Múltipla escolha - resposta múltipla",
             "hidden_search_terms": [
                 "mcq",
@@ -128,7 +128,7 @@
                 "validation.scoring_type",
                 "validation.rounding"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/mcq-truefalse.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-truefalse.png",
             "name": "Verdadeiro ou falso",
             "hidden_search_terms": [
                 "mcq",
@@ -180,7 +180,7 @@
                 "description",
                 "penalty_score"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/mcq-block.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-block.png",
             "name": "Múltipla escolha - layout de bloco",
             "hidden_search_terms": [
                 "mcq",
@@ -226,7 +226,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/choice-matrix.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/choice-matrix.png",
             "name": "Matriz de escolha - padrão",
             "hidden_search_terms": [
                 "likert"
@@ -268,7 +268,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/choice-matrix-inline.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/choice-matrix-inline.png",
             "name": "Matriz de escolha - embutida",
             "hidden_search_terms": [
                 "likert"
@@ -311,7 +311,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/choice-matrix-label.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/choice-matrix-label.png",
             "name": "Matriz de escolha - rótulos",
             "hidden_search_terms": [
                 "likert"
@@ -432,7 +432,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/cloze-drag.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/cloze-drag.png",
             "name": "Cloze com arrastar e soltar",
             "reference": "7e3d482a-fa52-4d35-a366-6209ce8ebb82"
         }
@@ -477,7 +477,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/cloze-drop.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/cloze-drop.png",
             "name": "Cloze com drop down",
             "reference": "d0541253-49f1-4645-8e31-2c6f7f2522cd"
         }
@@ -504,7 +504,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "i18n/pt-PT/qe_template_thumbnails/cloze-text.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/cloze-text.png",
             "name": "Cloze com texto",
             "reference": "d1538b2b-0516-4872-9f09-992c2b902f34"
         }
@@ -1447,7 +1447,7 @@
             "name": "Passagem",
             "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8",
             "description": "Habilitando uma passagem de texto destacável que pode ser usada em vários itens.",
-            "image": "i18n/pt-PT/qe_template_thumbnails/passage.png"
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/passage.png"
         }
     ],
     "videoplayer": [
@@ -2532,7 +2532,7 @@
             "name": "Leitor de linha",
             "reference": "25368800-1eba-4f2c-b220-6fe90a44883f",
             "description": "Exibe uma ferramenta de assistência que permite ao usuário visualizar uma linha de texto por vez.",
-            "image": "i18n/pt-PT/qe_template_thumbnails/line-reader.png"
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/line-reader.png"
         }
     ]
 }
