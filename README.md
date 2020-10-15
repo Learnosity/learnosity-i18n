@@ -4,14 +4,15 @@ This repository contains Learnosity internationalization language bundles. You c
 Please refer to this [knowledge base article](https://help.learnosity.com/hc/en-us/articles/360002918818-Translating-the-Learnosity-user-interface-with-label-bundles) for more information about translating the Learnosity user interface.
 
 ## Translations
-If you would like to translate our APIs into another language, please make a pull request by adding `languages/<language>/<api>.json`.
+If you would like to translate our APIs into another language, please make a pull request by adding `languages/label_bundles/<language>/<api>.json`.
 
 For example:
 
 ```bash
 ├── languages
 │   ├── en-GB
-│   │   ├── assess-api.json
+│   │   ├── label_bundles
+│   │   │   ├── assess-api.json
 ├── README.md
 ```
 
@@ -130,7 +131,7 @@ For the Code column, the first lower-case two-letter codes is a valid ISO Langua
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## TODO
+## Upcoming
 Add support for:
-* Portuguese
-* Korean
+* Portuguese (Reports API)
+* Spanish
