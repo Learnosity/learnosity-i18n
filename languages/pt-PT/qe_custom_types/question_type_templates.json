@@ -1,0 +1,2538 @@
+{
+    "mcq": [
+        {
+            "defaults": {
+                "options": [
+                    {
+                        "label": "[Escolha 1]]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[Escolha 2]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[Escolha 3]",
+                        "value": "2"
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "mcq",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Pergunta padrão de múltipla escolha.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description",
+                "penalty_score"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-standard.png",
+            "name": "Múltipla escolha - padrão",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "Verdade",
+                "Falso",
+                "yes",
+                "no"
+            ],
+            "reference": "a80f7a52-eccb-45fd-a4ce-08c3493d5d50"
+        },
+        {
+            "defaults": {
+                "multiple_responses": true,
+                "options": [
+                    {
+                        "label": "[Escolha 1]]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[Escolha 2]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[Escolha 3]",
+                        "value": "2"
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "mcq",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Questão de múltipla escolha com múltiplas respostas.",
+            "group_reference": "mcq",
+            "hidden": [
+                "multiple_responses",
+                "description",
+                "penalty_score"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-multi.png",
+            "name": "Múltipla escolha - resposta múltipla",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "Verdade",
+                "Falso",
+                "yes",
+                "no"
+            ],
+            "reference": "4c356ba9-fe6c-4ce6-9921-176e0b67d59e"
+        },
+        {
+            "defaults": {
+                "multiple_responses": false,
+                "options": [
+                    {
+                        "label": "Verdade",
+                        "value": "0"
+                    },
+                    {
+                        "label": "Falso",
+                        "value": "1"
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "mcq",
+                "ui_style": {
+                    "type": "horizontal"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Pergunta verdadeira ou falsa.",
+            "group_reference": "mcq",
+            "hidden_sections": [
+                "scoring.scoring_type",
+                "scoring.rounding"
+            ],
+            "hidden": [
+                "shuffle_options",
+                "multiple_responses",
+                "validation.scoring_type",
+                "validation.rounding"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-truefalse.png",
+            "name": "Verdadeiro ou falso",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "Verdade",
+                "Falso",
+                "yes",
+                "no"
+            ],
+            "reference": "954ee077-ac85-480e-9629-27627d716f08"
+        },
+        {
+            "defaults": {
+                "options": [
+                    {
+                        "label": "[Escolha A]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[Escolha B]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[Escolha C]",
+                        "value": "2"
+                    },
+                    {
+                        "label": "[Escolha D]",
+                        "value": "3"
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "mcq",
+                "ui_style": {
+                    "choice_label": "upper-alpha",
+                    "type": "block"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Questão de múltipla escolha com layout de Bloco.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description",
+                "penalty_score"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/mcq-block.png",
+            "name": "Múltipla escolha - layout de bloco",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "Verdade",
+                "Falso",
+                "yes",
+                "no"
+            ],
+            "reference": "0170b6b0-536f-4c72-bf57-56354ab5536f"
+        }
+    ],
+    "choicematrix": [
+        {
+            "defaults": {
+                "options": [
+                    "Verdade",
+                    "Falso"
+                ],
+                "stems": [
+                    "[Haste 1]",
+                    "[Haste 2]",
+                    "[Haste 3]",
+                    "[Haste 4]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "choicematrix",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Matriz de escolha com 2 colunas de opção em formato de tabela.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/choice-matrix.png",
+            "name": "Matriz de escolha - padrão",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "aebb3384-33e0-41ce-b884-dc998061c624"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "Verdade",
+                    "Falso"
+                ],
+                "stems": [
+                    "[Haste 1]",
+                    "[Haste 2]",
+                    "[Haste 3]",
+                    "[Haste 4]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "type": "inline"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Matriz de escolha com 2 colunas de opção em formato embutido.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/choice-matrix-inline.png",
+            "name": "Matriz de escolha - embutida",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "5c222f16-59a1-4c9c-b975-53df8951d98c"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "Verdade",
+                    "Falso"
+                ],
+                "stems": [
+                    "[Haste 1]",
+                    "[Haste 2]",
+                    "[Haste 3]",
+                    "[Haste 4]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "stem_numeration": "upper-alpha",
+                    "type": "table"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Matriz de escolha com 2 colunas de opção em formato de tabela com numeração de haste.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/choice-matrix-label.png",
+            "name": "Matriz de escolha - rótulos",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "063540bd-037f-4de0-a84e-280deb1141f0"
+        }
+    ],
+    "classification": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    "[Escolha A]",
+                    "[Escolha B]",
+                    "[Escolha C]",
+                    "[Escolha D]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "classification",
+                "ui_style": {
+                    "column_count": 2,
+                    "column_titles": [
+                        "COLUNA 1",
+                        "COLUNA 2"
+                    ],
+                    "row_count": 1
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Arraste e solte as respostas em uma grade com 2 colunas e 1 linha.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/classification.png?",
+            "name": "Classification",
+            "reference": "65247f3d-ec55-40b9-8041-47fcc9e11cc2"
+        }
+    ],
+    "association": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    "[Escolha A]",
+                    "[Escolha B]",
+                    "[Escolha C]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "stimulus_list": [
+                    "[Haste 1]",
+                    "[Haste 2]",
+                    "[Haste 3]"
+                ],
+                "type": "association",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Arraste e solte as respostas para corresponder a uma lista predefinida.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/association.png",
+            "name": "Lista de jogos",
+            "reference": "736abcb6-ac25-4281-80c0-2eceecbfc533"
+        }
+    ],
+    "clozeassociation": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    "Escolha A",
+                    "Escolha B"
+                ],
+                "response_container": {
+                    "pointer": "left"
+                },
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "<p>Risus {{response}}, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. {{response}} dignissim, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "type": "clozeassociation",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Preencha os espaços em branco, arrastando e soltando.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/cloze-drag.png",
+            "name": "Cloze com arrastar e soltar",
+            "reference": "7e3d482a-fa52-4d35-a366-6209ce8ebb82"
+        }
+    ],
+    "clozedropdown": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    [
+                        "Escolha A",
+                        "Escolha B",
+                        "Escolha C",
+                        "Escolha D"
+                    ],
+                    [
+                        "Escolha A",
+                        "Escolha B",
+                        "Escolha C",
+                        "Escolha D"
+                    ]
+                ],
+                "response_container": {
+                    "pointer": "left"
+                },
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "<p>Risus {{response}}, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. {{response}} dignissim, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "type": "clozedropdown",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Preencha os espaços em branco com os menus suspensos.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/cloze-drop.png",
+            "name": "Cloze com drop down",
+            "reference": "d0541253-49f1-4645-8e31-2c6f7f2522cd"
+        }
+    ],
+    "clozetext": [
+        {
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "<p>Risus {{response}}, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. {{response}} dignissim, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "type": "clozetext",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Preencha os espaços em branco com as respostas em texto.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/cloze-text.png",
+            "name": "Cloze com texto",
+            "reference": "d1538b2b-0516-4872-9f09-992c2b902f34"
+        }
+    ],
+    "chemistry": [
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
+                "text_blocks": [],
+                "type": "chemistry",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false,
+                                    "ignoreOrder": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Entre na química complexa. Caixa de resposta padrão.",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/chemistry_formula.png",
+            "name": "Fórmula química",
+            "reference": "98a6bf66-4c8f-4106-9092-05efeb1b03ca"
+        }
+    ],
+    "formulaV2": [
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Digite matemática complexa. Caixa de resposta padrão.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/formula.png",
+            "name": "Fórmula matemática",
+            "reference": "ee1235c3-130b-484a-a5f5-68a871d72472"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "\\frac{{{response}}}{{{response}}}",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Digite matemática complexa. Caixas de resposta à fração.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/fraction.png",
+            "name": "Matemática com frações",
+            "reference": "2c878c4b-ccc1-421a-81f6-86e24498a2ec"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "{{response}} + {{response}} =",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Digite matemática complexa. Adicione várias caixas de resposta.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/fill-in-the-blanks.png",
+            "name": "Matemática - preencha os espaços em branco",
+            "reference": "f7d55366-1032-4a0d-b45c-c73b6f9b9b77"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "response_containers": [
+                    {
+                        "width": "60px"
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "formulaV2",
+                "template": "{{response}}\\text{ sq ft}",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "89\\text{ sq ft}"
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Adicione texto após a caixa de resposta.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/add-text-to-math.png",
+            "name": "Matemática com texto",
+            "reference": "5590ada4-554d-49ef-9415-298a4d778160"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2={{response}}",
+                "symbols": [
+                    "matrices",
+                    "general",
+                    "qwerty"
+                ],
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2=\\begin{bmatrix}8&0\\\\2&-18\\end{bmatrix}"
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Use matrizes em matemática.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrices.png",
+            "name": "Matemática com matrizes",
+            "reference": "6d7b717b-fb10-40de-9159-b49b1ef69f66"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "{{response}}=1\\text{m}",
+                "symbols": [
+                    "units_si",
+                    "units_us",
+                    "qwerty"
+                ],
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "100\\text{cm}=1\\text{m}"
+                            }
+                        ]
+                    }
+                },
+                "text_blocks": [
+                    "g",
+                    "kg",
+                    "mg",
+                    "m",
+                    "km",
+                    "cm",
+                    "mm",
+                    "L",
+                    "mL",
+                    "s",
+                    "ms",
+                    "oz",
+                    "lb",
+                    "in",
+                    "ft",
+                    "mi",
+                    "fl oz",
+                    "pt",
+                    "gal"
+                ]
+            },
+            "description": "Use unidades SI / US em matemática.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/units.png",
+            "name": "Matemática com unidades",
+            "reference": "dc309ed2-ab58-4b82-977a-50e98c62f0de"
+        }
+    ],
+    "clozechemistry": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
+                "template": "<p>{{response}}\\(\\rightarrow C_6H_{12}O_6+6O_2\\)</p>\n",
+                "text_blocks": [],
+                "type": "clozechemistry",
+                "response_container": {
+                    "template": ""
+                },
+                "response_containers": [],
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false,
+                                        "ignoreOrder": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Tipo de pergunta Cloze com entradas de fórmulas de química.",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozechemistry.png",
+            "name": "Química Cloze",
+            "reference": "20d136da-f5a8-4adc-be52-5b0e2d9faa97"
+        }
+    ],
+    "formulaessayV2": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "formatting_options": [
+                    "bold",
+                    "italic",
+                    "underline",
+                    "|",
+                    "indentIncrease",
+                    "indentDecrease",
+                    "|",
+                    "formulaEditor",
+                    "|",
+                    "undo",
+                    "redo"
+                ]
+            },
+            "description": "Tipo de pergunta dissertativa com teclado para inserção de matemática",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/formulaessayV2.png",
+            "name": "Ensaio de matemática com rich text",
+            "reference": "0faae4bb-3eb8-4c1e-97be-2cdc86c3d87a"
+        }
+    ],
+    "clozeformula": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "<p>\\(a+b\\ =\\) {{response}}</p>",
+                "type": "clozeformula",
+                "response_container": {
+                    "template": ""
+                },
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Cloze tipo de pergunta com entradas de fórmulas matemáticas.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozeformula1.png",
+            "name": "Cloze matemática",
+            "reference": "acbe8978-fc77-40c9-a2c0-44b2878e0f56"
+        },
+        {
+            "is_math": true,
+            "name": "Gerador de questões matemáticas",
+            "description": "Gere adaptações de equações matemáticas predefinidas.",
+            "group_reference": "math",
+            "defaults": {
+                "is_dynamic_content": true,
+                "stimulus": "[Este é o caule.]",
+                "template": "Responda: {{response}}",
+                "response_container": {
+                    "width": "160px"
+                }
+            },
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mathgen.png",
+            "reference": "ec8f2f4e-c048-4347-906a-32b0c44c0515"
+        }
+    ],
+    "chemistryessayV2": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "formatting_options": [
+                    "bold",
+                    "italic",
+                    "underline",
+                    "|",
+                    "indentIncrease",
+                    "indentDecrease",
+                    "|",
+                    "formulaEditor",
+                    "|",
+                    "undo",
+                    "redo"
+                ],
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ]
+            },
+            "description": "Tipo de pergunta dissertativa com um teclado que tem símbolos de química por padrão",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/chemistryessayV2.png",
+            "name": "Ensaio de química com rich text",
+            "reference": "cf583e4c-1a98-4c9e-a707-b39e9ac35952"
+        }
+    ],
+    "imageclozechemistry": [
+        {
+            "is_math": true,
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/organisations/8/CaffeineMolecule-no values_201551111715.png"
+                },
+                "response_container": {
+                    "vertical_top": true
+                },
+                "response_containers": [],
+                "response_positions": [
+                    {
+                        "x": 65.83,
+                        "y": 26.12
+                    }
+                ],
+                "text_blocks": [],
+                "type": "imageclozechemistry",
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false,
+                                        "ignoreOrder": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Pergunta que suporta entrada de química por linha.",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozechemistry.png",
+            "name": "Cloze química com imagem",
+            "reference": "d4875fde-76c6-4dbc-978d-7b4eefe27768"
+        }
+    ],
+    "imageclozeformula": [
+        {
+            "is_math": true,
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/organisations/1/T010007.gif"
+                },
+                "response_container": {
+                    "vertical_top": true
+                },
+                "response_containers": [
+                    {
+                        "template": "{{response}}",
+                        "width": "60px"
+                    }
+                ],
+                "response_positions": [
+                    {
+                        "x": 38.41,
+                        "y": 26.25
+                    }
+                ],
+                "text_blocks": [],
+                "type": "imageclozeformula",
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Pergunta que suporta entrada de texto ou matemática por linha.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozeformula.png",
+            "name": "Cloze matemática com imagem",
+            "reference": "ae472af1-d5d6-48dc-8ac6-c4806bbb2fce"
+        }
+    ],
+    "graphplotting": [
+        {
+            "defaults": {
+                "axis_x": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "axis_y": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "canvas": {
+                    "snap_to": "grid",
+                    "x_max": 10.4,
+                    "x_min": -10.4,
+                    "y_max": 10.4,
+                    "y_min": -10.4
+                },
+                "grid": {
+                    "x_distance": 1,
+                    "y_distance": 1
+                },
+                "is_math": false,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "toolbar": {
+                    "default_tool": "point",
+                    "tools": [
+                        "point",
+                        "move"
+                    ]
+                },
+                "type": "graphplotting",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Quadrantes de 10 x 10 unidades (tela de 600px x 600px) com a ferramenta Ponto.",
+            "group_reference": "graph",
+            "hidden": [
+                "description",
+                "mode"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph.png",
+            "name": "Gráficas",
+            "reference": "7718613d-6eb1-4f45-8b47-4cf7e053d5ee"
+        },
+        {
+            "defaults": {
+                "axis_x": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "axis_y": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "canvas": {
+                    "snap_to": "grid",
+                    "x_max": 10.4,
+                    "x_min": -0.4,
+                    "y_max": 10.4,
+                    "y_min": -0.4
+                },
+                "grid": {
+                    "x_distance": 1,
+                    "y_distance": 1
+                },
+                "is_math": false,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "graphplotting",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Gráfico 10 x 10 do 1º quadrante (tela de 600px x 600px) com todas as ferramentas de desenho.",
+            "group_reference": "graph",
+            "hidden": [
+                "description",
+                "mode"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph4.png",
+            "name": "Representando graficamente no primeiro quadrante",
+            "reference": "48eb9d39-0764-4434-bef0-68914d9435ce"
+        }
+    ],
+    "drawing": [
+        {
+            "defaults": {
+                "image": {
+                    "source": "",
+                    "width": 0,
+                    "height": 0
+                },
+                "line_color": [
+                    "rgba(0, 116, 217, 1)"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "drawing"
+            },
+            "description": "Permite o uso de diferentes ferramentas de desenho para desenhar em uma imagem.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/drawing.png",
+            "name": "Desenhando",
+            "reference": "23a0dc3f-15f9-41cf-9b84-15ec3c7e39b4"
+        }
+    ],
+    "simpleshading": [
+        {
+            "defaults": {
+                "canvas": {
+                    "cell_height": 2,
+                    "cell_width": 2,
+                    "column_count": 6,
+                    "row_count": 1
+                },
+                "stimulus": "[Este é o caule.]",
+                "type": "simpleshading",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": {
+                            "method": "byLocation"
+                        }
+                    }
+                }
+            },
+            "description": "Permite que os usuários selecionem áreas em uma grade.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/simpleshading.png",
+            "name": "Sombreamento",
+            "reference": "93ca0835-1b9d-4c44-8ec3-9a30ba515881"
+        }
+    ],
+    "imageclozeassociationV2": [
+        {
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/demos/docs/colored_world_map.png",
+                    "width": 600,
+                    "height": 400
+                },
+                "possible_responses": [
+                    "Escolha A",
+                    "Escolha B",
+                    "Escolha C"
+                ],
+                "response_containers": [
+                    {
+                        "x": 11.56,
+                        "y": 24.33,
+                        "width": "27.52%",
+                        "height": "13.06%"
+                    },
+                    {
+                        "x": 22.57,
+                        "y": 44.81,
+                        "width": "27.52%",
+                        "height": "13.06%"
+                    },
+                    {
+                        "x": 39.63,
+                        "y": 67.66,
+                        "width": "27.52%",
+                        "height": "13.06%"
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "imageclozeassociationV2",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Preencha os espaços em branco em uma imagem arrastando e soltando.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_association_v2.png?",
+            "name": "Rotular imagem com arrastar e soltar",
+            "reference": "3b0e23c4-d4d9-4524-8177-4fad12ecdbc9"
+        }
+    ],
+    "imageclozedropdown": [
+        {
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/demos/docs/blank_us_map_v2.png"
+                },
+                "possible_responses": [
+                    [
+                        "Escolha A",
+                        "Escolha B",
+                        "Escolha C"
+                    ],
+                    [
+                        "Escolha A",
+                        "Escolha B",
+                        "Escolha C"
+                    ],
+                    [
+                        "Escolha A",
+                        "Escolha B",
+                        "Escolha C"
+                    ]
+                ],
+                "response_container": {
+                    "pointer": "left",
+                    "vertical_top": true
+                },
+                "response_positions": [
+                    {
+                        "x": 0.14,
+                        "y": 48
+                    },
+                    {
+                        "x": 35.1,
+                        "y": 73.57
+                    },
+                    {
+                        "x": 72.38,
+                        "y": 84.58
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "imageclozedropdown",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Preencha a imagem em branco com menus suspensos.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_dropdown.png?",
+            "name": "Rotular imagem com lista suspensa",
+            "reference": "236a4617-32a9-4482-927d-9f8769c35689"
+        }
+    ],
+    "imageclozetext": [
+        {
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/demos/docs/blank_us_map_v2.png"
+                },
+                "response_container": {
+                    "pointer": "right",
+                    "vertical_top": true
+                },
+                "response_positions": [
+                    {
+                        "x": 40.1,
+                        "y": 22.1
+                    },
+                    {
+                        "x": 46.1,
+                        "y": 46.4
+                    },
+                    {
+                        "x": 72.8,
+                        "y": 65
+                    }
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "imageclozetext",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Preencha os espaços em branco com uma caixa de texto em uma imagem.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_cloze.png?",
+            "name": "Rotular imagem com texto",
+            "reference": "6e3761a2-27c8-457f-99b8-321caf17da0d"
+        }
+    ],
+    "imagetool": [
+        {
+            "defaults": {
+                "buttonicon": "protractor",
+                "image": "protractor",
+                "label": "Protractor",
+                "alt": "Um transferidor padrão de 180 graus."
+            },
+            "hidden": [
+                "image"
+            ],
+            "editorV3": {
+                "image": "templates/qev3/protractor.png"
+            },
+            "name": "Transferidor",
+            "description": "Incorpore um transferidor como um recurso.",
+            "reference": "26752c5b-4452-4a78-8819-dd8d4b587cbf"
+        },
+        {
+            "defaults": {
+                "buttonicon": "ruler",
+                "image": "ruler-15cm-72dpi",
+                "label": "Régua",
+                "alt": "Uma régua de 15 centímetros."
+            },
+            "editorV3": {
+                "image": "templates/qev3/rulers.png"
+            },
+            "name": "Régua",
+            "description": "Incorpore uma régua como um recurso.",
+            "reference": "e7abff79-d5fc-450f-a789-6384c2dcbb64"
+        },
+        {
+            "name": "Ferramenta de imagem",
+            "reference": "4aab1f61-3f1c-42b8-9f20-fedfd22a1bba",
+            "description": "Incorpore uma ferramenta de imagem como um recurso adicional ao conteúdo atual. Você pode usar sua própria imagem ou a régua ou transferidor fornecido.",
+            "editorV3": {
+                "image": "templates/qev3/imagetool.png"
+            }
+        }
+    ],
+    "calculator": [
+        {
+            "defaults": {
+                "mode": "scientific"
+            },
+            "editorV3": {
+                "image": "templates/qev3/calculator-scientific.png"
+            },
+            "name": "Calculadora científica",
+            "description": "Fornece uma calculadora científica para auxiliar os usuários em cálculos matemáticos.",
+            "reference": "532767d1-40e7-47e4-be81-ec5cdbfb5fd8"
+        },
+        {
+            "name": "Calculadora",
+            "reference": "d4f4cc0f-af17-4fd8-8faa-c8f88cf2d0d2",
+            "description": "Forneça uma calculadora para auxiliar os usuários em cálculos matemáticos.",
+            "editorV3": {
+                "image": "templates/qev3/calculator.png"
+            }
+        }
+    ],
+    "audioplayer": [
+        {
+            "name": "Tocador de Áudio",
+            "reference": "734ea0be-309b-4ff8-b004-3abd70094efd",
+            "description": "Incorpore um ativo de áudio para ser usado como estímulo para o seu contexto. Você pode usar seu próprio áudio ou áudio hospedado na Internet."
+        }
+    ],
+    "sharedpassage": [
+        {
+            "name": "Passagem",
+            "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8",
+            "description": "Habilitando uma passagem de texto destacável que pode ser usada em vários itens.",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/passage.png"
+        }
+    ],
+    "videoplayer": [
+        {
+            "name": "Reprodutor de vídeo",
+            "reference": "25368800-1ebe-4f2c-b220-6fe90a44883b",
+            "description": "Incorpore um recurso de vídeo para ser usado como estímulo para o seu contexto. Você pode usar seu próprio vídeo ou vídeo hospedado na Internet."
+        }
+    ],
+    "longtextV2": [
+        {
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>"
+            },
+            "description": "Ensaio de até 10.000 palavras que podem incluir controles de formatação de texto.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/LongTextV2.2.png",
+            "name": "Ensaio com rich text",
+            "hidden_search_terms": [
+                "constructed",
+                "extended"
+            ],
+            "reference": "ec3ac4d1-e2dc-4137-909c-e60a9b052bc7"
+        }
+    ],
+    "plaintext": [
+        {
+            "defaults": {
+                "show_copy": true,
+                "show_cut": true,
+                "show_paste": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "spellcheck": true
+            },
+            "description": "Ensaio com até 10.000 palavras não inclui controles de formatação de texto.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/plaintext.png",
+            "name": "Ensaio com texto simples",
+            "reference": "729f9b41-a46b-4c31-8789-7a763ef9c84f"
+        }
+    ],
+    "shorttext": [
+        {
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "shorttext",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "description": "O texto curto responde.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/shorttext.png",
+            "name": "Pequeno texto",
+            "reference": "2d2baecc-a2ce-40ad-b07b-1ca797fba611"
+        }
+    ],
+    "audio": [
+        {
+            "defaults": {
+                "max_length": 600,
+                "overwrite_warning": true,
+                "recording_cue": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "audio"
+            },
+            "description": "Resposta de áudio com layout de bloco.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/audio-block.png",
+            "name": "Gravador de áudio",
+            "hidden_search_terms": [
+                "voice"
+            ],
+            "reference": "0cd2e192-cba5-4ffd-9c5c-27a31cbca3cd"
+        }
+    ],
+    "video": [
+        {
+            "defaults": {
+                "max_length": 600,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "video"
+            },
+            "description": "Resposta de vídeo e áudio.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/video.png",
+            "name": "Gravador de video",
+            "reference": "ae45f0e9-e363-41db-a524-2a78d10b2621"
+        }
+    ],
+    "numberline": [
+        {
+            "defaults": {
+                "is_math": false,
+                "labels": {
+                    "frequency": 1,
+                    "show_max": true,
+                    "show_min": true
+                },
+                "line": {
+                    "max": 10,
+                    "min": 0
+                },
+                "points": [
+                    "[Escolha A]",
+                    "[Escolha B]",
+                    "[Escolha C]"
+                ],
+                "snap_to_ticks": true,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "ticks": {
+                    "distance": 1,
+                    "show": true
+                },
+                "type": "numberline",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Coloque pontos em uma linha numérica.",
+            "group_reference": "graph",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberline.png",
+            "name": "Linha numérica com arrastar e soltar",
+            "reference": "8ed7b573-4bf1-47cf-bc5c-5139856e576c"
+        }
+    ],
+    "numberlineplot": [
+        {
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "stacked": false,
+                "stacked_elements": 2,
+                "line": {
+                    "max": 10,
+                    "min": -10,
+                    "right_arrow": true,
+                    "left_arrow": true
+                },
+                "ticks": {
+                    "base": "zero-based",
+                    "distance": 2,
+                    "minor_ticks": 1,
+                    "show": true,
+                    "show_min": true,
+                    "show_max": true
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "type": "point",
+                                "point1": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Traçando respostas em linha numérica.",
+            "group_reference": "graph",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberlineplot.png",
+            "name": "Linha numérica com gráfico",
+            "reference": "0a2fad34-83eb-410a-80f9-e54fecbe5965"
+        }
+    ],
+    "orderlist": [
+        {
+            "defaults": {
+                "list": [
+                    "[Escolha A]",
+                    "[Escolha B]",
+                    "[Escolha C]",
+                    "[Escolha D]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "orderlist",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    }
+                }
+            },
+            "description": "Lista de itens a serem organizados na ordem correta.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/order_list.png",
+            "name": "Lista de pedidos",
+            "reference": "4b0e5ea8-de50-4092-941c-031fe2156eb0"
+        }
+    ],
+    "simplechart": [
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "Barras 1",
+                            "y": 0
+                        },
+                        {
+                            "x": "Barras 2",
+                            "y": 0
+                        },
+                        {
+                            "x": "Barras 3",
+                            "y": 0
+                        }
+                    ],
+                    "name": "Título do gráfico"
+                },
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "Barras 1"
+                            },
+                            {
+                                "x": "Barras 2"
+                            },
+                            {
+                                "x": "Barras 3"
+                            }
+                        ]
+                    }
+                },
+                "y_axis_label": "Y Axis",
+                "multicolour": false
+            },
+            "description": "Crie um gráfico de barras interativo.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/barchart.png",
+            "name": "Gráfico de barras",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "24b20814-4019-4a0a-acfb-24284f10d2df"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "0",
+                            "y": 0
+                        },
+                        {
+                            "x": "1.0",
+                            "y": 4
+                        },
+                        {
+                            "x": "2.0",
+                            "y": 8
+                        },
+                        {
+                            "x": "3.0",
+                            "y": 12
+                        },
+                        {
+                            "x": "4.0",
+                            "y": 18
+                        },
+                        {
+                            "x": "5.0",
+                            "y": 30
+                        },
+                        {
+                            "x": "6.0",
+                            "y": 45
+                        }
+                    ],
+                    "name": "Título do gráfico"
+                },
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "ui_style": {
+                    "chart_type": "line"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "1.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "2.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "3.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "4.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "5.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "6.0",
+                                "y": "5"
+                            }
+                        ]
+                    }
+                },
+                "x_axis_label": "Eixo X",
+                "y_axis_label": "Eixo Y",
+                "multicolour": false
+            },
+            "description": "Crie um gráfico de linhas interativo.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/linechart.png",
+            "name": "Gráfico de linha",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "856d07be-3bbe-4354-bfa4-6a0bcb133652"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "1",
+                            "y": 5
+                        },
+                        {
+                            "x": "2",
+                            "y": 2
+                        },
+                        {
+                            "x": "3",
+                            "y": 6
+                        },
+                        {
+                            "x": "4",
+                            "y": 3
+                        },
+                        {
+                            "x": "5",
+                            "y": 3
+                        }
+                    ],
+                    "name": "Título do gráfico"
+                },
+                "max_y_value": 8,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "simplechart",
+                "ui_style": {
+                    "chart_type": "histogram"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "1",
+                                "y": 4
+                            },
+                            {
+                                "x": "2"
+                            },
+                            {
+                                "x": "3"
+                            },
+                            {
+                                "x": "4"
+                            },
+                            {
+                                "x": "5"
+                            }
+                        ]
+                    }
+                },
+                "x_axis_label": "Título do eixo X",
+                "y_axis_label": "Título do eixo Y",
+                "multicolour": true
+            },
+            "description": "Crie um histograma interativo.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/histogram.png",
+            "name": "Histograma",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "50f542f6-f29b-4383-a977-fea010e16f84"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "1",
+                            "y": 5
+                        },
+                        {
+                            "x": "2",
+                            "y": 2
+                        },
+                        {
+                            "x": "3",
+                            "y": 4
+                        },
+                        {
+                            "x": "4",
+                            "y": 3
+                        },
+                        {
+                            "x": "5",
+                            "y": 3
+                        }
+                    ],
+                    "name": "Título do gráfico"
+                },
+                "max_y_value": 10,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "simplechart",
+                "ui_style": {
+                    "chart_type": "dot-plot"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "1"
+                            },
+                            {
+                                "x": "2"
+                            },
+                            {
+                                "x": "3"
+                            },
+                            {
+                                "x": "4"
+                            },
+                            {
+                                "x": "5"
+                            }
+                        ]
+                    }
+                },
+                "multicolour": false
+            },
+            "description": "Crie um gráfico de pontos interativo.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/dotplot.png",
+            "name": "Gráfico de pontos",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "fb252f9b-6b0d-4b22-ade8-1f6976a32e2f"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "1",
+                            "y": 5
+                        },
+                        {
+                            "x": "2",
+                            "y": 2
+                        },
+                        {
+                            "x": "3",
+                            "y": 4
+                        },
+                        {
+                            "x": "4",
+                            "y": 3
+                        },
+                        {
+                            "x": "5",
+                            "y": 3
+                        }
+                    ],
+                    "name": "Título do gráfico"
+                },
+                "max_y_value": 10,
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "simplechart",
+                "ui_style": {
+                    "chart_type": "line-plot"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "1"
+                            },
+                            {
+                                "x": "2"
+                            },
+                            {
+                                "x": "3"
+                            },
+                            {
+                                "x": "4"
+                            },
+                            {
+                                "x": "5"
+                            }
+                        ]
+                    }
+                },
+                "multicolour": false
+            },
+            "description": "Crie um gráfico de linha interativo.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/lineplot.png",
+            "name": "Gráfico de linha",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "39bd8477-1bad-4928-935e-8ef9df77be0b"
+        }
+    ],
+    "sortlist": [
+        {
+            "defaults": {
+                "list": [
+                    "[Escolha A]",
+                    "[Escolha B]",
+                    "[Escolha C]",
+                    "[Escolha D]"
+                ],
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "type": "sortlist",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    }
+                }
+            },
+            "description": "Classifique a lista arrastando os itens para a área de destino na ordem correta.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/sort-list.png",
+            "name": "Classificar lista",
+            "reference": "23327037-5136-43db-a2c5-aa3ac4c6bfa1"
+        }
+    ],
+    "tokenhighlight": [
+        {
+            "defaults": {
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "template": "<p>Risus et tincidunt turpis facilisis.</p><p>Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. dignissim, et tincidunt turpis facilisis.</p><p>Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "tokenization": "paragraph",
+                "type": "tokenhighlight",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "description": "O usuário pode clicar em palavras / frases / parágrafos para serem destacados.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/token.png",
+            "name": "Destaque de token",
+            "reference": "4d2e2d8b-71e3-4fa3-a5c7-20f4a33784a5"
+        }
+    ],
+    "fileupload": [
+        {
+            "defaults": {
+                "max_files": 12,
+                "stimulus": "[Este é o caule.]",
+                "type": "fileupload",
+                "allow_pdf": true,
+                "allow_jpg": true,
+                "allow_gif": true,
+                "allow_png": true
+            },
+            "description": "Os usuários podem fazer upload de arquivos de seus dispositivos.",
+            "group_reference": "other",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/file-upload.png",
+            "name": "Upload de arquivo",
+            "reference": "40881ce6-0c82-434c-af67-388af6db2d05"
+        }
+    ],
+    "imageupload": [
+        {
+            "defaults": {
+                "image": {
+                    "source": ""
+                },
+                "stimulus": "[Este é o caule.]",
+                "type": "imageupload",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Os usuários podem carregar e anotar uma imagem ou anotar uma imagem fornecida.",
+            "group_reference": "other",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageupload.png",
+            "name": "Upload de anotação de imagem",
+            "reference": "8cc0684d-87ec-444a-97ff-a462ad99b858"
+        }
+    ],
+    "rating": [
+        {
+            "defaults": {
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "25%",
+                        "label_tooltip": "Insatisfatório",
+                        "tint": "#C43838",
+                        "description": "Pouco esforço."
+                    },
+                    {
+                        "value": "2",
+                        "label": "50%",
+                        "label_tooltip": "Média",
+                        "tint": "#B85830",
+                        "description": "Você acabou de passar, é necessário mais esforço."
+                    },
+                    {
+                        "value": "3",
+                        "label": "75%",
+                        "label_tooltip": "Crédito",
+                        "tint": "#2979AF",
+                        "description": "Você respondeu bem a todas as perguntas."
+                    },
+                    {
+                        "value": "4",
+                        "label": "100%",
+                        "label_tooltip": "Perfeito",
+                        "tint": "#006F6F",
+                        "description": "Você respondeu tudo corretamente!"
+                    }
+                ]
+            },
+            "description": "Permite que os usuários escolham um valor de um intervalo pré-selecionado.",
+            "group_reference": "other",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/rating-v2.png",
+            "name": "Avaliação",
+            "reference": "32512cae-318d-4636-b814-7dfd6a7b06c8"
+        }
+    ],
+    "gridded": [
+        {
+            "name": "Gridded",
+            "group_reference": "other",
+            "description": "Layout em grade para respostas numéricas.",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/gridded.png",
+            "defaults": {
+                "type": "gridded",
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "options": {
+                    "columns": 6,
+                    "range": "0-9",
+                    "floating_decimal": true
+                },
+                "instant_feedback": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "reference": "78136e89-1a41-4f9d-8f3d-08f30e12f0ca"
+        }
+    ],
+    "hotspot": [
+        {
+            "name": "Ponto de acesso",
+            "group_reference": "highlight",
+            "description": "Um tipo de pergunta que permite aos alunos selecionar pontos de acesso em uma imagem.",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/hotspot.png",
+            "defaults": {
+                "type": "hotspot",
+                "stimulus": "<p>[Este é o caule.]</p>",
+                "image": {
+                    "source": "//assets.learnosity.com/organisations/1/bead7655-fb71-41af-aeea-9e08a47eac68.png",
+                    "width": 700,
+                    "height": 370
+                },
+                "areas": [
+                    [
+                        {
+                            "x": 31.571428571429,
+                            "y": 94.594594594595
+                        },
+                        {
+                            "x": 28.714285714286,
+                            "y": 98.378378378378
+                        },
+                        {
+                            "x": 25.571428571429,
+                            "y": 97.837837837838
+                        },
+                        {
+                            "x": 23.714285714286,
+                            "y": 90.540540540541
+                        },
+                        {
+                            "x": 23,
+                            "y": 81.351351351351
+                        },
+                        {
+                            "x": 22.428571428571,
+                            "y": 70.810810810811
+                        },
+                        {
+                            "x": 19.714285714286,
+                            "y": 65.135135135135
+                        },
+                        {
+                            "x": 17.571428571429,
+                            "y": 58.108108108108
+                        },
+                        {
+                            "x": 18.714285714286,
+                            "y": 53.783783783784
+                        },
+                        {
+                            "x": 15.142857142857,
+                            "y": 49.189189189189
+                        },
+                        {
+                            "x": 11.714285714286,
+                            "y": 48.648648648649
+                        },
+                        {
+                            "x": 9.1428571428571,
+                            "y": 40.810810810811
+                        },
+                        {
+                            "x": 7.5714285714286,
+                            "y": 32.162162162162
+                        },
+                        {
+                            "x": 7.8571428571429,
+                            "y": 27.567567567568
+                        },
+                        {
+                            "x": 9.7142857142857,
+                            "y": 23.783783783784
+                        },
+                        {
+                            "x": 9,
+                            "y": 18.648648648649
+                        },
+                        {
+                            "x": 3.1428571428571,
+                            "y": 22.432432432432
+                        },
+                        {
+                            "x": 1.7142857142857,
+                            "y": 19.459459459459
+                        },
+                        {
+                            "x": 4.2857142857143,
+                            "y": 8.6486486486486
+                        },
+                        {
+                            "x": 10,
+                            "y": 6.4864864864865
+                        },
+                        {
+                            "x": 16.428571428571,
+                            "y": 7.2972972972973
+                        },
+                        {
+                            "x": 21.714285714286,
+                            "y": 4.8648648648649
+                        },
+                        {
+                            "x": 23.571428571429,
+                            "y": 6.2162162162162
+                        },
+                        {
+                            "x": 28.285714285714,
+                            "y": 1.0810810810811
+                        },
+                        {
+                            "x": 36.571428571429,
+                            "y": 0.54054054054054
+                        },
+                        {
+                            "x": 47.285714285714,
+                            "y": 1.3513513513514
+                        },
+                        {
+                            "x": 46.714285714286,
+                            "y": 7.2972972972973
+                        },
+                        {
+                            "x": 44.571428571429,
+                            "y": 11.081081081081
+                        },
+                        {
+                            "x": 45.428571428571,
+                            "y": 14.324324324324
+                        },
+                        {
+                            "x": 43.142857142857,
+                            "y": 16.486486486486
+                        },
+                        {
+                            "x": 39.571428571429,
+                            "y": 15.945945945946
+                        },
+                        {
+                            "x": 36.428571428571,
+                            "y": 19.189189189189
+                        },
+                        {
+                            "x": 32,
+                            "y": 16.216216216216
+                        },
+                        {
+                            "x": 34.142857142857,
+                            "y": 24.864864864865
+                        },
+                        {
+                            "x": 30.285714285714,
+                            "y": 28.378378378378
+                        },
+                        {
+                            "x": 26.285714285714,
+                            "y": 30.27027027027
+                        },
+                        {
+                            "x": 23.857142857143,
+                            "y": 35.675675675676
+                        },
+                        {
+                            "x": 24,
+                            "y": 40
+                        },
+                        {
+                            "x": 27.142857142857,
+                            "y": 42.702702702703
+                        },
+                        {
+                            "x": 27.142857142857,
+                            "y": 46.756756756757
+                        },
+                        {
+                            "x": 31.285714285714,
+                            "y": 50.27027027027
+                        },
+                        {
+                            "x": 32.285714285714,
+                            "y": 54.054054054054
+                        },
+                        {
+                            "x": 37.571428571429,
+                            "y": 59.189189189189
+                        },
+                        {
+                            "x": 36,
+                            "y": 65.405405405405
+                        },
+                        {
+                            "x": 35.714285714286,
+                            "y": 73.513513513514
+                        },
+                        {
+                            "x": 32.857142857143,
+                            "y": 76.486486486486
+                        },
+                        {
+                            "x": 33.285714285714,
+                            "y": 83.783783783784
+                        },
+                        {
+                            "x": 30.142857142857,
+                            "y": 85.945945945946
+                        }
+                    ],
+                    [
+                        {
+                            "x": 60,
+                            "y": 75.135135135135
+                        },
+                        {
+                            "x": 62.857142857143,
+                            "y": 75.675675675676
+                        },
+                        {
+                            "x": 64.571428571429,
+                            "y": 62.972972972973
+                        },
+                        {
+                            "x": 62.571428571429,
+                            "y": 63.243243243243
+                        },
+                        {
+                            "x": 60.428571428571,
+                            "y": 65.675675675676
+                        }
+                    ],
+                    [
+                        {
+                            "x": 79.428571428571,
+                            "y": 73.243243243243
+                        },
+                        {
+                            "x": 79.428571428571,
+                            "y": 79.459459459459
+                        },
+                        {
+                            "x": 80.571428571429,
+                            "y": 84.054054054054
+                        },
+                        {
+                            "x": 85.857142857143,
+                            "y": 81.081081081081
+                        },
+                        {
+                            "x": 87.714285714286,
+                            "y": 84.864864864865
+                        },
+                        {
+                            "x": 90.714285714286,
+                            "y": 85.675675675676
+                        },
+                        {
+                            "x": 94.857142857143,
+                            "y": 77.837837837838
+                        },
+                        {
+                            "x": 94.857142857143,
+                            "y": 72.432432432432
+                        },
+                        {
+                            "x": 94,
+                            "y": 67.297297297297
+                        },
+                        {
+                            "x": 92.571428571429,
+                            "y": 64.324324324324
+                        },
+                        {
+                            "x": 90,
+                            "y": 63.513513513514
+                        },
+                        {
+                            "x": 86.142857142857,
+                            "y": 63.513513513514
+                        },
+                        {
+                            "x": 83.285714285714,
+                            "y": 65.945945945946
+                        }
+                    ],
+                    [
+                        {
+                            "x": 93.285714285714,
+                            "y": 89.189189189189
+                        },
+                        {
+                            "x": 95.285714285714,
+                            "y": 90.27027027027
+                        },
+                        {
+                            "x": 99.857142857143,
+                            "y": 84.594594594595
+                        },
+                        {
+                            "x": 99.714285714286,
+                            "y": 79.189189189189
+                        },
+                        {
+                            "x": 97.857142857143,
+                            "y": 78.918918918919
+                        },
+                        {
+                            "x": 96.142857142857,
+                            "y": 83.243243243243
+                        }
+                    ]
+                ],
+                "area_attributes": {
+                    "global": {
+                        "fill": "rgba(12, 176, 216, 0.48)",
+                        "selected_fill": "rgba(0, 125, 165, 0.48)",
+                        "selected_stroke": "rgba(0, 39, 56, 0.83)"
+                    }
+                }
+            },
+            "reference": "1a575a43-0a05-441f-9be9-45f423109179"
+        }
+    ],
+    "linereader": [
+        {
+            "name": "Leitor de linha",
+            "reference": "25368800-1eba-4f2c-b220-6fe90a44883f",
+            "description": "Exibe uma ferramenta de assistência que permite ao usuário visualizar uma linha de texto por vez.",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/line-reader.png"
+        }
+    ]
+}

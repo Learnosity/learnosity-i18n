@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Múltipla escolha",
+        "reference": "mcq",
+        "template_references": [
+            "a80f7a52-eccb-45fd-a4ce-08c3493d5d50",
+            "4c356ba9-fe6c-4ce6-9921-176e0b67d59e",
+            "954ee077-ac85-480e-9629-27627d716f08",
+            "0170b6b0-536f-4c72-bf57-56354ab5536f",
+            "aebb3384-33e0-41ce-b884-dc998061c624",
+            "5c222f16-59a1-4c9c-b975-53df8951d98c",
+            "063540bd-037f-4de0-a84e-280deb1141f0"
+        ]
+    },
+    {
+        "name": "Preencha os espaços em branco (Cloze)",
+        "reference": "cloze",
+        "template_references": [
+            "7e3d482a-fa52-4d35-a366-6209ce8ebb82",
+            "d0541253-49f1-4645-8e31-2c6f7f2522cd",
+            "d1538b2b-0516-4872-9f09-992c2b902f34",
+            "3b0e23c4-d4d9-4524-8177-4fad12ecdbc9",
+            "236a4617-32a9-4482-927d-9f8769c35689",
+            "6e3761a2-27c8-457f-99b8-321caf17da0d"
+        ]
+    },
+    {
+        "name": "Classificar, combinar e ordenar",
+        "reference": "match",
+        "template_references": [
+            "65247f3d-ec55-40b9-8041-47fcc9e11cc2",
+            "736abcb6-ac25-4281-80c0-2eceecbfc533",
+            "4b0e5ea8-de50-4092-941c-031fe2156eb0",
+            "23327037-5136-43db-a2c5-aa3ac4c6bfa1"
+        ]
+    },
+    {
+        "name": "Escrito e gravado",
+        "reference": "writespeak",
+        "template_references": [
+            "ec3ac4d1-e2dc-4137-909c-e60a9b052bc7",
+            "729f9b41-a46b-4c31-8789-7a763ef9c84f",
+            "2d2baecc-a2ce-40ad-b07b-1ca797fba611",
+            "0cd2e192-cba5-4ffd-9c5c-27a31cbca3cd",
+            "ae45f0e9-e363-41db-a524-2a78d10b2621"
+        ]
+    },
+    {
+        "name": "Destaque e Desenho",
+        "reference": "highlight",
+        "template_references": [
+            "23a0dc3f-15f9-41cf-9b84-15ec3c7e39b4",
+            "93ca0835-1b9d-4c44-8ec3-9a30ba515881",
+            "4d2e2d8b-71e3-4fa3-a5c7-20f4a33784a5",
+            "1a575a43-0a05-441f-9be9-45f423109179"
+        ]
+    },
+    {
+        "name": "Matemática",
+        "reference": "math",
+        "template_references": [
+            "ee1235c3-130b-484a-a5f5-68a871d72472",
+            "2c878c4b-ccc1-421a-81f6-86e24498a2ec",
+            "f7d55366-1032-4a0d-b45c-c73b6f9b9b77",
+            "5590ada4-554d-49ef-9415-298a4d778160",
+            "6d7b717b-fb10-40de-9159-b49b1ef69f66",
+            "dc309ed2-ab58-4b82-977a-50e98c62f0de",
+            "0faae4bb-3eb8-4c1e-97be-2cdc86c3d87a",
+            "acbe8978-fc77-40c9-a2c0-44b2878e0f56",
+            "ae472af1-d5d6-48dc-8ac6-c4806bbb2fce",
+            "ec8f2f4e-c048-4347-906a-32b0c44c0515"
+        ]
+    },
+    {
+        "name": "Gráficas",
+        "reference": "graph",
+        "template_references": [
+            "7718613d-6eb1-4f45-8b47-4cf7e053d5ee",
+            "48eb9d39-0764-4434-bef0-68914d9435ce",
+            "8ed7b573-4bf1-47cf-bc5c-5139856e576c",
+            "0a2fad34-83eb-410a-80f9-e54fecbe5965"
+        ]
+    },
+    {
+        "name": "Gráficos",
+        "reference": "chart",
+        "template_references": [
+            "24b20814-4019-4a0a-acfb-24284f10d2df",
+            "856d07be-3bbe-4354-bfa4-6a0bcb133652",
+            "50f542f6-f29b-4383-a977-fea010e16f84",
+            "fb252f9b-6b0d-4b22-ade8-1f6976a32e2f",
+            "39bd8477-1bad-4928-935e-8ef9df77be0b"
+        ]
+    },
+    {
+        "name": "Químico",
+        "reference": "chemistry",
+        "template_references": [
+            "98a6bf66-4c8f-4106-9092-05efeb1b03ca",
+            "20d136da-f5a8-4adc-be52-5b0e2d9faa97",
+            "cf583e4c-1a98-4c9e-a707-b39e9ac35952",
+            "d4875fde-76c6-4dbc-978d-7b4eefe27768"
+        ]
+    },
+    {
+        "name": "De outros",
+        "reference": "other",
+        "template_references": [
+            "40881ce6-0c82-434c-af67-388af6db2d05",
+            "8cc0684d-87ec-444a-97ff-a462ad99b858",
+            "32512cae-318d-4636-b814-7dfd6a7b06c8",
+            "78136e89-1a41-4f9d-8f3d-08f30e12f0ca"
+        ]
+    }
+]
