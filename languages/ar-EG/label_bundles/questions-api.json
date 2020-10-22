@@ -145,6 +145,17 @@
     "delete": "حذف",
     "downloadAudio": "تحميل",
     "draggableItem": "سؤال قابل للسحب",
+    "drawing": {
+        "toolbar": {
+            "clear": "مسح",
+            "compass": "بوصلة",
+            "eraser": "ممحاة",
+            "redo": "إعادة",
+            "scribble": "خربشة",
+            "straightedge": "خط",
+            "undo": "تراجع"
+        }
+    },
     "editor": {
         "editTable": "تعديل الجدول",
         "modals": {
