@@ -245,54 +245,6 @@
     "editorUnderlineIcon": "S",
     "editorUnderlineTitle": "Subrayado",
     "error": "Error",
-    "fileUpload": {
-        "deleteFileMode": "Delete File Mode",
-        "fileFormatsSupported": "file formats supported",
-        "fileLimit": "File Limit",
-        "notification": {
-            "alreadySelected": " has already been selected.",
-            "couldNotUpload": "could not be uploaded. Please try again.",
-            "invalidFileType": "has an invalid file type. Allowed file extensions are:",
-            "maxFilesReached": "The maximum number of files have been selected.",
-            "tooLarge": "is too large. Please select files less than",
-            "tooManyFilesSelected": "Too many files selected, the maximum allowed is"
-        },
-        "photoCapture": {
-            "accept": "Accept",
-            "accessToCamera": {
-                "description": "Before capturing, we will ask for access to the camera.",
-                "title": "Waiting for camera access"
-            },
-            "cancel": "Cancel",
-            "capture": "Capture",
-            "chooseName": "Name your photo",
-            "confirmDelete": "Delete current image?",
-            "countdownCapturingIn": "Capturing in...",
-            "defaultFileName": "photo",
-            "delete": "Delete",
-            "launch": "Capture photo",
-            "retake": "Retake",
-            "save": "Save"
-        },
-        "uploadFailed": "upload failed",
-        "uploadFiles": "Upload files"
-    },
-    "givenResponses": "Given responses",
-    "graphingTools": {
-        "circle": "Circle",
-        "delete": "Delete",
-        "label": "Label",
-        "line": "Line",
-        "move": "Move",
-        "parabola": "Parabola",
-        "point": "Point",
-        "polygon": "Polygon",
-        "ray": "Ray",
-        "segment": "Segment",
-        "sine": "Sine",
-        "vector": "Vector"
-    },
-
     "graphingTools.parabola": "Parábola",
     "redo": "Rehacer",
     "reset": "Reiniciar",
