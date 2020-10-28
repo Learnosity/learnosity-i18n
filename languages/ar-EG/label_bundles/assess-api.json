@@ -164,6 +164,7 @@
     "submitWithUnattemptedQuestions": "{{عددعدم محاولات الاجابة}} لم تتم المحاولة للاجابة علي الاسئلة.",
     "submitting": "جاري الارسال...",
     "submittingInProgress": "إرسال قيد التقدم",
+    "successfullySubmitted": "تم إرساله بنجاح",
     "test": "النشاط",
     "testPaused": "تم إيقاف النشاط مؤقتًا",
     "testPausedProctor": "تم إيقاف نشاطك مؤقتًا بواسطة المسؤول.",
