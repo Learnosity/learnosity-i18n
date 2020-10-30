@@ -1,0 +1,2520 @@
+{
+    "mcq": [
+        {
+            "defaults": {
+                "options": [
+                    {
+                        "label": "[Choice A]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[Choice B]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[Choice C]",
+                        "value": "2"
+                    },
+                    {
+                        "label": "[Choice D]",
+                        "value": "3"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "mcq",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Standard Multiple choice question.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description",
+                "penalty_score"
+            ],
+            "image": "templates/qev3/mcqdefault.png",
+            "name": "Multiple choice – standard",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
+            "reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
+        },
+        {
+            "defaults": {
+                "multiple_responses": true,
+                "options": [
+                    {
+                        "label": "[Choice A]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[Choice B]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[Choice C]",
+                        "value": "2"
+                    },
+                    {
+                        "label": "[Choice D]",
+                        "value": "3"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "mcq",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Multiple choice question with multiple responses.",
+            "group_reference": "mcq",
+            "hidden": [
+                "multiple_responses",
+                "description",
+                "penalty_score"
+            ],
+            "image": "templates/qev3/mcqmulti.png",
+            "name": "Multiple choice – multiple response",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
+            "reference": "908de244-5c71-4c09-b094-7fb49554f2f9"
+        },
+        {
+            "defaults": {
+                "multiple_responses": false,
+                "options": [
+                    {
+                        "label": "True",
+                        "value": "0"
+                    },
+                    {
+                        "label": "False",
+                        "value": "1"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "mcq",
+                "ui_style": {
+                    "type": "horizontal"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "True or false question.",
+            "group_reference": "mcq",
+            "hidden_sections": [
+                "scoring.scoring_type",
+                "scoring.rounding"
+            ],
+            "hidden": [
+                "shuffle_options",
+                "multiple_responses",
+                "validation.scoring_type",
+                "validation.rounding"
+            ],
+            "image": "templates/qev3/mcqtruefalse.png",
+            "name": "True or false",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
+            "reference": "3egs0b24-5gs8-49fc-fds9-4a450sdg31ca"
+        },
+        {
+            "defaults": {
+                "options": [
+                    {
+                        "label": "[Choice A]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[Choice B]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[Choice C]",
+                        "value": "2"
+                    },
+                    {
+                        "label": "[Choice D]",
+                        "value": "3"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "mcq",
+                "ui_style": {
+                    "choice_label": "upper-alpha",
+                    "type": "block"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Multiple choice question with a Block layout.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description",
+                "penalty_score"
+            ],
+            "image": "templates/qev3/mcqblock.png",
+            "name": "Multiple choice – block layout",
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
+            "reference": "33d53a22-1a59-4a03-9671-7f5104edd62e"
+        }
+    ],
+    "choicematrix": [
+        {
+            "defaults": {
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "choicematrix",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Choice Matrix with 2 option columns in a table format.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/matrix-table.png",
+            "name": "Choice matrix – standard",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "type": "inline"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Choice Matrix with 2 option columns in an inline format.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/matrix-inline.png",
+            "name": "Choice matrix – inline",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "stem_numeration": "upper-alpha",
+                    "type": "table"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Choice Matrix with 2 option columns in a table Format with stem numeration.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/matrix-stem.png",
+            "name": "Choice matrix – labels",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
+        }
+    ],
+    "classification": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]",
+                    "[Choice D]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "classification",
+                "ui_style": {
+                    "column_count": 2,
+                    "column_titles": [
+                        "COLUMN 1",
+                        "COLUMN 2"
+                    ],
+                    "row_count": 1
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Drag and drop responses into a grid with 2 columns and 1 row.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/classification.png",
+            "name": "Classification",
+            "reference": "ef2648de-f826-4674-b17d-71e71889d8e6"
+        }
+    ],
+    "association": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "stimulus_list": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]"
+                ],
+                "type": "association",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": " Drag and Drop responses to match a predefined list.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/association.png",
+            "name": "Match list",
+            "reference": "1fa22aac-1f88-47f7-941b-3c77759549e6"
+        }
+    ],
+    "clozeassociation": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    "Choice A",
+                    "Choice B"
+                ],
+                "response_container": {
+                    "pointer": "left"
+                },
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "<p>Risus {{response}}, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. {{response}} dignissim, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "type": "clozeassociation",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Fill in the blanks drag and drop.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/cloze_dd.png",
+            "name": "Cloze with drag & drop",
+            "reference": "51a8c1e7-f34f-4faf-b211-da458e891fcb"
+        }
+    ],
+    "clozedropdown": [
+        {
+            "defaults": {
+                "possible_responses": [
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C",
+                        "Choice D"
+                    ],
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C",
+                        "Choice D"
+                    ]
+                ],
+                "response_container": {
+                    "pointer": "left"
+                },
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "<p>Risus {{response}}, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. {{response}} dignissim, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "type": "clozedropdown",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Fill in the blanks with drop down menus.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/clozedropdown.png",
+            "name": "Cloze with drop down",
+            "reference": "2fbba51b-e35e-441f-83c7-2662e2e81fa6"
+        }
+    ],
+    "clozetext": [
+        {
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "<p>Risus {{response}}, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. {{response}} dignissim, et tincidunt turpis facilisis. Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "type": "clozetext",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Fill in the blanks with text responses.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/clozet.png",
+            "name": "Cloze with text",
+            "reference": "457fe101-0667-4a35-b193-b849653acb52"
+        }
+    ],
+    "chemistry": [
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
+                "text_blocks": [],
+                "type": "chemistry",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false,
+                                    "ignoreOrder": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex chemistry. Default response box.",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/chemistry_formula.png",
+            "name": "Chemistry formula",
+            "reference": "e484fac0-4022-4b58-b86f-4a537002f449"
+        }
+    ],
+    "formulaV2": [
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex math. Default response box.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/formula.png",
+            "name": "Math formula",
+            "reference": "e3a30485-ab2d-4ee8-9d0c-5749e96816c1"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "\\frac{{{response}}}{{{response}}}",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex math. Fraction Response boxes.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/fraction.png",
+            "name": "Math with fractions",
+            "reference": "764f1dc3-27b7-48a2-93f3-d6573e4c98f0"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "{{response}} + {{response}} =",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex math. Add multiple response boxes.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/fill-in-the-blanks.png",
+            "name": "Math – fill in the blanks",
+            "reference": "23209785-6fa0-404e-87c2-c213b546d0ba"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "response_containers": [
+                    {
+                        "width": "60px"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "formulaV2",
+                "template": "{{response}}\\text{ sq ft}",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "89\\text{ sq ft}"
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Add text after response box.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/add-text-to-math.png",
+            "name": "Math with text",
+            "reference": "caaa3b3a-6eed-4ad3-b80d-be67515016e0"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2={{response}}",
+                "symbols": [
+                    "matrices",
+                    "general",
+                    "qwerty"
+                ],
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2=\\begin{bmatrix}8&0\\\\2&-18\\end{bmatrix}"
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Use matrices within math.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/matrices.png",
+            "name": "Math with matrices",
+            "reference": "aadca3d1-ecdb-41fb-8efa-591fbeb79874"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "{{response}}=1\\text{m}",
+                "symbols": [
+                    "units_si",
+                    "units_us",
+                    "qwerty"
+                ],
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "100\\text{cm}=1\\text{m}"
+                            }
+                        ]
+                    }
+                },
+                "text_blocks": [
+                    "g",
+                    "kg",
+                    "mg",
+                    "m",
+                    "km",
+                    "cm",
+                    "mm",
+                    "L",
+                    "mL",
+                    "s",
+                    "ms",
+                    "oz",
+                    "lb",
+                    "in",
+                    "ft",
+                    "mi",
+                    "fl oz",
+                    "pt",
+                    "gal"
+                ]
+            },
+            "description": "Use SI/US units within math.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/units.png",
+            "name": "Math with units",
+            "reference": "dc098fc1-27b8-47d7-aa30-e8976d13c1ac"
+        }
+    ],
+    "clozechemistry": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
+                "template": "<p>{{response}}\\(\\rightarrow C_6H_{12}O_6+6O_2\\)</p>\n",
+                "text_blocks": [],
+                "type": "clozechemistry",
+                "response_container": {
+                    "template": ""
+                },
+                "response_containers": [],
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false,
+                                        "ignoreOrder": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Cloze question type with chemistry formula inputs.",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/clozechemistry.png",
+            "name": "Cloze chemistry",
+            "reference": "36e1da6f-5966-4912-a547-75bffdd77950"
+        }
+    ],
+    "formulaessayV2": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "formatting_options": [
+                    "bold",
+                    "italic",
+                    "underline",
+                    "|",
+                    "indentIncrease",
+                    "indentDecrease",
+                    "|",
+                    "formulaEditor",
+                    "|",
+                    "undo",
+                    "redo"
+                ]
+            },
+            "description": "Essay question type with a keypad for inputting math",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/formulaessayV2.png",
+            "name": "Math essay with rich text",
+            "reference": "7b810c2c-9100-4ff1-96de-cda23bf34445"
+        }
+    ],
+    "clozeformula": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "<p>\\(a+b\\ =\\) {{response}}</p>",
+                "type": "clozeformula",
+                "response_container": {
+                    "template": ""
+                },
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Cloze question type with math formula inputs.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/clozeformula1.png",
+            "name": "Cloze math",
+            "reference": "57b0690f-4e99-4bbc-9c8f-aa3074baa495"
+        }
+    ],
+    "chemistryessayV2": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "formatting_options": [
+                    "bold",
+                    "italic",
+                    "underline",
+                    "|",
+                    "indentIncrease",
+                    "indentDecrease",
+                    "|",
+                    "formulaEditor",
+                    "|",
+                    "undo",
+                    "redo"
+                ],
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ]
+            },
+            "description": "Essay question type with a keypad that has chemistry symbols by default",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/chemistryessayV2.png",
+            "name": "Chemistry essay with rich text",
+            "reference": "c07e5630-e0f4-4d0d-b1f8-3908e0d7e474"
+        }
+    ],
+    "imageclozechemistry": [
+        {
+            "is_math": true,
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/organisations/8/CaffeineMolecule-no values_201551111715.png"
+                },
+                "response_container": {
+                    "vertical_top": true
+                },
+                "response_containers": [],
+                "response_positions": [
+                    {
+                        "x": 65.83,
+                        "y": 26.12
+                    }
+                ],
+                "text_blocks": [],
+                "type": "imageclozechemistry",
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "stimulus": "<p>[This is the stem.]</p>",
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false,
+                                        "ignoreOrder": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Question that supports chemistry input per line.",
+            "group_reference": "chemistry",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/imageclozechemistry.png",
+            "name": "Cloze chemistry with image",
+            "reference": "4d2a04cb-f8a9-4678-b8c6-0dd4bce25fbc"
+        }
+    ],
+    "imageclozeformula": [
+        {
+            "is_math": true,
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/organisations/1/T010007.gif"
+                },
+                "response_container": {
+                    "vertical_top": true
+                },
+                "response_containers": [
+                    {
+                        "template": "{{response}}",
+                        "width": "60px"
+                    }
+                ],
+                "response_positions": [
+                    {
+                        "x": 38.41,
+                        "y": 26.25
+                    }
+                ],
+                "text_blocks": [],
+                "type": "imageclozeformula",
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "stimulus": "<p>[This is the stem.]</p>",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Question that supports either math or text input per line.",
+            "group_reference": "math",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/imageclozeformula.png",
+            "name": "Cloze math with image",
+            "reference": "11c9093a-dfd3-4852-b1ee-d5e5c3f032df"
+        }
+    ],
+    "graphplotting": [
+        {
+            "defaults": {
+                "axis_x": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "axis_y": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "canvas": {
+                    "snap_to": "grid",
+                    "x_max": 10.4,
+                    "x_min": -10.4,
+                    "y_max": 10.4,
+                    "y_min": -10.4
+                },
+                "grid": {
+                    "x_distance": 1,
+                    "y_distance": 1
+                },
+                "is_math": false,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "toolbar": {
+                    "default_tool": "point",
+                    "tools": [
+                        "point",
+                        "move"
+                    ]
+                },
+                "type": "graphplotting",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "10 x 10 unit quadrants (600px x 600px canvas) with Point tool.",
+            "group_reference": "graph",
+            "hidden": [
+                "description",
+                "mode"
+            ],
+            "image": "templates/qev3/graph.png",
+            "name": "Graphing",
+            "reference": "b7dc8b69-c12a-4c4f-ac17-181ac6e0da26"
+        },
+        {
+            "defaults": {
+                "axis_x": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "axis_y": {
+                    "draw_labels": true,
+                    "show_first_arrow": true,
+                    "show_last_arrow": true,
+                    "ticks_distance": 1
+                },
+                "canvas": {
+                    "snap_to": "grid",
+                    "x_max": 10.4,
+                    "x_min": -0.4,
+                    "y_max": 10.4,
+                    "y_min": -0.4
+                },
+                "grid": {
+                    "x_distance": 1,
+                    "y_distance": 1
+                },
+                "is_math": false,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "graphplotting",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "10 x 10 1st quadrant graph (600px x 600px canvas) with all drawing tools.",
+            "group_reference": "graph",
+            "hidden": [
+                "description",
+                "mode"
+            ],
+            "image": "templates/qev3/graph4.png",
+            "name": "Graphing in the 1st quadrant",
+            "reference": "f325a114-bb81-4e7f-86e0-1147416a78a8"
+        }
+    ],
+    "drawing": [
+        {
+            "defaults": {
+                "image": {
+                    "source": "",
+                    "width": 0,
+                    "height": 0
+                },
+                "line_color": [
+                    "rgba(0, 116, 217, 1)"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "drawing"
+            },
+            "description": "Allows the use of different drawing tools to draw on an image.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/drawing.png",
+            "name": "Drawing",
+            "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0c"
+        }
+    ],
+    "simpleshading": [
+        {
+            "defaults": {
+                "canvas": {
+                    "cell_height": 2,
+                    "cell_width": 2,
+                    "column_count": 6,
+                    "row_count": 1
+                },
+                "stimulus": "[This is the stem.]",
+                "type": "simpleshading",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": {
+                            "method": "byLocation"
+                        }
+                    }
+                }
+            },
+            "description": "Allows users to select areas on a grid.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/simpleshading.png",
+            "name": "Shading",
+            "reference": "b30bc5dc-b616-4913-a8b4-b5dd9c43bafd"
+        }
+    ],
+    "imageclozeassociationV2": [
+        {
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/demos/docs/colored_world_map.png",
+                    "width": 600,
+                    "height": 400
+                },
+                "possible_responses": [
+                    "Choice A",
+                    "Choice B",
+                    "Choice C"
+                ],
+                "response_containers": [
+                    {
+                        "x": 11.56,
+                        "y": 24.33,
+                        "width": "27.52%",
+                        "height": "13.06%"
+                    },
+                    {
+                        "x": 22.57,
+                        "y": 44.81,
+                        "width": "27.52%",
+                        "height": "13.06%"
+                    },
+                    {
+                        "x": 39.63,
+                        "y": 67.66,
+                        "width": "27.52%",
+                        "height": "13.06%"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "imageclozeassociationV2",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Fill in the blanks on an image with drag & drop.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/image_association_v2.png",
+            "hidden_from_tile_view": false,
+            "name": "Label image with drag & drop",
+            "reference": "6e77b403-8f0c-43af-b464-9450e1ac70dc"
+        }
+    ],
+    "imageclozedropdown": [
+        {
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/demos/docs/blank_us_map_v2.png"
+                },
+                "possible_responses": [
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C"
+                    ],
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C"
+                    ],
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C"
+                    ]
+                ],
+                "response_container": {
+                    "pointer": "left",
+                    "vertical_top": true
+                },
+                "response_positions": [
+                    {
+                        "x": 0.14,
+                        "y": 48
+                    },
+                    {
+                        "x": 35.1,
+                        "y": 73.57
+                    },
+                    {
+                        "x": 72.38,
+                        "y": 84.58
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "imageclozedropdown",
+                "case_sensitive": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Fill in the blanks image with drop down menus.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/image_dropdown.png",
+            "name": "Label image with drop-down",
+            "reference": "f8364191-ada5-4806-83d4-8a36b8fad4b0"
+        }
+    ],
+    "imageclozetext": [
+        {
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/demos/docs/blank_us_map_v2.png"
+                },
+                "response_container": {
+                    "pointer": "right",
+                    "vertical_top": true
+                },
+                "response_positions": [
+                    {
+                        "x": 40.1,
+                        "y": 22.1
+                    },
+                    {
+                        "x": 46.1,
+                        "y": 46.4
+                    },
+                    {
+                        "x": 72.8,
+                        "y": 65
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "imageclozetext",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Fill in the blanks with a text box on an image.",
+            "group_reference": "cloze",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/image_cloze.png",
+            "name": "Label image with text",
+            "reference": "35a850a7-9d3f-4e1c-880a-a340767942b6"
+        }
+    ],
+    "imagetool": [
+        {
+            "defaults": {
+                "buttonicon": "protractor",
+                "image": "protractor",
+                "label": "Protractor",
+                "alt": "A 180-degree standard protractor."
+            },
+            "hidden": [
+                "image"
+            ],
+            "image": "templates/qev3/protractor.png",
+            "name": "Protractor",
+            "description": "Embed a protractor as a feature.",
+            "reference": "26752c5b-4452-4a78-8819-dd8d4b587cbf"
+        },
+        {
+            "defaults": {
+                "buttonicon": "ruler",
+                "image": "ruler-15cm-72dpi",
+                "label": "Ruler",
+                "alt": "A 15-centimetre ruler."
+            },
+            "image": "templates/qev3/rulers.png",
+            "name": "Ruler",
+            "description": "Embed a ruler as a feature.",
+            "reference": "e7abff79-d5fc-450f-a789-6384c2dcbb64"
+        },
+        {
+            "name": "Imagetool",
+            "reference": "4aab1f61-3f1c-42b8-9f20-fedfd22a1bba",
+            "description": "Embed an image tool as an additional feature to the current content. You can use your own image or the supplied ruler or protractor.",
+            "image": "templates/qev3/imagetool.png"
+        }
+    ],
+    "calculator": [
+        {
+            "defaults": {
+                "mode": "scientific"
+            },
+            "image": "templates/qev3/calculator-scientific.png",
+            "name": "Scientific calculator",
+            "description": "Supply a scientific calculator to assist users on mathematical calculations.",
+            "reference": "532767d1-40e7-47e4-be81-ec5cdbfb5fd8"
+        },
+        {
+            "name": "Calculator",
+            "reference": "d4f4cc0f-af17-4fd8-8faa-c8f88cf2d0d2",
+            "description": "Supply a calculator to assist users on mathematical calculations.",
+            "image": "templates/qev3/calculator.png"
+        }
+    ],
+    "audioplayer": [
+        {
+            "name": "Audio player",
+            "reference": "734ea0be-309b-4ff8-b004-3abd70094efd",
+            "description": "Embed an audio asset to be used as stimulus for your context. You can use your own audio or audio hosted on the Internet."
+        }
+    ],
+    "sharedpassage": [
+        {
+            "name": "Passage",
+            "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8",
+            "description": "Enabling a highlightable text passage that can be used across multiple items.",
+            "defaults": {
+                "content": "[Enter passage content here.]"
+            }
+        }
+    ],
+    "videoplayer": [
+        {
+            "name": "Video player",
+            "reference": "25368800-1ebe-4f2c-b220-6fe90a44883b",
+            "description": "Embed a video asset to be used as stimulus for your context. You can use your own video or video hosted on the Internet."
+        }
+    ],
+    "longtextV2": [
+        {
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>"
+            },
+            "description": "Essay up to 10,000 words which may include text formatting controls.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/LongTextV2.2.png",
+            "name": "Essay with rich text",
+            "hidden_search_terms": [
+                "constructed",
+                "extended"
+            ],
+            "reference": "1e6039f8-0676-495d-aca9-108710a51ce5"
+        }
+    ],
+    "plaintext": [
+        {
+            "defaults": {
+                "show_copy": true,
+                "show_cut": true,
+                "show_paste": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "spellcheck": true
+            },
+            "description": "Essay up to 10,000 words does not include text formatting controls.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/plaintext.png",
+            "name": "Essay with plain text",
+            "reference": "0f559437-5072-475e-830d-1fa9d2f6bb0d"
+        }
+    ],
+    "shorttext": [
+        {
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "shorttext",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "description": "Short text respones.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/shorttext.png",
+            "name": "Short text",
+            "reference": "4fe6c726-419c-4aff-b189-4a9756a0ffda"
+        }
+    ],
+    "audio": [
+        {
+            "defaults": {
+                "max_length": 600,
+                "overwrite_warning": true,
+                "recording_cue": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "audio"
+            },
+            "description": "Audio response with Block layout.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/audio-block.png",
+            "name": "Audio recorder",
+            "hidden_search_terms": [
+                "voice"
+            ],
+            "reference": "4e9e4ec1-7441-462f-ad70-d94cbaf0d14e"
+        }
+    ],
+    "video": [
+        {
+            "defaults": {
+                "max_length": 600,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "video"
+            },
+            "description": "Video and audio response.",
+            "group_reference": "writespeak",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/video.png",
+            "name": "Video recorder",
+            "reference": "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"
+        }
+    ],
+    "numberline": [
+        {
+            "defaults": {
+                "is_math": false,
+                "labels": {
+                    "frequency": 1,
+                    "show_max": true,
+                    "show_min": true
+                },
+                "line": {
+                    "max": 10,
+                    "min": 0
+                },
+                "points": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]"
+                ],
+                "snap_to_ticks": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "ticks": {
+                    "distance": 1,
+                    "show": true
+                },
+                "type": "numberline",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Place points on a number line.",
+            "group_reference": "graph",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/numberline.png",
+            "name": "Number line with drag & drop",
+            "reference": "f5c683be-b5e0-421d-a593-f6a59312aba2"
+        }
+    ],
+    "numberlineplot": [
+        {
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "stacked": false,
+                "stacked_elements": 2,
+                "line": {
+                    "max": 10,
+                    "min": -10,
+                    "right_arrow": true,
+                    "left_arrow": true
+                },
+                "ticks": {
+                    "base": "zero-based",
+                    "distance": 2,
+                    "minor_ticks": 1,
+                    "show": true,
+                    "show_min": true,
+                    "show_max": true
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "type": "point",
+                                "point1": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Plotting responses on number line.",
+            "group_reference": "graph",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/numberlineplot.png",
+            "name": "Number line with plot",
+            "reference": "02a2d2fe-c028-42d0-b139-e58a60780928"
+        }
+    ],
+    "orderlist": [
+        {
+            "defaults": {
+                "list": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]",
+                    "[Choice D]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "orderlist",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    }
+                }
+            },
+            "description": "List of Items to be arranged into the correct order.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/order_list.png",
+            "name": "Order list",
+            "reference": "0c7f68f7-2be6-4ae0-8492-0ab78c8d0010"
+        }
+    ],
+    "simplechart": [
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "Bar 1",
+                            "y": 0
+                        },
+                        {
+                            "x": "Bar 2",
+                            "y": 0
+                        },
+                        {
+                            "x": "Bar 3",
+                            "y": 0
+                        }
+                    ],
+                    "name": "Chart title"
+                },
+                "stimulus": "<p>[This is the stem.]</p>",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "Bar 1"
+                            },
+                            {
+                                "x": "Bar 2"
+                            },
+                            {
+                                "x": "Bar 3"
+                            }
+                        ]
+                    }
+                },
+                "y_axis_label": "Y Axis",
+                "multicolour": false
+            },
+            "description": "Create an interactive Bar chart.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/barchart.png",
+            "name": "Bar chart",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "24f76ba0-24af-4be4-aacf-c31c6efd33e3"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "0",
+                            "y": 0
+                        },
+                        {
+                            "x": "1.0",
+                            "y": 4
+                        },
+                        {
+                            "x": "2.0",
+                            "y": 8
+                        },
+                        {
+                            "x": "3.0",
+                            "y": 12
+                        },
+                        {
+                            "x": "4.0",
+                            "y": 18
+                        },
+                        {
+                            "x": "5.0",
+                            "y": 30
+                        },
+                        {
+                            "x": "6.0",
+                            "y": 45
+                        }
+                    ],
+                    "name": "Chart title"
+                },
+                "stimulus": "<p>[This is the stem.]</p>",
+                "ui_style": {
+                    "chart_type": "line"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "1.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "2.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "3.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "4.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "5.0",
+                                "y": "5"
+                            },
+                            {
+                                "x": "6.0",
+                                "y": "5"
+                            }
+                        ]
+                    }
+                },
+                "x_axis_label": "X Axis",
+                "y_axis_label": "Y Axis",
+                "multicolour": false
+            },
+            "description": "Create an interactive Line chart.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/linechart.png",
+            "name": "Line chart",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "8c28ecfd-ab0b-43de-bfac-e572eeb06851"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "1",
+                            "y": 5
+                        },
+                        {
+                            "x": "2",
+                            "y": 2
+                        },
+                        {
+                            "x": "3",
+                            "y": 6
+                        },
+                        {
+                            "x": "4",
+                            "y": 3
+                        },
+                        {
+                            "x": "5",
+                            "y": 3
+                        }
+                    ],
+                    "name": "Chart Title"
+                },
+                "max_y_value": 8,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "simplechart",
+                "ui_style": {
+                    "chart_type": "histogram"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "1",
+                                "y": 4
+                            },
+                            {
+                                "x": "2"
+                            },
+                            {
+                                "x": "3"
+                            },
+                            {
+                                "x": "4"
+                            },
+                            {
+                                "x": "5"
+                            }
+                        ]
+                    }
+                },
+                "x_axis_label": "X Axis Title",
+                "y_axis_label": "Y Axis Title",
+                "multicolour": true
+            },
+            "description": "Create an interactive Histogram.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/histogram.png",
+            "name": "Histogram",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "cb9cb540-05b2-44e0-bef3-1b31727c1c37"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "1",
+                            "y": 5
+                        },
+                        {
+                            "x": "2",
+                            "y": 2
+                        },
+                        {
+                            "x": "3",
+                            "y": 4
+                        },
+                        {
+                            "x": "4",
+                            "y": 3
+                        },
+                        {
+                            "x": "5",
+                            "y": 3
+                        }
+                    ],
+                    "name": "Chart title"
+                },
+                "max_y_value": 10,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "simplechart",
+                "ui_style": {
+                    "chart_type": "dot-plot"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "1"
+                            },
+                            {
+                                "x": "2"
+                            },
+                            {
+                                "x": "3"
+                            },
+                            {
+                                "x": "4"
+                            },
+                            {
+                                "x": "5"
+                            }
+                        ]
+                    }
+                },
+                "multicolour": false
+            },
+            "description": "Create an interactive Dot plot.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/dotplot.png",
+            "name": "Dot plot",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "2f93c2f1-f7d9-423a-94c9-5df5aabdddc9"
+        },
+        {
+            "defaults": {
+                "add_point": false,
+                "chart_data": {
+                    "data": [
+                        {
+                            "x": "1",
+                            "y": 5
+                        },
+                        {
+                            "x": "2",
+                            "y": 2
+                        },
+                        {
+                            "x": "3",
+                            "y": 4
+                        },
+                        {
+                            "x": "4",
+                            "y": 3
+                        },
+                        {
+                            "x": "5",
+                            "y": 3
+                        }
+                    ],
+                    "name": "Chart title"
+                },
+                "max_y_value": 10,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "simplechart",
+                "ui_style": {
+                    "chart_type": "line-plot"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "x": "1"
+                            },
+                            {
+                                "x": "2"
+                            },
+                            {
+                                "x": "3"
+                            },
+                            {
+                                "x": "4"
+                            },
+                            {
+                                "x": "5"
+                            }
+                        ]
+                    }
+                },
+                "multicolour": false
+            },
+            "description": "Create an interactive Line plot.",
+            "group_reference": "chart",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/lineplot.png",
+            "name": "Line plot",
+            "hidden_search_terms": [
+                "chart"
+            ],
+            "reference": "1f20bb6e-8685-4eaa-9c70-ef80b811e483"
+        }
+    ],
+    "sortlist": [
+        {
+            "defaults": {
+                "list": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]",
+                    "[Choice D]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "sortlist",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    }
+                }
+            },
+            "description": "Sort list by dragging items to the Target area into the correct order.",
+            "group_reference": "match",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/sort-list.png",
+            "name": "Sort list",
+            "reference": "63891006-450a-4ffe-9876-74d62efa0152"
+        }
+    ],
+    "tokenhighlight": [
+        {
+            "defaults": {
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "<p>Risus et tincidunt turpis facilisis.</p><p>Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum. Nunc diam enim, porta sed eros vitae. dignissim, et tincidunt turpis facilisis.</p><p>Curabitur eu nulla justo. Curabitur vulputate ut nisl et bibendum.</p>",
+                "tokenization": "paragraph",
+                "type": "tokenhighlight",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "description": "User can click words/sentences/paragraphs to be highlighted.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "templates/qev3/token.png",
+            "name": "Token highlight",
+            "reference": "47f0db98-79e8-4273-946f-90faf4a2ae49"
+        }
+    ],
+    "fileupload": [
+        {
+            "defaults": {
+                "max_files": 12,
+                "stimulus": "[This is the stem.]",
+                "type": "fileupload",
+                "allow_pdf": true,
+                "allow_jpg": true,
+                "allow_gif": true,
+                "allow_png": true
+            },
+            "description": "Users can upload files from their device.",
+            "group_reference": "other",
+            "image": "templates/qev3/file-upload.png",
+            "name": "File upload",
+            "reference": "8ff43fa9-804b-42e7-9b3e-4cdd7e3a882d"
+        }
+    ],
+    "imageupload": [
+        {
+            "defaults": {
+                "image": {
+                    "source": ""
+                },
+                "stimulus": "[This is the stem.]",
+                "type": "imageupload",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            },
+            "description": "Users can upload and annotate an image, or annotate a provided image.",
+            "group_reference": "other",
+            "image": "templates/qev3/imageupload.png",
+            "name": "Image annotation upload",
+            "reference": "8ff43fa9-804b-42e7-9b3e-3cdd7e3a882b"
+        }
+    ],
+    "rating": [
+        {
+            "defaults": {
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "25%",
+                        "label_tooltip": "Unsatisfactory",
+                        "tint": "#C43838",
+                        "description": "Poor effort."
+                    },
+                    {
+                        "value": "2",
+                        "label": "50%",
+                        "label_tooltip": "Average",
+                        "tint": "#B85830",
+                        "description": "You only just passed, more effort is required."
+                    },
+                    {
+                        "value": "3",
+                        "label": "75%",
+                        "label_tooltip": "Credit",
+                        "tint": "#2979AF",
+                        "description": "You responded well to all questions."
+                    },
+                    {
+                        "value": "4",
+                        "label": "100%",
+                        "label_tooltip": "Perfect",
+                        "tint": "#006F6F",
+                        "description": "You answered everything correctly!"
+                    }
+                ]
+            },
+            "description": "Allows users to choose a value from a preselected range.",
+            "group_reference": "other",
+            "image": "templates/qev3/rating-v2.png",
+            "name": "Rating",
+            "reference": "8e99fa69-b829-4a7d-ae2a-eb935fe3a2c6"
+        }
+    ],
+    "gridded": [
+        {
+            "name": "Gridded",
+            "group_reference": "other",
+            "image": "templates/qev3/gridded.png",
+            "defaults": {
+                "type": "gridded",
+                "stimulus": "<p>[This is the stem.]</p>",
+                "options": {
+                    "columns": 6,
+                    "range": "0-9",
+                    "floating_decimal": true
+                },
+                "instant_feedback": true,
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd5"
+        }
+    ],
+    "hotspot": [
+        {
+            "name": "Hotspot",
+            "group_reference": "highlight",
+            "image": "templates/qev3/hotspot.png",
+            "defaults": {
+                "type": "hotspot",
+                "stimulus": "<p>[This is the stem.]</p>",
+                "image": {
+                    "source": "//assets.learnosity.com/organisations/1/bead7655-fb71-41af-aeea-9e08a47eac68.png",
+                    "width": 700,
+                    "height": 370
+                },
+                "areas": [
+                    [
+                        {
+                            "x": 31.571428571429,
+                            "y": 94.594594594595
+                        },
+                        {
+                            "x": 28.714285714286,
+                            "y": 98.378378378378
+                        },
+                        {
+                            "x": 25.571428571429,
+                            "y": 97.837837837838
+                        },
+                        {
+                            "x": 23.714285714286,
+                            "y": 90.540540540541
+                        },
+                        {
+                            "x": 23,
+                            "y": 81.351351351351
+                        },
+                        {
+                            "x": 22.428571428571,
+                            "y": 70.810810810811
+                        },
+                        {
+                            "x": 19.714285714286,
+                            "y": 65.135135135135
+                        },
+                        {
+                            "x": 17.571428571429,
+                            "y": 58.108108108108
+                        },
+                        {
+                            "x": 18.714285714286,
+                            "y": 53.783783783784
+                        },
+                        {
+                            "x": 15.142857142857,
+                            "y": 49.189189189189
+                        },
+                        {
+                            "x": 11.714285714286,
+                            "y": 48.648648648649
+                        },
+                        {
+                            "x": 9.1428571428571,
+                            "y": 40.810810810811
+                        },
+                        {
+                            "x": 7.5714285714286,
+                            "y": 32.162162162162
+                        },
+                        {
+                            "x": 7.8571428571429,
+                            "y": 27.567567567568
+                        },
+                        {
+                            "x": 9.7142857142857,
+                            "y": 23.783783783784
+                        },
+                        {
+                            "x": 9,
+                            "y": 18.648648648649
+                        },
+                        {
+                            "x": 3.1428571428571,
+                            "y": 22.432432432432
+                        },
+                        {
+                            "x": 1.7142857142857,
+                            "y": 19.459459459459
+                        },
+                        {
+                            "x": 4.2857142857143,
+                            "y": 8.6486486486486
+                        },
+                        {
+                            "x": 10,
+                            "y": 6.4864864864865
+                        },
+                        {
+                            "x": 16.428571428571,
+                            "y": 7.2972972972973
+                        },
+                        {
+                            "x": 21.714285714286,
+                            "y": 4.8648648648649
+                        },
+                        {
+                            "x": 23.571428571429,
+                            "y": 6.2162162162162
+                        },
+                        {
+                            "x": 28.285714285714,
+                            "y": 1.0810810810811
+                        },
+                        {
+                            "x": 36.571428571429,
+                            "y": 0.54054054054054
+                        },
+                        {
+                            "x": 47.285714285714,
+                            "y": 1.3513513513514
+                        },
+                        {
+                            "x": 46.714285714286,
+                            "y": 7.2972972972973
+                        },
+                        {
+                            "x": 44.571428571429,
+                            "y": 11.081081081081
+                        },
+                        {
+                            "x": 45.428571428571,
+                            "y": 14.324324324324
+                        },
+                        {
+                            "x": 43.142857142857,
+                            "y": 16.486486486486
+                        },
+                        {
+                            "x": 39.571428571429,
+                            "y": 15.945945945946
+                        },
+                        {
+                            "x": 36.428571428571,
+                            "y": 19.189189189189
+                        },
+                        {
+                            "x": 32,
+                            "y": 16.216216216216
+                        },
+                        {
+                            "x": 34.142857142857,
+                            "y": 24.864864864865
+                        },
+                        {
+                            "x": 30.285714285714,
+                            "y": 28.378378378378
+                        },
+                        {
+                            "x": 26.285714285714,
+                            "y": 30.27027027027
+                        },
+                        {
+                            "x": 23.857142857143,
+                            "y": 35.675675675676
+                        },
+                        {
+                            "x": 24,
+                            "y": 40
+                        },
+                        {
+                            "x": 27.142857142857,
+                            "y": 42.702702702703
+                        },
+                        {
+                            "x": 27.142857142857,
+                            "y": 46.756756756757
+                        },
+                        {
+                            "x": 31.285714285714,
+                            "y": 50.27027027027
+                        },
+                        {
+                            "x": 32.285714285714,
+                            "y": 54.054054054054
+                        },
+                        {
+                            "x": 37.571428571429,
+                            "y": 59.189189189189
+                        },
+                        {
+                            "x": 36,
+                            "y": 65.405405405405
+                        },
+                        {
+                            "x": 35.714285714286,
+                            "y": 73.513513513514
+                        },
+                        {
+                            "x": 32.857142857143,
+                            "y": 76.486486486486
+                        },
+                        {
+                            "x": 33.285714285714,
+                            "y": 83.783783783784
+                        },
+                        {
+                            "x": 30.142857142857,
+                            "y": 85.945945945946
+                        }
+                    ],
+                    [
+                        {
+                            "x": 60,
+                            "y": 75.135135135135
+                        },
+                        {
+                            "x": 62.857142857143,
+                            "y": 75.675675675676
+                        },
+                        {
+                            "x": 64.571428571429,
+                            "y": 62.972972972973
+                        },
+                        {
+                            "x": 62.571428571429,
+                            "y": 63.243243243243
+                        },
+                        {
+                            "x": 60.428571428571,
+                            "y": 65.675675675676
+                        }
+                    ],
+                    [
+                        {
+                            "x": 79.428571428571,
+                            "y": 73.243243243243
+                        },
+                        {
+                            "x": 79.428571428571,
+                            "y": 79.459459459459
+                        },
+                        {
+                            "x": 80.571428571429,
+                            "y": 84.054054054054
+                        },
+                        {
+                            "x": 85.857142857143,
+                            "y": 81.081081081081
+                        },
+                        {
+                            "x": 87.714285714286,
+                            "y": 84.864864864865
+                        },
+                        {
+                            "x": 90.714285714286,
+                            "y": 85.675675675676
+                        },
+                        {
+                            "x": 94.857142857143,
+                            "y": 77.837837837838
+                        },
+                        {
+                            "x": 94.857142857143,
+                            "y": 72.432432432432
+                        },
+                        {
+                            "x": 94,
+                            "y": 67.297297297297
+                        },
+                        {
+                            "x": 92.571428571429,
+                            "y": 64.324324324324
+                        },
+                        {
+                            "x": 90,
+                            "y": 63.513513513514
+                        },
+                        {
+                            "x": 86.142857142857,
+                            "y": 63.513513513514
+                        },
+                        {
+                            "x": 83.285714285714,
+                            "y": 65.945945945946
+                        }
+                    ],
+                    [
+                        {
+                            "x": 93.285714285714,
+                            "y": 89.189189189189
+                        },
+                        {
+                            "x": 95.285714285714,
+                            "y": 90.27027027027
+                        },
+                        {
+                            "x": 99.857142857143,
+                            "y": 84.594594594595
+                        },
+                        {
+                            "x": 99.714285714286,
+                            "y": 79.189189189189
+                        },
+                        {
+                            "x": 97.857142857143,
+                            "y": 78.918918918919
+                        },
+                        {
+                            "x": 96.142857142857,
+                            "y": 83.243243243243
+                        }
+                    ]
+                ],
+                "area_attributes": {
+                    "global": {
+                        "fill": "rgba(12, 176, 216, 0.48)",
+                        "selected_fill": "rgba(0, 125, 165, 0.48)",
+                        "selected_stroke": "rgba(0, 39, 56, 0.83)"
+                    }
+                }
+            },
+            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4"
+        }
+    ],
+    "linereader": [
+        {
+            "name": "Line Reader",
+            "reference": "25368800-1eba-4f2c-b220-6fe90a44883f",
+            "description": "Display an assistive tool that allows the user to view one line of text at a time."
+        }
+    ]
+}

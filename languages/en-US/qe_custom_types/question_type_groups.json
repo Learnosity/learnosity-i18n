@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Multiple Choice",
+        "reference": "mcq"
+    },
+    {
+        "name": "Fill in the Blanks (Cloze)",
+        "reference": "cloze"
+    },
+    {
+        "name": "Classify, Match & Order",
+        "reference": "match"
+    },
+    {
+        "name": "Written & Recorded",
+        "reference": "writespeak"
+    },
+    {
+        "name": "Highlight and Drawing",
+        "reference": "highlight"
+    },
+    {
+        "name": "Math",
+        "reference": "math"
+    },
+    {
+        "name": "Graphing",
+        "reference": "graph"
+    },
+    {
+        "name": "Charts",
+        "reference": "chart"
+    },
+    {
+        "name": "Chemistry",
+        "reference": "chemistry"
+    },
+    {
+        "name": "Other",
+        "reference": "other"
+    }
+]
