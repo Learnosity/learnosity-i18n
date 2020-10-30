@@ -1447,7 +1447,10 @@
             "name": "Passagem",
             "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8",
             "description": "Habilitando uma passagem de texto destacável que pode ser usada em vários itens.",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/passage.png"
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/pt-PT/qe_template_thumbnails/passage.png",
+            "defaults": {
+                "content": "[Insira o conteúdo da passagem aqui.]"
+            }
         }
     ],
     "videoplayer": [

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Opción multiple",
+        "reference": "mcq"
+    },
+    {
+        "name": "Rellenar los espacios en blanco (cloze)",
+        "reference": "cloze"
+    },
+    {
+        "name": "Clasificar, emparejar, ordenar",
+        "reference": "match"
+    },
+    {
+        "name": "Escrito y grabado",
+        "reference": "writespeak"
+    },
+    {
+        "name": "Resaltar y dibujar",
+        "reference": "highlight"
+    },
+    {
+        "name": "Matemáticas",
+        "reference": "math"
+    },
+    {
+        "name": "Graficar",
+        "reference": "graph"
+    },
+    {
+        "name": "Gráficos",
+        "reference": "chart"
+    },
+    {
+        "name": "Química",
+        "reference": "chemistry"
+    },
+    {
+        "name": "Otro",
+        "reference": "other"
+    }
+]
