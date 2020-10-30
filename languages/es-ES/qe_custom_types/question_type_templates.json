@@ -315,7 +315,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/matrix-stem.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-stem.png",
             "name": "Matriz de elección - etiquetas",
             "hidden_search_terms": [
                 "likert"
