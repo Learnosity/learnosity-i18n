@@ -36,7 +36,7 @@
                 "description",
                 "penalty_score"
             ],
-            "image": "templates/qev3/mcqdefault.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqdefault.png",
             "name": "Multiple choice – standard",
             "hidden_search_terms": [
                 "mcq",
@@ -86,7 +86,7 @@
                 "description",
                 "penalty_score"
             ],
-            "image": "templates/qev3/mcqmulti.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqmulti.png",
             "name": "Multiple choice – multiple response",
             "hidden_search_terms": [
                 "mcq",
@@ -136,7 +136,7 @@
                 "validation.scoring_type",
                 "validation.rounding"
             ],
-            "image": "templates/qev3/mcqtruefalse.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqtruefalse.png",
             "name": "True or false",
             "hidden_search_terms": [
                 "mcq",
@@ -188,7 +188,7 @@
                 "description",
                 "penalty_score"
             ],
-            "image": "templates/qev3/mcqblock.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqblock.png",
             "name": "Multiple choice – block layout",
             "hidden_search_terms": [
                 "mcq",
@@ -234,7 +234,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/matrix-table.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-table.png",
             "name": "Choice matrix – standard",
             "hidden_search_terms": [
                 "likert"
@@ -276,7 +276,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/matrix-inline.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-inline.png",
             "name": "Choice matrix – inline",
             "hidden_search_terms": [
                 "likert"
@@ -319,7 +319,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/matrix-stem.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-stem.png",
             "name": "Choice matrix – labels",
             "hidden_search_terms": [
                 "likert"
@@ -368,7 +368,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/classification.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/classification.png",
             "name": "Classification",
             "reference": "ef2648de-f826-4674-b17d-71e71889d8e6"
         }
@@ -405,7 +405,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/association.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/association.png",
             "name": "Match list",
             "reference": "1fa22aac-1f88-47f7-941b-3c77759549e6"
         }
@@ -440,7 +440,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/cloze_dd.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/cloze_dd.png",
             "name": "Cloze with drag & drop",
             "reference": "51a8c1e7-f34f-4faf-b211-da458e891fcb"
         }
@@ -485,7 +485,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/clozedropdown.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozedropdown.png",
             "name": "Cloze with drop down",
             "reference": "2fbba51b-e35e-441f-83c7-2662e2e81fa6"
         }
@@ -512,7 +512,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/clozet.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozet.png",
             "name": "Cloze with text",
             "reference": "457fe101-0667-4a35-b193-b849653acb52"
         }
@@ -550,7 +550,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/chemistry_formula.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/chemistry_formula.png",
             "name": "Chemistry formula",
             "reference": "e484fac0-4022-4b58-b86f-4a537002f449"
         }
@@ -582,7 +582,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/formula.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/formula.png",
             "name": "Math formula",
             "reference": "e3a30485-ab2d-4ee8-9d0c-5749e96816c1"
         },
@@ -613,7 +613,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/fraction.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/fraction.png",
             "name": "Math with fractions",
             "reference": "764f1dc3-27b7-48a2-93f3-d6573e4c98f0"
         },
@@ -644,7 +644,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/fill-in-the-blanks.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/fill-in-the-blanks.png",
             "name": "Math – fill in the blanks",
             "reference": "23209785-6fa0-404e-87c2-c213b546d0ba"
         },
@@ -680,7 +680,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/add-text-to-math.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/add-text-to-math.png",
             "name": "Math with text",
             "reference": "caaa3b3a-6eed-4ad3-b80d-be67515016e0"
         },
@@ -716,7 +716,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/matrices.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrices.png",
             "name": "Math with matrices",
             "reference": "aadca3d1-ecdb-41fb-8efa-591fbeb79874"
         },
@@ -773,7 +773,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/units.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/units.png",
             "name": "Math with units",
             "reference": "dc098fc1-27b8-47d7-aa30-e8976d13c1ac"
         }
@@ -821,7 +821,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/clozechemistry.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozechemistry.png",
             "name": "Cloze chemistry",
             "reference": "36e1da6f-5966-4912-a547-75bffdd77950"
         }
@@ -850,7 +850,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/formulaessayV2.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/formulaessayV2.png",
             "name": "Math essay with rich text",
             "reference": "7b810c2c-9100-4ff1-96de-cda23bf34445"
         }
@@ -891,7 +891,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/clozeformula1.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozeformula1.png",
             "name": "Cloze math",
             "reference": "57b0690f-4e99-4bbc-9c8f-aa3074baa495"
         }
@@ -924,7 +924,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/chemistryessayV2.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/chemistryessayV2.png",
             "name": "Chemistry essay with rich text",
             "reference": "c07e5630-e0f4-4d0d-b1f8-3908e0d7e474"
         }
@@ -980,7 +980,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/imageclozechemistry.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozechemistry.png",
             "name": "Cloze chemistry with image",
             "reference": "4d2a04cb-f8a9-4678-b8c6-0dd4bce25fbc"
         }
@@ -1036,7 +1036,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/imageclozeformula.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozeformula.png",
             "name": "Cloze math with image",
             "reference": "11c9093a-dfd3-4852-b1ee-d5e5c3f032df"
         }
@@ -1091,7 +1091,7 @@
                 "description",
                 "mode"
             ],
-            "image": "templates/qev3/graph.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph.png",
             "name": "Graphing",
             "reference": "b7dc8b69-c12a-4c4f-ac17-181ac6e0da26"
         },
@@ -1137,7 +1137,7 @@
                 "description",
                 "mode"
             ],
-            "image": "templates/qev3/graph4.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph4.png",
             "name": "Graphing in the 1st quadrant",
             "reference": "f325a114-bb81-4e7f-86e0-1147416a78a8"
         }
@@ -1161,7 +1161,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/drawing.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/drawing.png",
             "name": "Drawing",
             "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0c"
         }
@@ -1192,7 +1192,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/simpleshading.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/simpleshading.png",
             "name": "Shading",
             "reference": "b30bc5dc-b616-4913-a8b4-b5dd9c43bafd"
         }
@@ -1246,7 +1246,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/image_association_v2.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_association_v2.png",
             "hidden_from_tile_view": false,
             "name": "Label image with drag & drop",
             "reference": "6e77b403-8f0c-43af-b464-9450e1ac70dc"
@@ -1313,7 +1313,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/image_dropdown.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_dropdown.png",
             "name": "Label image with drop-down",
             "reference": "f8364191-ada5-4806-83d4-8a36b8fad4b0"
         }
@@ -1361,7 +1361,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/image_cloze.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_cloze.png",
             "name": "Label image with text",
             "reference": "35a850a7-9d3f-4e1c-880a-a340767942b6"
         }
@@ -1377,7 +1377,7 @@
             "hidden": [
                 "image"
             ],
-            "image": "templates/qev3/protractor.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/protractor.png",
             "name": "Protractor",
             "description": "Embed a protractor as a feature.",
             "reference": "26752c5b-4452-4a78-8819-dd8d4b587cbf"
@@ -1389,7 +1389,7 @@
                 "label": "Ruler",
                 "alt": "A 15-centimetre ruler."
             },
-            "image": "templates/qev3/rulers.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/rulers.png",
             "name": "Ruler",
             "description": "Embed a ruler as a feature.",
             "reference": "e7abff79-d5fc-450f-a789-6384c2dcbb64"
@@ -1398,7 +1398,7 @@
             "name": "Imagetool",
             "reference": "4aab1f61-3f1c-42b8-9f20-fedfd22a1bba",
             "description": "Embed an image tool as an additional feature to the current content. You can use your own image or the supplied ruler or protractor.",
-            "image": "templates/qev3/imagetool.png"
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imagetool.png"
         }
     ],
     "calculator": [
@@ -1406,7 +1406,7 @@
             "defaults": {
                 "mode": "scientific"
             },
-            "image": "templates/qev3/calculator-scientific.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/calculator-scientific.png",
             "name": "Scientific calculator",
             "description": "Supply a scientific calculator to assist users on mathematical calculations.",
             "reference": "532767d1-40e7-47e4-be81-ec5cdbfb5fd8"
@@ -1415,7 +1415,7 @@
             "name": "Calculator",
             "reference": "d4f4cc0f-af17-4fd8-8faa-c8f88cf2d0d2",
             "description": "Supply a calculator to assist users on mathematical calculations.",
-            "image": "templates/qev3/calculator.png"
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/calculator.png"
         }
     ],
     "audioplayer": [
@@ -1452,7 +1452,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/LongTextV2.2.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/LongTextV2.2.png",
             "name": "Essay with rich text",
             "hidden_search_terms": [
                 "constructed",
@@ -1475,7 +1475,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/plaintext.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/plaintext.png",
             "name": "Essay with plain text",
             "reference": "0f559437-5072-475e-830d-1fa9d2f6bb0d"
         }
@@ -1497,7 +1497,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/shorttext.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/shorttext.png",
             "name": "Short text",
             "reference": "4fe6c726-419c-4aff-b189-4a9756a0ffda"
         }
@@ -1516,7 +1516,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/audio-block.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/audio-block.png",
             "name": "Audio recorder",
             "hidden_search_terms": [
                 "voice"
@@ -1536,7 +1536,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/video.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/video.png",
             "name": "Video recorder",
             "reference": "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"
         }
@@ -1579,7 +1579,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/numberline.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberline.png",
             "name": "Number line with drag & drop",
             "reference": "f5c683be-b5e0-421d-a593-f6a59312aba2"
         }
@@ -1622,7 +1622,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/numberlineplot.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberlineplot.png",
             "name": "Number line with plot",
             "reference": "02a2d2fe-c028-42d0-b139-e58a60780928"
         }
@@ -1656,7 +1656,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/order_list.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/order_list.png",
             "name": "Order list",
             "reference": "0c7f68f7-2be6-4ae0-8492-0ab78c8d0010"
         }
@@ -1708,7 +1708,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/barchart.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/barchart.png",
             "name": "Bar chart",
             "hidden_search_terms": [
                 "chart"
@@ -1800,7 +1800,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/linechart.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/linechart.png",
             "name": "Line chart",
             "hidden_search_terms": [
                 "chart"
@@ -1874,7 +1874,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/histogram.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/histogram.png",
             "name": "Histogram",
             "hidden_search_terms": [
                 "chart"
@@ -1945,7 +1945,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/dotplot.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/dotplot.png",
             "name": "Dot plot",
             "hidden_search_terms": [
                 "chart"
@@ -2016,7 +2016,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/lineplot.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/lineplot.png",
             "name": "Line plot",
             "hidden_search_terms": [
                 "chart"
@@ -2053,7 +2053,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/sort-list.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/sort-list.png",
             "name": "Sort list",
             "reference": "63891006-450a-4ffe-9876-74d62efa0152"
         }
@@ -2077,7 +2077,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "templates/qev3/token.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/token.png",
             "name": "Token highlight",
             "reference": "47f0db98-79e8-4273-946f-90faf4a2ae49"
         }
@@ -2095,7 +2095,7 @@
             },
             "description": "Users can upload files from their device.",
             "group_reference": "other",
-            "image": "templates/qev3/file-upload.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/file-upload.png",
             "name": "File upload",
             "reference": "8ff43fa9-804b-42e7-9b3e-4cdd7e3a882d"
         }
@@ -2118,7 +2118,7 @@
             },
             "description": "Users can upload and annotate an image, or annotate a provided image.",
             "group_reference": "other",
-            "image": "templates/qev3/imageupload.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageupload.png",
             "name": "Image annotation upload",
             "reference": "8ff43fa9-804b-42e7-9b3e-3cdd7e3a882b"
         }
@@ -2159,7 +2159,7 @@
             },
             "description": "Allows users to choose a value from a preselected range.",
             "group_reference": "other",
-            "image": "templates/qev3/rating-v2.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/rating-v2.png",
             "name": "Rating",
             "reference": "8e99fa69-b829-4a7d-ae2a-eb935fe3a2c6"
         }
@@ -2168,7 +2168,7 @@
         {
             "name": "Gridded",
             "group_reference": "other",
-            "image": "templates/qev3/gridded.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/gridded.png",
             "defaults": {
                 "type": "gridded",
                 "stimulus": "<p>[This is the stem.]</p>",
@@ -2192,7 +2192,7 @@
         {
             "name": "Hotspot",
             "group_reference": "highlight",
-            "image": "templates/qev3/hotspot.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/hotspot.png",
             "defaults": {
                 "type": "hotspot",
                 "stimulus": "<p>[This is the stem.]</p>",
