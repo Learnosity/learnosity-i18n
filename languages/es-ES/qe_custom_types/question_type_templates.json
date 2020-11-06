@@ -364,7 +364,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/classification.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/classification.png",
             "name": "Clasificación",
             "reference": "ef2648de-f826-4674-b17d-71e71889d8e6"
         }
@@ -401,7 +401,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/association.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/association.png",
             "name": "Lista de coincidencias",
             "reference": "1fa22aac-1f88-47f7-941b-3c77759549e6"
         }
@@ -436,7 +436,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/cloze_dd.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/cloze_dd.png",
             "name": "Cerrar con arrastrar y soltar",
             "reference": "51a8c1e7-f34f-4faf-b211-da458e891fcb"
         }
@@ -481,7 +481,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozedropdown.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozedropdown.png",
             "name": "Cerrar con desplegable",
             "reference": "2fbba51b-e35e-441f-83c7-2662e2e81fa6"
         }
@@ -508,7 +508,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozet.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozet.png",
             "name": "Cloze con texto",
             "reference": "457fe101-0667-4a35-b193-b849653acb52"
         }
@@ -546,7 +546,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistry_formula.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistry_formula.png",
             "name": "Fórmula de química",
             "reference": "e484fac0-4022-4b58-b86f-4a537002f449"
         }
@@ -578,7 +578,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/formula.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/formula.png",
             "name": "Fórmula matemática",
             "reference": "e3a30485-ab2d-4ee8-9d0c-5749e96816c1"
         },
@@ -609,7 +609,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/fraction.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/fraction.png",
             "name": "Matemáticas con fracciones",
             "reference": "764f1dc3-27b7-48a2-93f3-d6573e4c98f0"
         },
@@ -640,7 +640,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/fill-in-the-blanks.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/fill-in-the-blanks.png",
             "name": "Matemáticas - complete los espacios en blanco",
             "reference": "23209785-6fa0-404e-87c2-c213b546d0ba"
         },
@@ -676,7 +676,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/add-text-to-math.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/add-text-to-math.png",
             "name": "Matemáticas con texto",
             "reference": "caaa3b3a-6eed-4ad3-b80d-be67515016e0"
         },
@@ -712,7 +712,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrices.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrices.png",
             "name": "Matemáticas con matrices",
             "reference": "aadca3d1-ecdb-41fb-8efa-591fbeb79874"
         },
@@ -769,7 +769,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/units.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/units.png",
             "name": "Matemáticas con unidades",
             "reference": "dc098fc1-27b8-47d7-aa30-e8976d13c1ac"
         }
@@ -817,7 +817,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozechemistry.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozechemistry.png",
             "name": "Química cloze",
             "reference": "36e1da6f-5966-4912-a547-75bffdd77950"
         }
@@ -846,7 +846,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/formulaessayV2.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/formulaessayV2.png",
             "name": "Ensayo de matemáticas con texto enriquecido",
             "reference": "7b810c2c-9100-4ff1-96de-cda23bf34445"
         }
@@ -887,7 +887,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozeformula1.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozeformula1.png",
             "name": "Matemáticas cloze",
             "reference": "57b0690f-4e99-4bbc-9c8f-aa3074baa495"
         }
@@ -912,7 +912,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistryessay.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistryessay.png",
             "name": "Ensayo de química",
             "reference": "b03bf98c-276d-4584-b7a7-c2f77a8bf54c"
         }
@@ -945,7 +945,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistryessayV2.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistryessayV2.png",
             "name": "Ensayo de química con texto enriquecido",
             "reference": "c07e5630-e0f4-4d0d-b1f8-3908e0d7e474"
         }
@@ -1001,7 +1001,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageclozechemistry.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageclozechemistry.png",
             "name": "Cloze química con imagen",
             "reference": "4d2a04cb-f8a9-4678-b8c6-0dd4bce25fbc"
         }
@@ -1057,7 +1057,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageclozeformula.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageclozeformula.png",
             "name": "Cloze matemáticas con imagen",
             "reference": "11c9093a-dfd3-4852-b1ee-d5e5c3f032df"
         }
@@ -1112,7 +1112,7 @@
                 "description",
                 "mode"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/graph.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/graph.png",
             "name": "Graficar",
             "reference": "b7dc8b69-c12a-4c4f-ac17-181ac6e0da26"
         },
@@ -1158,7 +1158,7 @@
                 "description",
                 "mode"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/graph4.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/graph4.png",
             "name": "Graficar en el 1er cuadrante",
             "reference": "f325a114-bb81-4e7f-86e0-1147416a78a8"
         }
@@ -1182,9 +1182,9 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/drawing.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/drawing.png",
             "name": "Dibujo",
-            "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0c"
+            "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0d"
         }
     ],
     "simpleshading": [
@@ -1213,9 +1213,9 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/simpleshading.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/simpleshading.png",
             "name": "Sombreado",
-            "reference": "b30bc5dc-b616-4913-a8b4-b5dd9c43bafd"
+            "reference": "b30bc5dc-b616-4913-a8b4-b5dd9c43bafe"
         }
     ],
     "imageclozeassociationV2": [
@@ -1267,7 +1267,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_association_v2.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_association_v2.png",
             "hidden_from_tile_view": false,
             "name": "Etiquetar imagen con arrastrar y soltar",
             "reference": "6e77b403-8f0c-43af-b464-9450e1ac70dc"
@@ -1334,7 +1334,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_dropdown.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_dropdown.png",
             "name": "Etiqueta de imagen con menú desplegable",
             "reference": "f8364191-ada5-4806-83d4-8a36b8fad4b0"
         }
@@ -1382,7 +1382,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_cloze.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_cloze.png",
             "name": "Etiqueta de imagen con texto",
             "reference": "35a850a7-9d3f-4e1c-880a-a340767942b6"
         }
@@ -1398,7 +1398,7 @@
             "hidden": [
                 "image"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/protractor.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/protractor.png",
             "name": "Transportador",
             "description": "Incruste un transportador como característica.",
             "reference": "26752c5b-4452-4a78-8819-dd8d4b587cbf"
@@ -1410,7 +1410,7 @@
                 "label": "Regla",
                 "alt": "Una regla de 15 centímetros."
             },
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/rulers.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/rulers.png",
             "name": "Regla",
             "description": "Incruste una regla como característica.",
             "reference": "e7abff79-d5fc-450f-a789-6384c2dcbb64"
@@ -1419,7 +1419,7 @@
             "name": "Herramienta de imagen",
             "reference": "4aab1f61-3f1c-42b8-9f20-fedfd22a1bba",
             "description": "Incruste una herramienta de imagen como una característica adicional al contenido actual. Puede utilizar su propia imagen o la regla o transportador suministrado.",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imagetool.png"
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imagetool.png"
         }
     ],
     "calculator": [
@@ -1427,7 +1427,7 @@
             "defaults": {
                 "mode": "scientific"
             },
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/calculator-scientific.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/calculator-scientific.png",
             "name": "Calculadora científica",
             "description": "Proporcione una calculadora científica para ayudar a los usuarios con los cálculos matemáticos.",
             "reference": "532767d1-40e7-47e4-be81-ec5cdbfb5fd8"
@@ -1436,7 +1436,7 @@
             "name": "Calculadora",
             "reference": "d4f4cc0f-af17-4fd8-8faa-c8f88cf2d0d2",
             "description": "Proporcione una calculadora para ayudar a los usuarios con los cálculos matemáticos.",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/calculator.png"
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/calculator.png"
         }
     ],
     "audioplayer": [
@@ -1451,7 +1451,7 @@
             "name": "Paso",
             "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8",
             "description": "Habilitar un pasaje de texto resaltable que se puede usar en varios elementos.",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/passage.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/passage.png",
             "defaults": {
                 "content": "[Ingrese el contenido del pasaje aquí.]"
             }
@@ -1474,7 +1474,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/LongTextV2.2.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/LongTextV2.2.png",
             "name": "Ensayo con texto enriquecido",
             "hidden_search_terms": [
                 "constructed",
@@ -1497,7 +1497,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/plaintext.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/plaintext.png",
             "name": "Ensayo con texto plano",
             "reference": "0f559437-5072-475e-830d-1fa9d2f6bb0d"
         }
@@ -1519,7 +1519,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/shorttext.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/shorttext.png",
             "name": "Texto corto",
             "reference": "4fe6c726-419c-4aff-b189-4a9756a0ffda"
         }
@@ -1538,7 +1538,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/audio-block.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/audio-block.png",
             "name": "Grabador de audio",
             "hidden_search_terms": [
                 "voice"
@@ -1558,7 +1558,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/video.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/video.png",
             "name": "Grabadora de vídeo",
             "reference": "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"
         }
@@ -1601,7 +1601,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberline.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberline.png",
             "name": "Recta numérica con arrastrar y soltar",
             "reference": "f5c683be-b5e0-421d-a593-f6a59312aba2"
         }
@@ -1644,7 +1644,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberlineplot.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberlineplot.png",
             "name": "Recta numérica con trama",
             "reference": "02a2d2fe-c028-42d0-b139-e58a60780928"
         }
@@ -1678,7 +1678,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/order_list.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/order_list.png",
             "name": "Lista de orden",
             "reference": "0c7f68f7-2be6-4ae0-8492-0ab78c8d0010"
         }
@@ -1730,7 +1730,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/barchart.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/barchart.png",
             "name": "Gráfico de barras",
             "hidden_search_terms": [
                 "chart"
@@ -1822,7 +1822,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/linechart.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/linechart.png",
             "name": "Gráfico de linea",
             "hidden_search_terms": [
                 "chart"
@@ -1896,7 +1896,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/histogram.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/histogram.png",
             "name": "Histograma",
             "hidden_search_terms": [
                 "chart"
@@ -1967,7 +1967,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/dotplot.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/dotplot.png",
             "name": "Gráfica de puntos",
             "hidden_search_terms": [
                 "chart"
@@ -2038,7 +2038,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/lineplot.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/lineplot.png",
             "name": "Gráfico de línea",
             "hidden_search_terms": [
                 "chart"
@@ -2075,7 +2075,7 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/sort-list.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/sort-list.png",
             "name": "Lista Ordenada",
             "reference": "63891006-450a-4ffe-9876-74d62efa0152"
         }
@@ -2099,9 +2099,9 @@
             "hidden": [
                 "description"
             ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/token.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/token.png",
             "name": "Destacado de token",
-            "reference": "47f0db98-79e8-4273-946f-90faf4a2ae49"
+            "reference": "47f0db98-79e8-4273-946f-90faf4a2ae40"
         }
     ],
     "fileupload": [
@@ -2117,7 +2117,7 @@
             },
             "description": "Los usuarios pueden subir archivos desde su dispositivo.",
             "group_reference": "other",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/file-upload.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/file-upload.png",
             "name": "Subir archivo",
             "reference": "8ff43fa9-804b-42e7-9b3e-4cdd7e3a882d"
         }
@@ -2140,7 +2140,7 @@
             },
             "description": "Los usuarios pueden cargar y anotar una imagen o anotar una imagen proporcionada.",
             "group_reference": "other",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageupload.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageupload.png",
             "name": "Carga de anotaciones de imagen",
             "reference": "8ff43fa9-804b-42e7-9b3e-3cdd7e3a882b"
         }
@@ -2181,7 +2181,7 @@
             },
             "description": "Permite a los usuarios elegir un valor de un rango preseleccionado.",
             "group_reference": "other",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/rating-v2.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/rating-v2.png",
             "name": "Clasificación",
             "reference": "8e99fa69-b829-4a7d-ae2a-eb935fe3a2c6"
         }
@@ -2190,7 +2190,7 @@
         {
             "name": "Cuadriculado",
             "group_reference": "other",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/gridded.png",
+            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/gridded.png",
             "defaults": {
                 "type": "gridded",
                 "stimulus": "<p>[Este es el tallo.]</p>",
@@ -2214,7 +2214,7 @@
         {
             "name": "Hotspot",
             "group_reference": "highlight",
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/hotspot.png",
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/hotspot.png",
             "defaults": {
                 "type": "hotspot",
                 "stimulus": "<p>[Este es el tallo.]</p>",
@@ -2529,7 +2529,7 @@
                     }
                 }
             },
-            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4"
+            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd5"
         }
     ],
     "linereader": [

@@ -17,7 +17,13 @@
     },
     {
         "name": "Resaltar y dibujar",
-        "reference": "highlight"
+        "reference": "highlight",
+        "template_references": [
+            "c20d4103-5214-4cdd-bc17-29c98f0e7c0c",
+            "b30bc5dc-b616-4913-a8b4-b5dd9c43bafe",
+            "47f0db98-79e8-4273-946f-90faf4a2ae40",
+            "f0416e39-72fc-4d40-8d6e-c6f97e621fd5"
+        ]
     },
     {
         "name": "Matemáticas",
