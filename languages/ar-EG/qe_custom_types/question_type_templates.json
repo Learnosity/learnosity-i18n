@@ -208,7 +208,7 @@
             "stimulus": "<p>[هذا هو رأس السؤال.]</p>"
         }
     },
-    "highlight": [
+    "drawing": [
         {
             "description": "مقال يحتوي مدخل أساسي مرقمة",
             "name": "مقال(مدخل أساسي مرقم) ",
@@ -222,16 +222,15 @@
             ],
             "defaults": {
                 "image": {
-                    "width": 800,
-                    "height": 1000,
-                    "source": "https://assets.learnosity.com/organisations/6/ab2f6db1-71dd-4a25-9f0f-d1f6620a4eb6.svg"
+                    "width": 1024,
+                    "height": 1325,
+                    "source": "//assets.learnosity.com/demos/docs/LinedGrid.png"
                 },
                 "line_color": [
-                    "rgba(0, 0, 0, 0.8)"
+                    "rgba(0, 116, 217, 1)"
                 ],
                 "stimulus": "<p>الجو ليركز كل بعد</p>",
-                "type": "highlight",
-                "line_width": 2
+                "type": "drawing"
             }
         }
     ]
