@@ -192,7 +192,7 @@
     "warningOnChangeCancelButton": "Cancel",
     "warningOnChangeContinueButton": "Continue",
     "warningOnChangeHeadingMsg": "Item not complete",
-    "warningOnSectionChangeBodyMsg": "You are about to move to a new section and will not be able to go back. Do\n you wish to navigate to away from this section anyway?",
+    "warningOnSectionChangeBodyMsg": "You are about to move to a new section and will not be able to go back. Do\n you wish to navigate away from this section anyway?",
     "warningOnSectionChangeCancelButton": "Cancel",
     "warningOnSectionChangeContinueButton": "Continue",
     "warningOnSectionChangeHeadingMsg": "Section changing",
