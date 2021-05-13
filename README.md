@@ -10,7 +10,7 @@ The default language in all Learnosity APIs is en-US.
 ## Purpose
 The purpose of these files is to show how the Learnosity Authoring, Assessment, and Reporting APIs can be translated or adjusted to suit individual needs. These are **not officially supported** by Learnosity but can serve as a solid base for any customer interested to translate the user interface.
 
-### What label bundles cover
+## What label bundles cover
 Our label bundles translate user-interface elements, such as buttons, dialogs, and labels. This means that customers will need to translate their question content (eg the question stems), this gives you the flexibility to pick and choose which UI elements to localize. For example, you might typically localize a student's assessment player (assess-api.json, and possibly portions of questions-api.json, depending on what they want to use). But you may only have to add translations for the specific reports you intend to use if any (reports-api.json).
 
 ## Disclaimer
