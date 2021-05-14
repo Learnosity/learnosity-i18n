@@ -14,9 +14,9 @@ The purpose of these files is to show how the Learnosity Authoring, Assessment, 
 Our label bundles translate user-interface elements, such as buttons, dialogs, and labels. This means that customers will need to translate their question content (eg the question stems), this gives you the flexibility to pick and choose which UI elements to localize. For example, you might typically localize a student's assessment player (assess-api.json, and possibly portions of questions-api.json, depending on what they want to use). But you may only have to add translations for the specific reports you intend to use if any (reports-api.json).
 
 ## Disclaimer
-These label bundles provided by Learnosity were created to illustrate the capabilities for translation of the Learnosity interface. Note, many of these language bundles are machine-translated, so you will want to verify all of these translations with native speakers before putting them into production. See the table below for information about the translation date and which were translated by volunteers.
+These label bundles provided by Learnosity were created to illustrate the capabilities for translation of the Learnosity interface. Note, many of these language bundles are machine-translated, so you will want to verify all of these translations with native speakers before putting them into production. See the table below for information about the translations, some of which were translated by volunteers.
 
-See the table below to see which bundles were translated by volunteers or by machine, and information about the translation date. Some new features in the product will not be translated.
+Due to our fast pace of innovation, some new features in the product will not be translated, yet.
 
 ## Custom translations
 If you would like to translate our APIs into another language, please make a pull request by adding `languages/label_bundles/<language>-<region>/<api>.json`.
