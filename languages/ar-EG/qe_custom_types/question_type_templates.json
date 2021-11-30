@@ -44,6 +44,132 @@
             }
         }
     },
+    "choicematrix": [
+        {
+            "defaults": {
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "choicematrix",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Choice Matrix with 2 option columns in a table format.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-table.png",
+            "name": "Choice matrix – standard",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "type": "inline"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Choice Matrix with 2 option columns in an inline format.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-inline.png",
+            "name": "Choice matrix – inline",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "stem_numeration": "upper-alpha",
+                    "type": "table"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "Choice Matrix with 2 option columns in a table Format with stem numeration.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-stem.png",
+            "name": "Choice matrix – labels",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
+        }
+    ],
     "longtextV2": {
         "description": "مقال يصل إلى 10000 كلمة وقد يحتوي علي عناصر تحكم بتنسيق النص.",
         "name": "مقال مع نص غني",
