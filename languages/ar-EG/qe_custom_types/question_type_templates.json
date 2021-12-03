@@ -52,12 +52,12 @@
                     "False"
                 ],
                 "stems": [
-                    "[Stem 1]",
-                    "[Stem 2]",
-                    "[Stem 3]",
-                    "[Stem 4]"
+                    "[إيقاف 1]",
+                    "[إيقاف 2]",
+                    "[إيقاف 3]",
+                    "[إيقاف 4]"
                 ],
-                "stimulus": "<p>[This is the stem.]</p>",
+                "stimulus": "<p>[هذا هو الجذع.]</p>",
                 "type": "choicematrix",
                 "validation": {
                     "scoring_type": "exactMatch",
@@ -72,7 +72,7 @@
                     }
                 }
             },
-            "description": "Choice Matrix with 2 option columns in a table format.",
+            "description": "مصفوفة الاختيار مع عمودين خيارين بتنسيق جدول.",
             "group_reference": "mcq",
             "hidden": [
                 "description"
@@ -91,12 +91,12 @@
                     "False"
                 ],
                 "stems": [
-                    "[Stem 1]",
-                    "[Stem 2]",
-                    "[Stem 3]",
-                    "[Stem 4]"
+                    "[إيقاف 1]",
+                    "[إيقاف 2]",
+                    "[إيقاف 3]",
+                    "[إيقاف 4]"
                 ],
-                "stimulus": "<p>[This is the stem.]</p>",
+                "stimulus": "<p>[هذا هو الجذع.]</p>",
                 "type": "choicematrix",
                 "ui_style": {
                     "type": "inline"
@@ -114,7 +114,7 @@
                     }
                 }
             },
-            "description": "Choice Matrix with 2 option columns in an inline format.",
+            "description": "مصفوفة الاختيار مع عمودين خيارين بتنسيق مضمّن.",
             "group_reference": "mcq",
             "hidden": [
                 "description"
@@ -133,12 +133,12 @@
                     "False"
                 ],
                 "stems": [
-                    "[Stem 1]",
-                    "[Stem 2]",
-                    "[Stem 3]",
-                    "[Stem 4]"
+                    "[إيقاف 1]",
+                    "[إيقاف 2]",
+                    "[إيقاف 3]",
+                    "[إيقاف 4]"
                 ],
-                "stimulus": "<p>[This is the stem.]</p>",
+                "stimulus": "<p>[هذا هو الجذع.]</p>",
                 "type": "choicematrix",
                 "ui_style": {
                     "stem_numeration": "upper-alpha",
@@ -157,7 +157,7 @@
                     }
                 }
             },
-            "description": "Choice Matrix with 2 option columns in a table Format with stem numeration.",
+            "description": "مصفوفة الاختيار مع عمودين خيارين في جدول تنسيق مع ترقيم جذري.",
             "group_reference": "mcq",
             "hidden": [
                 "description"
