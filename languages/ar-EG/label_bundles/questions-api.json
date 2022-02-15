@@ -1,5 +1,14 @@
 {
     "addData": "إضافة البيانات",
+    "ariaLiveText": {
+        "choiceMatrix": {
+            "correctResponse": "اجابة صحيحة",
+            "expectedResponse": "الجواب المتوقع",
+            "group": "مجموعة: {{group}} - ",
+            "incorrectResponse": "إجابة خاطئة",
+            "noResponse": "لا يوجد رد"
+        }
+    },
     "audioAdjustVolume": "ضبط مستوى الصوت",
     "audioContinuePlayback": "متابعة التشغيل",
     "audioContinueRecording": "متابعة التسجيل",
