@@ -44,6 +44,132 @@
             }
         }
     },
+    "choicematrix": [
+        {
+            "defaults": {
+                "options": [
+                    "صحيح",
+                    "خطأ"
+                ],
+                "stems": [
+                    "[عبارة ١]",
+                    "[عبارة ٢]",
+                    "[عبارة ٣]",
+                    "[عبارة ٤]"
+                ],
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "choicematrix",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "مصفوفة الاختيار مع عمودين خيارين بتنسيق جدول.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/matrix-table.png",
+            "name": "مصفوفة الاختيار - قياسي",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "صحيح",
+                    "خطأ"
+                ],
+                "stems": [
+                    "[عبارة ١]",
+                    "[عبارة ٢]",
+                    "[عبارة ٣]",
+                    "[عبارة ٤]"
+                ],
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "type": "inline"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "مصفوفة الاختيار مع عمودين خيارين بتنسيق مضمّن.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/matrix-inline.png",
+            "name": "مصفوفة الاختيار - مضمنة",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
+        },
+        {
+            "defaults": {
+                "options": [
+                    "صحيح",
+                    "خطأ"
+                ],
+                "stems": [
+                    "[عبارة ١]",
+                    "[عبارة ٢]",
+                    "[عبارة ٣]",
+                    "[عبارة ٤]"
+                ],
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "stem_numeration": "upper-alpha",
+                    "type": "table"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                }
+            },
+            "description": "مصفوفة الاختيار مع عمودين خيارين في تنسيق جدول بترقيم جذري.",
+            "group_reference": "mcq",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/matrix-labels.png",
+            "name": "مصفوفة الاختيار - العلامات",
+            "hidden_search_terms": [
+                "likert"
+            ],
+            "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
+        }
+    ],
     "longtextV2": {
         "description": "مقال يصل إلى 10000 كلمة وقد يحتوي علي عناصر تحكم بتنسيق النص.",
         "name": "مقال مع نص غني",
