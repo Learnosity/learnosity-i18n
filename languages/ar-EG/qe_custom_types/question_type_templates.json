@@ -170,6 +170,30 @@
             "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
         }
     ],
+    "tokenhighlight": [
+        {
+            "defaults": {
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "template": "<p>ها بصورة أكثر عقلانية ومنطقية فيعرضهم هذا لمواجهة الظروف الأليمة، وأكرر بأنه لمن.</p><p> نتيجة لظروف ما قد تكمن السعاده فيما نتحمله م</p><p>  الألم الذي ربما تنجم عنه بعض ا.</p>",
+                "tokenization": "paragraph",
+                "type": "tokenhighlight",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1
+                    }
+                }
+            },
+            "description": "يمكن للمستخدم النقر فوق الكلمات / الجمل / الفقرات ليتم إبرازها.",
+            "group_reference": "highlight",
+            "hidden": [
+                "description"
+            ],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/token.png",
+            "name": "Token highlight",
+            "reference": "47f0db98-79e8-4273-946f-90faf4a2ae49"
+        }
+    ],
     "longtextV2": {
         "description": "مقال يصل إلى 10000 كلمة وقد يحتوي علي عناصر تحكم بتنسيق النص.",
         "name": "مقال مع نص غني",
