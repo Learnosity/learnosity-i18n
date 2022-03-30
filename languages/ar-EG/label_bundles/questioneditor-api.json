@@ -353,6 +353,7 @@
     "math_renderer": "طر كتابة الرياضيات علي الكمبيوتر بسهولة ",
     "max_length": "الحد الأقصى للكلمات",
     "max_response_per_zone": "الاستجابات القصوى لكل حاوية",
+    "max_selection": "أقصى عدد من الردود",
     "metadata.acknowledgements": "شكر وتقدير",
     "metadata.distractor_rationale": "سبب الإجابة الخاطئة",
     "metadata.distractor_rationale_response_level": "المشتتات {{index}}",
