@@ -242,7 +242,9 @@
             "correctAnswers": "correct answers: {{answers}} ",
             "incorrectAnswers": "incorrect answers: {{answers}} ",
             "expectedAnswers": "expected answers: {{answers}} ",
-            "explanation": "To interact with this question use tab to move through the text tokens. Use space or enter to select or deselect the relevant tokens"
+            "explanation": "To interact with this question use tab to move through the text tokens. Use space or enter to select or deselect the relevant tokens",
+            "highlighted": "Highlighted: {{content}}",
+            "notHighlighted": "Not highlighted: {{content}}"
         },
         "clozeAssociation": {
             "activatedResponse": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been selected. Press tab to choose a response area, and spacebar to insert it. Press escape to cancel.",
