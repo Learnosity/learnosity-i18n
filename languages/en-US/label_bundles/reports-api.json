@@ -1,4 +1,5 @@
 {
+    "Name": "Name",
     "a_problem_occured": "A problem occurred. Please try again later. If the problem persists contact your administrator.",
     "active": "Active",
     "activity": "Activity",
@@ -91,7 +92,7 @@
     "stddev_score": "Standard Deviation",
     "suspended": "Suspended",
     "time_spent": "Time spent",
-    "total": "Total",
+    "Total": "Total",
     "total_n_of_items": "Total number of Items",
     "total_n_of_questions": "Total number of Questions",
     "total_time_spent": "Total time spent",
