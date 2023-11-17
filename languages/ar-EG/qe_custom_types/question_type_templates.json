@@ -9,93 +9,143 @@
             }
         }
     ],
-    "mcq": {
-        "description": "سؤال الاختيار من متعدد القياسية.",
-        "name": "الاختيار من متعدد - قياسي",
-        "reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163",
-        "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/mcq-tile.png",
-        "defaults": {
-            "options": [
-                {
-                    "label": "[اختيار أ]",
-                    "value": "0"
-                },
-                {
-                    "label": "[اختيار ب]",
-                    "value": "1"
-                },
-                {
-                    "label": "[اختيار ج]",
-                    "value": "2"
-                },
-                {
-                    "label": "[اختيار د]",
-                    "value": "3"
+    "mcq": [
+        {
+            "description": "سؤال الاختيار من متعدد القياسية.",
+            "name": "الاختيار من متعدد - قياسي",
+            "reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/mcq-tile.png",
+            "defaults": {
+                "options": [
+                    {
+                        "label": "[اختيار أ]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[اختيار ب]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[اختيار ج]",
+                        "value": "2"
+                    },
+                    {
+                        "label": "[اختيار د]",
+                        "value": "3"
+                    }
+                ],
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "mcq",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
                 }
-            ],
-            "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
-            "type": "mcq",
-            "validation": {
-                "scoring_type": "exactMatch",
-                "valid_response": {
-                    "score": 1,
-                    "value": []
+            }
+        },
+        {
+            "description": "سؤال متعدد الاختيارات مع إجابات متعددة.",
+            "hidden": ["multiple_responses", "description", "penalty_score"],
+            "hidden_sections": ["options_with_accessibility_labels_toggle"],
+            "hidden_search_terms": ["mcq", "mc", "true", "false", "yes", "no"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/mcq-multi-tile.png",
+            "name": "الاختيار من متعدد - الاستجابة المتعددة",
+            "reference": "908de244-5c71-4c09-b094-7fb49554f2f9",
+            "defaults": {
+                "multiple_responses": true,
+                "options": [
+                    {
+                        "label": "[اختيار أ]",
+                        "value": "0"
+                    },
+                    {
+                        "label": "[اختيار ب]",
+                        "value": "1"
+                    },
+                    {
+                        "label": "[اختيار ج]",
+                        "value": "2"
+                    },
+                    {
+                        "label": "[اختيار د]",
+                        "value": "3"
+                    }
+                ],
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "mcq",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
+                }
+            }
+        },
+        {
+            "description": "سؤال صحيح أو خطأ.",
+            "hidden": ["shuffle_options", "multiple_responses", "validation.scoring_type", "validation.rounding"],
+            "hidden_sections": ["scoring.scoring_type", "scoring.rounding", "options_with_accessibility_labels_toggle"],
+            "hidden_search_terms": ["mcq", "mc", "true", "false", "yes", "no"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/mcq-true-false-tile.png",
+            "name": "صحيحة أو خاطئة",
+            "reference": "3egs0b24-5gs8-49fc-fds9-4a450sdg31ca",
+            "defaults": {
+                "multiple_responses": false,
+                "options": [
+                    {
+                        "label": "حقيقي",
+                        "value": "0"
+                    },
+                    {
+                        "label": "خطأ شنيع",
+                        "value": "1"
+                    }
+                ],
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "mcq",
+                "ui_style": {
+                    "type": "horizontal"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": []
+                    }
                 }
             }
         }
-    },
+    ],
     "choicematrix": [
         {
             "defaults": {
-                "options": [
-                    "صحيح",
-                    "خطأ"
-                ],
-                "stems": [
-                    "[عبارة ١]",
-                    "[عبارة ٢]",
-                    "[عبارة ٣]",
-                    "[عبارة ٤]"
-                ],
+                "options": ["صحيح", "خطأ"],
+                "stems": ["[عبارة ١]", "[عبارة ٢]", "[عبارة ٣]", "[عبارة ٤]"],
                 "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
                 "type": "choicematrix",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null,
-                            null
-                        ]
+                        "value": [null, null, null, null]
                     }
                 }
             },
             "description": "مصفوفة الاختيار مع عمودين خيارين بتنسيق جدول.",
             "group_reference": "mcq",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/choice-matrix-table.png",
             "name": "مصفوفة الاختيار - قياسي",
-            "hidden_search_terms": [
-                "likert"
-            ],
+            "hidden_search_terms": ["likert"],
             "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
         },
         {
             "defaults": {
-                "options": [
-                    "صحيح",
-                    "خطأ"
-                ],
-                "stems": [
-                    "[عبارة ١]",
-                    "[عبارة ٢]",
-                    "[عبارة ٣]",
-                    "[عبارة ٤]"
-                ],
+                "options": ["صحيح", "خطأ"],
+                "stems": ["[عبارة ١]", "[عبارة ٢]", "[عبارة ٣]", "[عبارة ٤]"],
                 "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
                 "type": "choicematrix",
                 "ui_style": {
@@ -105,39 +155,22 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null,
-                            null
-                        ]
+                        "value": [null, null, null, null]
                     }
                 }
             },
             "description": "مصفوفة الاختيار مع عمودين خيارين بتنسيق مضمّن.",
             "group_reference": "mcq",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/choice-matrix-inline.png",
             "name": "مصفوفة الاختيار - مضمنة",
-            "hidden_search_terms": [
-                "likert"
-            ],
+            "hidden_search_terms": ["likert"],
             "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
         },
         {
             "defaults": {
-                "options": [
-                    "صحيح",
-                    "خطأ"
-                ],
-                "stems": [
-                    "[عبارة ١]",
-                    "[عبارة ٢]",
-                    "[عبارة ٣]",
-                    "[عبارة ٤]"
-                ],
+                "options": ["صحيح", "خطأ"],
+                "stems": ["[عبارة ١]", "[عبارة ٢]", "[عبارة ٣]", "[عبارة ٤]"],
                 "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
                 "type": "choicematrix",
                 "ui_style": {
@@ -148,25 +181,16 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null,
-                            null
-                        ]
+                        "value": [null, null, null, null]
                     }
                 }
             },
             "description": "مصفوفة الاختيار مع عمودين خيارين في تنسيق جدول بترقيم جذري.",
             "group_reference": "mcq",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/choice-matrix-labels.png",
             "name": "مصفوفة الاختيار - العلامات",
-            "hidden_search_terms": [
-                "likert"
-            ],
+            "hidden_search_terms": ["likert"],
             "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
         }
     ],
@@ -186,9 +210,7 @@
             },
             "description": "يمكن للمستخدم النقر فوق الكلمات / الجمل / الفقرات ليتم إبرازها.",
             "group_reference": "highlight",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/token-highlight.png",
             "name": "إبراز الرموز",
             "reference": "47f0db98-79e8-4273-946f-90faf4a2ae49"
@@ -202,19 +224,8 @@
         "defaults": {
             "stimulus": "<p>[هذا هو رأس السؤال.]</p>"
         },
-        "hidden": [
-            "is_math",
-            "horizontal_layout",
-            "keypad.heading",
-            "showHints"
-        ],
-        "hidden_sections": [
-            "keypad",
-            "horizontal_keyboard.content",
-            "symbols",
-            "number_pad.content",
-            "text_blocks"
-        ]
+        "hidden": ["is_math", "horizontal_layout", "keypad.heading", "showHints"],
+        "hidden_sections": ["keypad", "horizontal_keyboard.content", "symbols", "number_pad.content", "text_blocks"]
     },
     "clozetext": [
         {
@@ -229,10 +240,7 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null
-                        ]
+                        "value": [null, null]
                     }
                 },
                 "type": "clozetext"
@@ -249,18 +257,8 @@
                 "stimulus": "",
                 "template": "الجو ليركز كل بعد, قد هُزم أراض عليها شيء. معارضة رجوعهم انه عن. ثم دنو الطريق انتباه, بعد هامش مارد التجارية تم. بـ الحكم فاتّبع المبرمة بال. للصين الفرنسية أسر تم, والحزب الساحة البولندي دنو أم, فصل بـ المبرمة المؤلّفة. نتيجة النفط وقدّموا ما أسر.\n\n                                    شدّت الاندونيسية كل وصل, أن نفس تعديل بالجانب. و ذلك حاملات وبلجيكا، انتصارهم. جعل وقوعها، للإتحاد الموسوعة ما, مع قدما ساعة الساحلية إيو, ٣٠ حول رئيس ثمّة الخاسر. أثره، الأحمر شواطيء تم شيء, ثم وحتى الجو بحق, قد تلك معقل بخطوط كنقطة. وبداية بأضرار اليابان، بعض قد, كما بـ أسابيع الإمداد {{response}} الفرنسية. وقبل احداث ٣٠ يكن, على أدنى البرية ثم.\n\n                                    حين ٣٠ بلاده إختار مكثّفة, جعل بحشد يعبأ أجزاء إذ. يكن وحتّى غريمه مليارات بـ. دون واُسدل استمرار ولاتّساع عن, بقعة الوراء وانتهاءً بـ إيو. معقل الخطّة كل مما. جعل فمرّ يعادل عل. حكومة القوى استراليا، لم لمّ, الجنود الرئيسية دول من, اعلان وبالتحديد، يتم بل.\n\n                                    لكل أن قِبل إختار, أضف و ليبين المارق المحيط, جسيمة الشهير و حدى. هذا بـ غرّة، لهيمنة وبلجيكا،, والقرى الوراء قام هو. مدينة الثقيل قد وفي, شرسة واعتلاء التقليدي تم أخر. إعلان التاريخ، بلا أن, يتم باستحداث وباستثناء قد.\n\n                                    من كُلفة مكثّفة كان, بال جورج تكاليف و. مدن بزمام الأبرياء قد. شواطيء معزّزة أن جهة. والقرى تحرّكت حين من. و مقاومة وأكثرها الأوضاع أخذ, تعداد السيء الإمداد إذ إيو, هو {{response}} أخرى عسكرياً الفرنسي حين.\n\n                                    لم تمهيد الجنود الأوروبية، وقد, أمدها الصين بالتوقيع تعد ما. لكل لم والفلبين الرئيسية ايطاليا،, بـ للمجهود بالجانب وتتحمّل",
                 "possible_responses": [
-                    [
-                        "الجو ليركز",
-                        "يتم باستحداث",
-                        "الرئيسية",
-                        "التقليدي"
-                    ],
-                    [
-                        "اليابان،",
-                        "نتيجة",
-                        "البولندي",
-                        "حكومة"
-                    ]
+                    ["الجو ليركز", "يتم باستحداث", "الرئيسية", "التقليدي"],
+                    ["اليابان،", "نتيجة", "البولندي", "حكومة"]
                 ],
                 "response_container": {
                     "pointer": "left"
@@ -269,10 +267,7 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null
-                        ]
+                        "value": [null, null]
                     }
                 },
                 "type": "clozedropdown"
@@ -288,10 +283,7 @@
             "defaults": {
                 "stimulus": "",
                 "template": "الجو ليركز كل بعد, قد هُزم أراض عليها شيء. معارضة رجوعهم انه عن. ثم دنو الطريق انتباه, بعد هامش مارد التجارية تم. بـ الحكم فاتّبع المبرمة بال. للصين الفرنسية أسر تم, والحزب الساحة البولندي دنو أم, فصل بـ المبرمة المؤلّفة. نتيجة النفط وقدّموا ما أسر.\n\n                                    شدّت الاندونيسية كل وصل, أن نفس تعديل بالجانب. و ذلك حاملات وبلجيكا، انتصارهم. جعل وقوعها، للإتحاد الموسوعة ما, مع قدما ساعة الساحلية إيو, ٣٠ حول رئيس ثمّة الخاسر. أثره، الأحمر شواطيء تم شيء, ثم وحتى الجو بحق, قد تلك معقل بخطوط كنقطة. وبداية بأضرار اليابان، بعض قد, كما بـ أسابيع الإمداد {{response}} الفرنسية. وقبل احداث ٣٠ يكن, على أدنى البرية ثم.\n\n                                    حين ٣٠ بلاده إختار مكثّفة, جعل بحشد يعبأ أجزاء إذ. يكن وحتّى غريمه مليارات بـ. دون واُسدل استمرار ولاتّساع عن, بقعة الوراء وانتهاءً بـ إيو. معقل الخطّة كل مما. جعل فمرّ يعادل عل. حكومة القوى استراليا، لم لمّ, الجنود الرئيسية دول من, اعلان وبالتحديد، يتم بل.\n\n                                    لكل أن قِبل إختار, أضف و ليبين المارق المحيط, جسيمة الشهير و حدى. هذا بـ غرّة، لهيمنة وبلجيكا،, والقرى الوراء قام هو. مدينة الثقيل قد وفي, شرسة واعتلاء التقليدي تم أخر. إعلان التاريخ، بلا أن, يتم باستحداث وباستثناء قد.\n\n                                    من كُلفة مكثّفة كان, بال جورج تكاليف و. مدن بزمام الأبرياء قد. شواطيء معزّزة أن جهة. والقرى تحرّكت حين من. و مقاومة وأكثرها الأوضاع أخذ, تعداد السيء الإمداد إذ إيو, هو {{response}} أخرى عسكرياً الفرنسي حين.\n\n                                    لم تمهيد الجنود الأوروبية، وقد, أمدها الصين بالتوقيع تعد ما. لكل لم والفلبين الرئيسية ايطاليا،, بـ للمجهود بالجانب وتتحمّل",
-                "possible_responses": [
-                    "الجو ليركز",
-                    "يتم باستحداث"
-                ],
+                "possible_responses": ["الجو ليركز", "يتم باستحداث"],
                 "response_container": {
                     "pointer": "left"
                 },
@@ -299,10 +291,7 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null
-                        ]
+                        "value": [null, null]
                     }
                 },
                 "type": "clozeassociation"
@@ -316,11 +305,7 @@
         "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/clozeimage-dragdrop-tile.png",
         "defaults": {
             "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
-            "possible_responses": [
-                "اختيار أ",
-                "اختيار ب",
-                "اختيار ج"
-            ]
+            "possible_responses": ["اختيار أ", "اختيار ب", "اختيار ج"]
         }
     },
     "imageclozedropdown": {
@@ -330,21 +315,9 @@
         "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/clozeimage-dropdown-tile.png",
         "defaults": {
             "possible_responses": [
-                [
-                    "[اختيار أ]",
-                    "[اختيار ب]",
-                    "[اختيار ج]"
-                ],
-                [
-                    "[اختيار أ]",
-                    "[اختيار ب]",
-                    "[اختيار ج]"
-                ],
-                [
-                    "[اختيار أ]",
-                    "[اختيار ب]",
-                    "[اختيار ج]"
-                ]
+                ["[اختيار أ]", "[اختيار ب]", "[اختيار ج]"],
+                ["[اختيار أ]", "[اختيار ب]", "[اختيار ج]"],
+                ["[اختيار أ]", "[اختيار ب]", "[اختيار ج]"]
             ],
             "stimulus": "<p>[هذا هو رأس السؤال.]</p>"
         }
@@ -364,24 +337,51 @@
             "name": "مقال(مدخل أساسي مرقم) ",
             "reference": "184de6ce-4638-4cc5-91c7-e4f37a487f0c",
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/highlight-tile.png",
-            "hidden_sections": [
-                "details"
-            ],
-            "hidden": [
-                "metadata.distractor_rationale_response_level"
-            ],
+            "hidden_sections": ["details"],
+            "hidden": ["metadata.distractor_rationale_response_level"],
             "defaults": {
                 "image": {
                     "width": 1024,
                     "height": 1325,
                     "source": "//assets.learnosity.com/demos/docs/LinedGrid.png"
                 },
-                "line_color": [
-                    "rgba(0, 116, 217, 1)"
-                ],
+                "line_color": ["rgba(0, 116, 217, 1)"],
                 "stimulus": "<p>الجو ليركز كل بعد</p>",
                 "type": "drawing"
             }
+        }
+    ],
+    "audio": [
+        {
+            "defaults": {
+                "max_length": 600,
+                "overwrite_warning": true,
+                "recording_cue": true,
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "audio"
+            },
+            "description": "الاستجابة الصوتية مع تخطيط الكتلة.",
+            "group_reference": "122a748f-e04c-4973-8f9d-2988f21b10c9",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/audio-tile.png",
+            "name": "مسجل الصوت",
+            "hidden_search_terms": ["voice"],
+            "reference": "4e9e4ec1-7441-462f-ad70-d94cbaf0d14e"
+        }
+    ],
+    "video": [
+        {
+            "defaults": {
+                "max_length": 600,
+                "stimulus": "<p>[هذا هو رأس السؤال.]</p>",
+                "type": "video"
+            },
+            "description": "استجابة الفيديو والصوت.",
+            "group_reference": "122a748f-e04c-4973-8f9d-2988f21b10c9",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/ar-EG/qe_template_thumbnails/video-tile.png",
+            "name": "آلة تسجيل الفيديو",
+            "reference": "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"
         }
     ]
 }
