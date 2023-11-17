@@ -605,6 +605,13 @@
     "undo": "تراجع",
     "unsupportedBrowser": "عذرًا , لا يمكن عرض هذا السؤال لأن متصفحك غير مدعوم.",
     "unsupportedCompatibilityMode": "عذرًا , لا يمكن عرض هذا العنصر نظرًا لوجود متصفحك في وضع توافق غير مدعوم.",
+    "video": {
+        "recordingInstructionsBefore": "قبل التسجيل، سنطلب الوصول إلى الكاميرا والميكروفون.",
+        "recordingInstructionsAgain": "ثم حدد خيار \"التقاط فيديو\"",
+        "recordingInstructionsStart": "اضغط على تسجيل للبدء",
+        "timeWarningLimit": "الحد يصل تقريبا!",
+        "maxDuration": "المدة القصوى"
+    },
     "videoplayerTextAlternativeCaption": "تعليق لصورة او نص",
     "word": "كلمة/كلمات",
     "wordLength": "حد الكلمة"
