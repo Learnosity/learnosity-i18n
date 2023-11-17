@@ -4,6 +4,8 @@
         "reference": "c569ccd8-e8d9-430e-8b99-4858b2f697cf",
         "template_references": [
             "9e8149bd-e4d8-4dd6-a751-1a113a4b9163",
+            "908de244-5c71-4c09-b094-7fb49554f2f9",
+            "3egs0b24-5gs8-49fc-fds9-4a450sdg31ca",
             "14b7af71-e146-4747-aae5-ca71618a5038",
             "f109c77c-390e-4595-93b8-2dbd547251b6",
             "9de82e14-802c-4bea-a635-bf9ad0b622fb",
@@ -23,9 +25,9 @@
         ]
     },
     {
-        "name": "مكتوب",
+        "name": "مكتوبة ومسجلة",
         "reference": "122a748f-e04c-4973-8f9d-2988f21b10c9",
-        "template_references": ["1e6039f8-0676-495d-aca9-108710a51ce5"]
+        "template_references": ["1e6039f8-0676-495d-aca9-108710a51ce5", "4e9e4ec1-7441-462f-ad70-d94cbaf0d14e", "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"]
     },
     {
         "name": "تسليط الضوء والرسم",
