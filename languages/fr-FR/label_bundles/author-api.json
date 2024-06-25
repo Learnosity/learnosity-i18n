@@ -550,7 +550,7 @@
   "titlePlaceholderText": "Dites quelque chose à propos de cet article",
   "toolTipDateFormat": "ll",
   "toolTipDateTimeSeparator": "À",
-  "toolTipTimeFormat": "Lt",
+  "toolTipTimeFormat": "LT",
   "typeChangeWithUnsavedChangesQuestionFeature": "Vous avez des changements non sauvés.\nNaviguer à l’extérieur perdra ces modifications enregistrées.",
   "unsavedChangesNavigateConfirm": "Vous avez des modifications non enregistrées à cet élément. Voulez-vous vraiment naviguer vers une nouvelle page?",
   "verticaltoc_element": "Table verticale des matières",

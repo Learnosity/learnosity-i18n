@@ -548,7 +548,7 @@
     "titleDescription": "Tiêu đề thân thiện được sử dụng để giúp xác định nội dung. Tối đa 150 ký tự.",
     "titleLabel": "Tiêu đề:",
     "titlePlaceholderText": "Nói điều gì đó về Mục này",
-    "toolTipDateFormat": "Ll",
+    "toolTipDateFormat": "ll",
     "toolTipDateTimeSeparator": "Lúc",
     "toolTipTimeFormat": "Trung úy",
     "typeChangeWithUnsavedChangesQuestionFeature": "Bạn có những thay đổi chưa được lưu.\nĐiều hướng đi sẽ mất những thay đổi đã lưu.",

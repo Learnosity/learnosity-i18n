@@ -550,7 +550,7 @@
     "titlePlaceholderText": "이 항목에 대해 말하기",
     "toolTipDateFormat": "ll",
     "toolTipDateTimeSeparator": "에",
-    "toolTipTimeFormat": "Lt",
+    "toolTipTimeFormat": "LT",
     "typeChangeWithUnsavedChangesQuestionFeature": "저장되지 않은 변경 사항이 있습니다.\n멀리 탐색하면 저장된 변경 내용이 손실됩니다.",
     "unsavedChangesNavigateConfirm": "이 항목에 대한 저장되지 않은 변경 사항이 있습니다. 새 페이지로 이동하시겠습니까?",
     "verticaltoc_element": "내용의 세로 테이블",
