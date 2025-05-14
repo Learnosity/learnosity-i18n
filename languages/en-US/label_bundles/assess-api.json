@@ -84,6 +84,8 @@
     "idleQuitButton": "Quit",
     "idleSaveError": "An error occurred while saving your activity.",
     "idleSaveSuccess": "Your session was terminated after a period of inactivity and your activity has been saved.",
+    "idleSeconds": "seconds",
+    "idleTimeRemaining": "Time Remaining",
     "idleWarningMsg": "Your session is about to time-out. Click 'Yes, let me continue!' to go back and continue your activity, or we will save your current progress and exit the activity. ",
     "imagetool": "Image Tool",
     "introItemMessage": "Please click <b>Start</b> when you are ready to begin the activity.",
