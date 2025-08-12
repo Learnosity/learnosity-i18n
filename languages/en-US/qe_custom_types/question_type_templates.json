@@ -2141,7 +2141,8 @@
                     }
                 }
             },
-            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4"
+            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4",
+            "description": "A question type that allows students to select hotspots on an image."
         }
     ],
     "linereader": [

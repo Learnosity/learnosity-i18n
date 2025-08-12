@@ -811,7 +811,7 @@
             "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/drawing.png",
             "name": "Dibujo",
-            "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0d"
+            "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0c"
         }
     ],
     "simpleshading": [
@@ -1601,7 +1601,7 @@
             "description": "El usuario puede hacer clic en palabras / oraciones / párrafos para resaltarlos.",
             "group_reference": "highlight",
             "hidden": ["description"],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/token.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/tokenhighlight.png",
             "name": "Destacado de token",
             "reference": "47f0db98-79e8-4273-946f-90faf4a2ae40"
         }
@@ -1862,14 +1862,14 @@
     ],
     "hotspot": [
         {
-            "name": "Hotspot",
+            "name": "Zona interactiva",
             "group_reference": "highlight",
             "image": "https://assets.learnosity.com/questiontypes/templates/qev3/hotspot.png",
             "defaults": {
                 "type": "hotspot",
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "image": {
-                    "source": "//assets.learnosity.com/organisations/1/bead7655-fb71-41af-aeea-9e08a47eac68.png",
+                    "source": "https://assets.learnosity.com/organisations/1/bead7655-fb71-41af-aeea-9e08a47eac68.png",
                     "width": 700,
                     "height": 370
                 },
@@ -2179,7 +2179,8 @@
                     }
                 }
             },
-            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd5"
+            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4",
+            "description": "Un tipo de pregunta que permite a los estudiantes seleccionar zonas interactivas en una imagen."
         }
     ],
     "linereader": [
