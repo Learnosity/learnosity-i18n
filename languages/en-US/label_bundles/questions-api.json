@@ -986,6 +986,8 @@
     "ratingInfoIcon": "i",
     "ready": "Ready",
     "record": "Record",
+    "camera": "Camera",
+    "flip": "Flip",
     "recordAudioStatusLine": "Click to change microphone access settings.",
     "recordAudioStatusTitle": "Audio Status",
     "recordAuthRememberHtml": "Select <strong>remember</strong> before clicking <strong>allow</strong>. This will allow you to record audio and stop this pop-up box being shown again.",
@@ -1039,9 +1041,11 @@
     "video": {
         "recordingInstructionsBefore": "Before recording, we will ask for access to the camera and microphone.",
         "recordingInstructionsAgain": "Then select the \"Take Video\" option",
+        "recordingInstructionsCameraStart": "Press the camera button to start",
         "recordingInstructionsStart": "Press record to start",
         "timeWarningLimit": "limit is almost up!",
-        "maxDuration": "Maximum duration"
+        "maxDuration": "Maximum duration",
+        "startingCamera": "Starting your camera..."
     },
     "videoBrightcoveEmbeddedDataRequired": "Brightcove Embedded Data is required!",
     "videoFormatUnsupported": "Your browser does not support this video format.",

@@ -28,20 +28,10 @@
             },
             "description": "Pregunta estándar de opción múltiple.",
             "group_reference": "mcq",
-            "hidden": [
-                "description",
-                "penalty_score"
-            ],
+            "hidden": ["description", "penalty_score"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/mcqdefault.png",
             "name": "Opción múltiple - estándar",
-            "hidden_search_terms": [
-                "mcq",
-                "mc",
-                "Cierto",
-                "Falso",
-                "yes",
-                "no"
-            ],
+            "hidden_search_terms": ["mcq", "mc", "Cierto", "Falso", "yes", "no"],
             "reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
         },
         {
@@ -77,21 +67,10 @@
             },
             "description": "Pregunta de opción múltiple con múltiples respuestas.",
             "group_reference": "mcq",
-            "hidden": [
-                "multiple_responses",
-                "description",
-                "penalty_score"
-            ],
+            "hidden": ["multiple_responses", "description", "penalty_score"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/mcqmulti.png",
             "name": "Opción múltiple - respuesta múltiple",
-            "hidden_search_terms": [
-                "mcq",
-                "mc",
-                "Cierto",
-                "Falso",
-                "yes",
-                "no"
-            ],
+            "hidden_search_terms": ["mcq", "mc", "Cierto", "Falso", "yes", "no"],
             "reference": "908de244-5c71-4c09-b094-7fb49554f2f9"
         },
         {
@@ -122,26 +101,11 @@
             },
             "description": "Pregunta verdadera o falsa.",
             "group_reference": "mcq",
-            "hidden_sections": [
-                "scoring.scoring_type",
-                "scoring.rounding"
-            ],
-            "hidden": [
-                "shuffle_options",
-                "multiple_responses",
-                "validation.scoring_type",
-                "validation.rounding"
-            ],
+            "hidden_sections": ["scoring.scoring_type", "scoring.rounding"],
+            "hidden": ["shuffle_options", "multiple_responses", "validation.scoring_type", "validation.rounding"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/mcqtruefalse.png",
             "name": "Verdadero o falso",
-            "hidden_search_terms": [
-                "mcq",
-                "mc",
-                "Cierto",
-                "Falso",
-                "yes",
-                "no"
-            ],
+            "hidden_search_terms": ["mcq", "mc", "Cierto", "Falso", "yes", "no"],
             "reference": "3egs0b24-5gs8-49fc-fds9-4a450sdg31ca"
         },
         {
@@ -180,166 +144,22 @@
             },
             "description": "Pregunta de opción múltiple con diseño de bloque.",
             "group_reference": "mcq",
-            "hidden": [
-                "description",
-                "penalty_score"
-            ],
+            "hidden": ["description", "penalty_score"],
             "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/mcqblock.png",
             "name": "Opción múltiple - diseño de bloque",
-            "hidden_search_terms": [
-                "mcq",
-                "mc",
-                "cierto",
-                "Falso",
-                "yes",
-                "no"
-            ],
+            "hidden_search_terms": ["mcq", "mc", "cierto", "Falso", "yes", "no"],
             "reference": "33d53a22-1a59-4a03-9671-7f5104edd62e"
-        }
-    ],
-    "choicematrix": [
-        {
-            "defaults": {
-                "options": [
-                    "Cierto",
-                    "Falso"
-                ],
-                "stems": [
-                    "[Vástago 1]",
-                    "[Vástago 2]",
-                    "[Vástago 3]",
-                    "[Vástago 4]"
-                ],
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "type": "choicematrix",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null,
-                            null
-                        ]
-                    }
-                }
-            },
-            "description": "Matriz de elección con 2 columnas de opciones en formato de tabla.",
-            "group_reference": "mcq",
-            "hidden": [
-                "description"
-            ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrix-table.png",
-            "name": "Matriz de elección - estándar",
-            "hidden_search_terms": [
-                "likert"
-            ],
-            "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
-        },
-        {
-            "defaults": {
-                "options": [
-                    "Cierto",
-                    "Falso"
-                ],
-                "stems": [
-                    "[Vástago 1]",
-                    "[Vástago 2]",
-                    "[Vástago 3]",
-                    "[Vástago 4]"
-                ],
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "type": "choicematrix",
-                "ui_style": {
-                    "type": "inline"
-                },
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null,
-                            null
-                        ]
-                    }
-                }
-            },
-            "description": "Matriz de opciones con 2 columnas de opciones en formato en línea.",
-            "group_reference": "mcq",
-            "hidden": [
-                "description"
-            ],
-            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrix-inline.png",
-            "name": "Matriz de elección - en línea",
-            "hidden_search_terms": [
-                "likert"
-            ],
-            "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
-        },
-        {
-            "defaults": {
-                "options": [
-                    "Cierto",
-                    "Falso"
-                ],
-                "stems": [
-                    "[Vástago 1]",
-                    "[Vástago 2]",
-                    "[Vástago 3]",
-                    "[Vástago 4]"
-                ],
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "type": "choicematrix",
-                "ui_style": {
-                    "stem_numeration": "upper-alpha",
-                    "type": "table"
-                },
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null,
-                            null
-                        ]
-                    }
-                }
-            },
-            "description": "Matriz de elección con 2 columnas de opciones en formato de tabla con numeración de tallos.",
-            "group_reference": "mcq",
-            "hidden": [
-                "description"
-            ],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-stem.png",
-            "name": "Matriz de elección - etiquetas",
-            "hidden_search_terms": [
-                "likert"
-            ],
-            "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
         }
     ],
     "classification": [
         {
             "defaults": {
-                "possible_responses": [
-                    "[Elección A]",
-                    "[Elección B]",
-                    "[Elección C]",
-                    "[Elección D]"
-                ],
+                "possible_responses": ["[Elección A]", "[Elección B]", "[Elección C]", "[Elección D]"],
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "type": "classification",
                 "ui_style": {
                     "column_count": 2,
-                    "column_titles": [
-                        "COLUMNA 1",
-                        "COLUMNA 2"
-                    ],
+                    "column_titles": ["COLUMNA 1", "COLUMNA 2"],
                     "row_count": 1
                 },
                 "validation": {
@@ -347,24 +167,16 @@
                     "valid_response": {
                         "score": 1,
                         "value": [
-                            [
-                                null,
-                                null
-                            ],
-                            [
-                                null,
-                                null
-                            ]
+                            [null, null],
+                            [null, null]
                         ]
                     }
                 }
             },
             "description": "Arrastre y suelte las respuestas en una cuadrícula con 2 columnas y 1 fila.",
             "group_reference": "match",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/classification.png",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/classification.png",
             "name": "Clasificación",
             "reference": "ef2648de-f826-4674-b17d-71e71889d8e6"
         }
@@ -372,36 +184,22 @@
     "association": [
         {
             "defaults": {
-                "possible_responses": [
-                    "[Elección A]",
-                    "[Elección B]",
-                    "[Elección C]"
-                ],
+                "possible_responses": ["[Elección A]", "[Elección B]", "[Elección C]"],
                 "stimulus": "<p>[Este es el tallo.]</p>",
-                "stimulus_list": [
-                    "[Vástago 1]",
-                    "[Vástago 2]",
-                    "[Vástago 3]"
-                ],
+                "stimulus_list": ["[Vástago 1]", "[Vástago 2]", "[Vástago 3]"],
                 "type": "association",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null
-                        ]
+                        "value": [null, null, null]
                     }
                 }
             },
             "description": "Arrastra y suelta las respuestas para que coincidan con una lista predefinida.",
             "group_reference": "match",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/association.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/association.png",
             "name": "Lista de coincidencias",
             "reference": "1fa22aac-1f88-47f7-941b-3c77759549e6"
         }
@@ -409,10 +207,7 @@
     "clozeassociation": [
         {
             "defaults": {
-                "possible_responses": [
-                    "Elección A",
-                    "Elección B"
-                ],
+                "possible_responses": ["Elección A", "Elección B"],
                 "response_container": {
                     "pointer": "left"
                 },
@@ -424,19 +219,14 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null
-                        ]
+                        "value": [null, null]
                     }
                 }
             },
             "description": "Complete los espacios en blanco, arrastre y suelte.",
             "group_reference": "cloze",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/cloze_dd.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/cloze-dragdrop.png",
             "name": "Cerrar con arrastrar y soltar",
             "reference": "51a8c1e7-f34f-4faf-b211-da458e891fcb"
         }
@@ -445,18 +235,8 @@
         {
             "defaults": {
                 "possible_responses": [
-                    [
-                        "Elección A",
-                        "Elección B",
-                        "Elección C",
-                        "Elección D"
-                    ],
-                    [
-                        "Elección A",
-                        "Elección B",
-                        "Elección C",
-                        "Elección D"
-                    ]
+                    ["Elección A", "Elección B", "Elección C", "Elección D"],
+                    ["Elección A", "Elección B", "Elección C", "Elección D"]
                 ],
                 "response_container": {
                     "pointer": "left"
@@ -469,19 +249,14 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null
-                        ]
+                        "value": [null, null]
                     }
                 }
             },
             "description": "Complete los espacios en blanco con menús desplegables.",
             "group_reference": "cloze",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozedropdown.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/cloze-dropdown.png",
             "name": "Cerrar con desplegable",
             "reference": "2fbba51b-e35e-441f-83c7-2662e2e81fa6"
         }
@@ -496,19 +271,14 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null
-                        ]
+                        "value": [null, null]
                     }
                 }
             },
             "description": "Complete los espacios en blanco con respuestas de texto.",
             "group_reference": "cloze",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozet.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/cloze-text.png",
             "name": "Cloze con texto",
             "reference": "457fe101-0667-4a35-b193-b849653acb52"
         }
@@ -518,10 +288,7 @@
             "defaults": {
                 "is_math": true,
                 "stimulus": "<p>[Este es el tallo.]</p>",
-                "symbols": [
-                    "chemistry",
-                    "qwerty"
-                ],
+                "symbols": ["chemistry", "qwerty"],
                 "text_blocks": [],
                 "type": "chemistry",
                 "validation": {
@@ -543,235 +310,10 @@
             },
             "description": "Ingrese a la química compleja. Cuadro de respuesta predeterminado.",
             "group_reference": "chemistry",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistry_formula.png",
             "name": "Fórmula de química",
             "reference": "e484fac0-4022-4b58-b86f-4a537002f449"
-        }
-    ],
-    "formulaV2": [
-        {
-            "defaults": {
-                "is_math": true,
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "type": "formulaV2",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            {
-                                "method": "equivLiteral",
-                                "options": {
-                                    "inverseResult": false
-                                },
-                                "value": ""
-                            }
-                        ]
-                    }
-                }
-            },
-            "description": "Ingrese matemáticas complejas. Cuadro de respuesta predeterminado.",
-            "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/formula.png",
-            "name": "Fórmula matemática",
-            "reference": "e3a30485-ab2d-4ee8-9d0c-5749e96816c1"
-        },
-        {
-            "defaults": {
-                "is_math": true,
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "template": "\\frac{{{response}}}{{{response}}}",
-                "type": "formulaV2",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            {
-                                "method": "equivLiteral",
-                                "options": {
-                                    "inverseResult": false
-                                },
-                                "value": ""
-                            }
-                        ]
-                    }
-                }
-            },
-            "description": "Ingrese matemáticas complejas. Cuadros de respuesta de fracciones.",
-            "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/fraction.png",
-            "name": "Matemáticas con fracciones",
-            "reference": "764f1dc3-27b7-48a2-93f3-d6573e4c98f0"
-        },
-        {
-            "defaults": {
-                "is_math": true,
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "template": "{{response}} + {{response}} =",
-                "type": "formulaV2",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            {
-                                "method": "equivLiteral",
-                                "options": {
-                                    "inverseResult": false
-                                },
-                                "value": ""
-                            }
-                        ]
-                    }
-                }
-            },
-            "description": "Ingrese matemáticas complejas. Agregue varios cuadros de respuesta.",
-            "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/fill-in-the-blanks.png",
-            "name": "Matemáticas - complete los espacios en blanco",
-            "reference": "23209785-6fa0-404e-87c2-c213b546d0ba"
-        },
-        {
-            "defaults": {
-                "is_math": true,
-                "response_containers": [
-                    {
-                        "width": "60px"
-                    }
-                ],
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "type": "formulaV2",
-                "template": "{{response}}\\text{ sq ft}",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            {
-                                "method": "equivLiteral",
-                                "options": {
-                                    "inverseResult": false
-                                },
-                                "value": "89\\text{ sq ft}"
-                            }
-                        ]
-                    }
-                }
-            },
-            "description": "Agregue texto después del cuadro de respuesta.",
-            "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/add-text-to-math.png",
-            "name": "Matemáticas con texto",
-            "reference": "caaa3b3a-6eed-4ad3-b80d-be67515016e0"
-        },
-        {
-            "defaults": {
-                "is_math": true,
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "template": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2={{response}}",
-                "symbols": [
-                    "matrices",
-                    "general",
-                    "qwerty"
-                ],
-                "type": "formulaV2",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            {
-                                "method": "equivLiteral",
-                                "options": {
-                                    "inverseResult": false
-                                },
-                                "value": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2=\\begin{bmatrix}8&0\\\\2&-18\\end{bmatrix}"
-                            }
-                        ]
-                    }
-                }
-            },
-            "description": "Usa matrices dentro de las matemáticas.",
-            "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrices.png",
-            "name": "Matemáticas con matrices",
-            "reference": "aadca3d1-ecdb-41fb-8efa-591fbeb79874"
-        },
-        {
-            "defaults": {
-                "is_math": true,
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "template": "{{response}}=1\\text{m}",
-                "symbols": [
-                    "units_si",
-                    "units_us",
-                    "qwerty"
-                ],
-                "type": "formulaV2",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            {
-                                "method": "equivLiteral",
-                                "options": {
-                                    "inverseResult": false
-                                },
-                                "value": "100\\text{cm}=1\\text{m}"
-                            }
-                        ]
-                    }
-                },
-                "text_blocks": [
-                    "g",
-                    "kg",
-                    "mg",
-                    "m",
-                    "km",
-                    "cm",
-                    "mm",
-                    "L",
-                    "mL",
-                    "s",
-                    "ms",
-                    "oz",
-                    "lb",
-                    "in",
-                    "ft",
-                    "mi",
-                    "fl oz",
-                    "pt",
-                    "gal"
-                ]
-            },
-            "description": "Utilice unidades SI / US en matemáticas.",
-            "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/units.png",
-            "name": "Matemáticas con unidades",
-            "reference": "dc098fc1-27b8-47d7-aa30-e8976d13c1ac"
         }
     ],
     "clozechemistry": [
@@ -779,10 +321,7 @@
             "is_math": true,
             "defaults": {
                 "stimulus": "<p>[Este es el tallo.]</p>",
-                "symbols": [
-                    "chemistry",
-                    "qwerty"
-                ],
+                "symbols": ["chemistry", "qwerty"],
                 "template": "<p>{{response}}\\(\\rightarrow C_6H_{12}O_6+6O_2\\)</p>\n",
                 "text_blocks": [],
                 "type": "clozechemistry",
@@ -814,48 +353,96 @@
             },
             "description": "Tipo de pregunta cerrada con entradas de fórmula química.",
             "group_reference": "chemistry",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozechemistry.png",
             "name": "Química cloze",
             "reference": "36e1da6f-5966-4912-a547-75bffdd77950"
         }
     ],
-    "formulaessayV2": [
+    "clozeformulaV2": [
         {
             "is_math": true,
             "defaults": {
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "formatting_options": [
-                    "bold",
-                    "italic",
-                    "underline",
-                    "|",
-                    "indentIncrease",
-                    "indentDecrease",
-                    "|",
-                    "formulaEditor",
-                    "|",
-                    "undo",
-                    "redo"
-                ]
+                "stimulus": "<p>[Este es el enunciado.]</p>",
+                "template": "<p>\\(a+b\\ =\\) {{response}}</p>",
+                "type": "clozeformulaV2",
+                "response_container": {
+                    "template": ""
+                },
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false,
+                                        "setThousandsSeparator": "",
+                                        "setDecimalSeparator": "."
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
             },
-            "description": "Tipo de pregunta de ensayo con un teclado para ingresar matemáticas.",
+            "description": "Permite la entrada de matemáticas en uno o más cuadros de respuesta con autoevaluación avanzada.",
             "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/formulaessayV2.png",
-            "name": "Ensayo de matemáticas con texto enriquecido",
-            "reference": "7b810c2c-9100-4ff1-96de-cda23bf34445"
+            "hidden": ["description"],
+            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/clozeformulaV2.png",
+            "name": "Matemáticas",
+            "reference": "ef0ab0ba-235f-459d-9380-a4a106280c9a"
+        }
+    ],
+    "multistepmath": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[Este es el enunciado.]</p>",
+                "type": "multistepmath",
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "validation": {
+                    "given_expressions": [],
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false,
+                                        "setThousandsSeparator": "",
+                                        "setDecimalSeparator": "."
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Permite la entrada de matemáticas en varias líneas con autoevaluación paso a paso.",
+            "group_reference": "math",
+            "hidden": ["description"],
+            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/multistepmath.png",
+            "name": "Matemáticas de varios pasos",
+            "reference": "7ebe931e-06b8-4fc8-95d2-c7ec4fbf1239"
         }
     ],
     "clozeformula": [
         {
             "is_math": true,
             "defaults": {
-                "stimulus": "<p>[Este es el tallo.]</p>",
+                "stimulus": "<p>[Este es el enunciado.]</p>",
                 "template": "<p>\\(a+b\\ =\\) {{response}}</p>",
                 "type": "clozeformula",
                 "response_container": {
@@ -882,14 +469,81 @@
                     }
                 }
             },
-            "description": "Tipo de pregunta cerrada con entradas de fórmulas matemáticas.",
+            "description": "Tipo de pregunta cloze con entradas de fórmula matemática.",
             "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/clozeformula1.png",
-            "name": "Matemáticas cloze",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozeformula1.png",
+            "name": "Cloze de matemáticas",
             "reference": "57b0690f-4e99-4bbc-9c8f-aa3074baa495"
+        },
+        {
+            "_reference": "ec8f2f4e-c048-4347-906a-32b0c44c0515",
+            "name": "Generador de preguntas de matemáticas",
+            "description": "Generar adaptaciones de ecuaciones matemáticas predefinidas.",
+            "_group_reference": "math",
+            "defaults": {
+                "is_dynamic_content": true,
+                "stimulus": "[Este es el enunciado.]",
+                "template": "Respuesta: {{response}}",
+                "response_container": {
+                    "width": "160px"
+                }
+            },
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mathgen.png"
+        }
+    ],
+    "imageclozeformulaV2": [
+        {
+            "is_math": true,
+            "defaults": {
+                "image": {
+                    "src": "//assets.learnosity.com/organisations/1/T010007.gif"
+                },
+                "response_container": {
+                    "vertical_top": true
+                },
+                "response_containers": [
+                    {
+                        "template": "{{response}}",
+                        "width": "60px"
+                    }
+                ],
+                "response_positions": [
+                    {
+                        "x": 38.41,
+                        "y": 26.25
+                    }
+                ],
+                "text_blocks": [],
+                "type": "imageclozeformulaV2",
+                "ui_style": {
+                    "type": "floating-keyboard"
+                },
+                "stimulus": "<p>[Este es el enunciado.]</p>",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            [
+                                {
+                                    "method": "equivLiteral",
+                                    "value": "",
+                                    "options": {
+                                        "inverseResult": false
+                                    }
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            "description": "Permite la entrada de matemáticas en una imagen con autoevaluación avanzada.",
+            "group_reference": "math",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imagecloze-dragdrop.png",
+            "name": "Etiquetar imagen con matemáticas",
+            "reference": "76504b1a-8f37-4ab8-bcbf-875c966c72af"
         }
     ],
     "chemistryessay": [
@@ -897,10 +551,7 @@
             "is_math": true,
             "defaults": {
                 "stimulus": "<p>[Este es el tallo.]</p>",
-                "symbols": [
-                    "chemistry",
-                    "qwerty"
-                ],
+                "symbols": ["chemistry", "qwerty"],
                 "ui_style": {
                     "default_mode": "math",
                     "fontsize": ""
@@ -909,9 +560,7 @@
             "text_blocks": [],
             "description": "Tipo de pregunta de ensayo de química con fórmula química como entrada predeterminada.",
             "group_reference": "deprecated",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistryessay.png",
             "name": "Ensayo de química",
             "reference": "b03bf98c-276d-4584-b7a7-c2f77a8bf54c"
@@ -922,29 +571,12 @@
             "is_math": true,
             "defaults": {
                 "stimulus": "<p>[Este es el tallo.]</p>",
-                "formatting_options": [
-                    "bold",
-                    "italic",
-                    "underline",
-                    "|",
-                    "indentIncrease",
-                    "indentDecrease",
-                    "|",
-                    "formulaEditor",
-                    "|",
-                    "undo",
-                    "redo"
-                ],
-                "symbols": [
-                    "chemistry",
-                    "qwerty"
-                ]
+                "formatting_options": ["bold", "italic", "underline", "|", "indentIncrease", "indentDecrease", "|", "formulaEditor", "|", "undo", "redo"],
+                "symbols": ["chemistry", "qwerty"]
             },
             "description": "Tipo de pregunta de ensayo con un teclado que tiene símbolos de química por defecto",
             "group_reference": "chemistry",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/chemistryessayV2.png",
             "name": "Ensayo de química con texto enriquecido",
             "reference": "c07e5630-e0f4-4d0d-b1f8-3908e0d7e474"
@@ -973,10 +605,7 @@
                     "type": "floating-keyboard"
                 },
                 "stimulus": "<p>[Este es el tallo.]</p>",
-                "symbols": [
-                    "chemistry",
-                    "qwerty"
-                ],
+                "symbols": ["chemistry", "qwerty"],
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
@@ -998,9 +627,7 @@
             },
             "description": "Pregunta que admite la entrada de química por línea.",
             "group_reference": "chemistry",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageclozechemistry.png",
             "name": "Cloze química con imagen",
             "reference": "4d2a04cb-f8a9-4678-b8c6-0dd4bce25fbc"
@@ -1033,7 +660,7 @@
                 "ui_style": {
                     "type": "floating-keyboard"
                 },
-                "stimulus": "<p>[Este es el tallo.]</p>",
+                "stimulus": "<p>[Este es el enunciado.]</p>",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
@@ -1052,14 +679,27 @@
                     }
                 }
             },
-            "description": "Pregunta que admite entrada matemática o de texto por línea.",
+            "description": "Pregunta que admite la entrada de matemáticas o texto por línea.",
             "group_reference": "math",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/imageclozeformula.png",
-            "name": "Cloze matemáticas con imagen",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozeformula.png",
+            "name": "Cloze de matemáticas con imagen",
             "reference": "11c9093a-dfd3-4852-b1ee-d5e5c3f032df"
+        }
+    ],
+    "formulaessayV2": [
+        {
+            "is_math": true,
+            "defaults": {
+                "stimulus": "<p>[Este es el enunciado.]</p>",
+                "formatting_options": ["bold", "italic", "underline", "|", "indentIncrease", "indentDecrease", "|", "formulaEditor", "|", "undo", "redo"]
+            },
+            "description": "Tipo de pregunta de ensayo con un teclado numérico para ingresar matemáticas",
+            "group_reference": "math",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/formulaessayV2.png",
+            "name": "Ensayo de matemáticas con texto enriquecido",
+            "reference": "7b810c2c-9100-4ff1-96de-cda23bf34445"
         }
     ],
     "graphplotting": [
@@ -1092,10 +732,7 @@
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "toolbar": {
                     "default_tool": "point",
-                    "tools": [
-                        "point",
-                        "move"
-                    ]
+                    "tools": ["point", "move"]
                 },
                 "type": "graphplotting",
                 "validation": {
@@ -1108,11 +745,8 @@
             },
             "description": "Cuadrantes de 10 x 10 unidades (lienzo de 600px x 600px) con la herramienta Punto.",
             "group_reference": "graph",
-            "hidden": [
-                "description",
-                "mode"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/graph.png",
+            "hidden": ["description", "mode"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph.png",
             "name": "Graficar",
             "reference": "b7dc8b69-c12a-4c4f-ac17-181ac6e0da26"
         },
@@ -1154,11 +788,8 @@
             },
             "description": "Gráfico del primer cuadrante de 10 x 10 (lienzo de 600px x 600px) con todas las herramientas de dibujo.",
             "group_reference": "graph",
-            "hidden": [
-                "description",
-                "mode"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/graph4.png",
+            "hidden": ["description", "mode"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph4.png",
             "name": "Graficar en el 1er cuadrante",
             "reference": "f325a114-bb81-4e7f-86e0-1147416a78a8"
         }
@@ -1171,17 +802,13 @@
                     "width": 0,
                     "height": 0
                 },
-                "line_color": [
-                    "rgba(0, 116, 217, 1)"
-                ],
+                "line_color": ["rgba(0, 116, 217, 1)"],
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "type": "drawing"
             },
             "description": "Permite el uso de diferentes herramientas de dibujo para dibujar sobre una imagen.",
             "group_reference": "highlight",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/drawing.png",
             "name": "Dibujo",
             "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0d"
@@ -1210,9 +837,7 @@
             },
             "description": "Permite a los usuarios seleccionar áreas en una cuadrícula.",
             "group_reference": "highlight",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "image": "https://assets.learnosity.com/questiontypes/templates/qev3/simpleshading.png",
             "name": "Sombreado",
             "reference": "b30bc5dc-b616-4913-a8b4-b5dd9c43bafe"
@@ -1226,11 +851,7 @@
                     "width": 600,
                     "height": 400
                 },
-                "possible_responses": [
-                    "Elección A",
-                    "Elección B",
-                    "Elección C"
-                ],
+                "possible_responses": ["Elección A", "Elección B", "Elección C"],
                 "response_containers": [
                     {
                         "x": 11.56,
@@ -1264,9 +885,7 @@
             },
             "description": "Complete los espacios en blanco de una imagen con arrastrar y soltar.",
             "group_reference": "cloze",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_association_v2.png",
             "hidden_from_tile_view": false,
             "name": "Etiquetar imagen con arrastrar y soltar",
@@ -1280,21 +899,9 @@
                     "src": "//assets.learnosity.com/demos/docs/blank_us_map_v2.png"
                 },
                 "possible_responses": [
-                    [
-                        "Elección A",
-                        "Elección B",
-                        "Elección C"
-                    ],
-                    [
-                        "Elección A",
-                        "Elección B",
-                        "Elección C"
-                    ],
-                    [
-                        "Elección A",
-                        "Elección B",
-                        "Elección C"
-                    ]
+                    ["Elección A", "Elección B", "Elección C"],
+                    ["Elección A", "Elección B", "Elección C"],
+                    ["Elección A", "Elección B", "Elección C"]
                 ],
                 "response_container": {
                     "pointer": "left",
@@ -1321,19 +928,13 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null
-                        ]
+                        "value": [null, null, null]
                     }
                 }
             },
             "description": "Complete la imagen en blanco con menús desplegables.",
             "group_reference": "cloze",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_dropdown.png",
             "name": "Etiqueta de imagen con menú desplegable",
             "reference": "f8364191-ada5-4806-83d4-8a36b8fad4b0"
@@ -1369,19 +970,13 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            null,
-                            null,
-                            null
-                        ]
+                        "value": [null, null, null]
                     }
                 }
             },
             "description": "Complete los espacios en blanco con un cuadro de texto en una imagen.",
             "group_reference": "cloze",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/image_cloze.png",
             "name": "Etiqueta de imagen con texto",
             "reference": "35a850a7-9d3f-4e1c-880a-a340767942b6"
@@ -1395,9 +990,7 @@
                 "label": "Transportador",
                 "alt": "Un transportador estándar de 180 grados."
             },
-            "hidden": [
-                "image"
-            ],
+            "hidden": ["image"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/protractor.png",
             "name": "Transportador",
             "description": "Incruste un transportador como característica.",
@@ -1471,15 +1064,10 @@
             },
             "description": "Ensaye hasta 10,000 palabras que pueden incluir controles de formato de texto.",
             "group_reference": "writespeak",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/LongTextV2.2.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/longtextV2.png",
             "name": "Ensayo con texto enriquecido",
-            "hidden_search_terms": [
-                "constructed",
-                "extended"
-            ],
+            "hidden_search_terms": ["constructed", "extended"],
             "reference": "1e6039f8-0676-495d-aca9-108710a51ce5"
         }
     ],
@@ -1494,10 +1082,8 @@
             },
             "description": "El ensayo de hasta 10,000 palabras no incluye controles de formato de texto.",
             "group_reference": "writespeak",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/plaintext.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/plaintext.png",
             "name": "Ensayo con texto plano",
             "reference": "0f559437-5072-475e-830d-1fa9d2f6bb0d"
         }
@@ -1516,10 +1102,8 @@
             },
             "description": "Respuesta de texto corto.",
             "group_reference": "writespeak",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/shorttext.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/shorttext.png",
             "name": "Texto corto",
             "reference": "4fe6c726-419c-4aff-b189-4a9756a0ffda"
         }
@@ -1535,14 +1119,10 @@
             },
             "description": "Respuesta de audio con diseño de bloque.",
             "group_reference": "writespeak",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/audio-block.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/audio.png",
             "name": "Grabador de audio",
-            "hidden_search_terms": [
-                "voice"
-            ],
+            "hidden_search_terms": ["voice"],
             "reference": "4e9e4ec1-7441-462f-ad70-d94cbaf0d14e"
         }
     ],
@@ -1555,10 +1135,8 @@
             },
             "description": "Respuesta de video y audio.",
             "group_reference": "writespeak",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/video.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/video.png",
             "name": "Grabadora de vídeo",
             "reference": "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"
         }
@@ -1576,11 +1154,7 @@
                     "max": 10,
                     "min": 0
                 },
-                "points": [
-                    "[Elección A]",
-                    "[Elección B]",
-                    "[Elección C]"
-                ],
+                "points": ["[Elección A]", "[Elección B]", "[Elección C]"],
                 "snap_to_ticks": true,
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "ticks": {
@@ -1598,10 +1172,8 @@
             },
             "description": "Coloca puntos en una recta numérica.",
             "group_reference": "graph",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberline.png",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberline.png",
             "name": "Recta numérica con arrastrar y soltar",
             "reference": "f5c683be-b5e0-421d-a593-f6a59312aba2"
         }
@@ -1641,10 +1213,8 @@
             },
             "description": "Trazar las respuestas en la recta numérica.",
             "group_reference": "graph",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberlineplot.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/numberlineplot.png",
             "name": "Recta numérica con trama",
             "reference": "02a2d2fe-c028-42d0-b139-e58a60780928"
         }
@@ -1652,33 +1222,21 @@
     "orderlist": [
         {
             "defaults": {
-                "list": [
-                    "[Elección A]",
-                    "[Elección B]",
-                    "[Elección C]",
-                    "[Elección D]"
-                ],
+                "list": ["[Elección A]", "[Elección B]", "[Elección C]", "[Elección D]"],
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "type": "orderlist",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [
-                            0,
-                            1,
-                            2,
-                            3
-                        ]
+                        "value": [0, 1, 2, 3]
                     }
                 }
             },
             "description": "Lista de elementos que se deben organizar en el orden correcto.",
             "group_reference": "match",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/order_list.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/orderlist.png",
             "name": "Lista de orden",
             "reference": "0c7f68f7-2be6-4ae0-8492-0ab78c8d0010"
         }
@@ -1690,19 +1248,19 @@
                 "chart_data": {
                     "data": [
                         {
-                            "x": "Bar 1",
+                            "x": "Barra 1",
                             "y": 0
                         },
                         {
-                            "x": "Bar 2",
+                            "x": "Barra 2",
                             "y": 0
                         },
                         {
-                            "x": "Bar 3",
+                            "x": "Barra 3",
                             "y": 0
                         }
                     ],
-                    "name": "Chart title"
+                    "name": "Título del gráfico"
                 },
                 "stimulus": "<p>[Este es el tallo.]</p>",
                 "validation": {
@@ -1711,30 +1269,26 @@
                         "score": 1,
                         "value": [
                             {
-                                "x": "Bar 1"
+                                "x": "Barra 1"
                             },
                             {
-                                "x": "Bar 2"
+                                "x": "Barra 2"
                             },
                             {
-                                "x": "Bar 3"
+                                "x": "Barra 3"
                             }
                         ]
                     }
                 },
-                "y_axis_label": "Y Axis",
+                "y_axis_label": "Eje Y",
                 "multicolour": false
             },
             "description": "Cree un gráfico de barras interactivo.",
             "group_reference": "chart",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/barchart.png",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/simplechart-bar.png",
             "name": "Gráfico de barras",
-            "hidden_search_terms": [
-                "chart"
-            ],
+            "hidden_search_terms": ["chart"],
             "reference": "24f76ba0-24af-4be4-aacf-c31c6efd33e3"
         },
         {
@@ -1819,14 +1373,10 @@
             },
             "description": "Cree un gráfico de líneas interactivo.",
             "group_reference": "chart",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/linechart.png",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/linechart.png",
             "name": "Gráfico de linea",
-            "hidden_search_terms": [
-                "chart"
-            ],
+            "hidden_search_terms": ["chart"],
             "reference": "8c28ecfd-ab0b-43de-bfac-e572eeb06851"
         },
         {
@@ -1893,14 +1443,10 @@
             },
             "description": "Cree un histograma interactivo.",
             "group_reference": "chart",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/histogram.png",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/histogram.png",
             "name": "Histograma",
-            "hidden_search_terms": [
-                "chart"
-            ],
+            "hidden_search_terms": ["chart"],
             "reference": "cb9cb540-05b2-44e0-bef3-1b31727c1c37"
         },
         {
@@ -1964,14 +1510,10 @@
             },
             "description": "Cree un diagrama de puntos interactivo.",
             "group_reference": "chart",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/dotplot.png",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/dotplot.png",
             "name": "Gráfica de puntos",
-            "hidden_search_terms": [
-                "chart"
-            ],
+            "hidden_search_terms": ["chart"],
             "reference": "2f93c2f1-f7d9-423a-94c9-5df5aabdddc9"
         },
         {
@@ -2035,49 +1577,11 @@
             },
             "description": "Cree una gráfica de línea interactiva.",
             "group_reference": "chart",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/lineplot.png",
+            "hidden": ["description"],
+            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/lineplot.png",
             "name": "Gráfico de línea",
-            "hidden_search_terms": [
-                "chart"
-            ],
+            "hidden_search_terms": ["chart"],
             "reference": "1f20bb6e-8685-4eaa-9c70-ef80b811e483"
-        }
-    ],
-    "sortlist": [
-        {
-            "defaults": {
-                "list": [
-                    "[Elección A]",
-                    "[Elección B]",
-                    "[Elección C]",
-                    "[Elección D]"
-                ],
-                "stimulus": "<p>[Este es el tallo.]</p>",
-                "type": "sortlist",
-                "validation": {
-                    "scoring_type": "exactMatch",
-                    "valid_response": {
-                        "score": 1,
-                        "value": [
-                            0,
-                            1,
-                            2,
-                            3
-                        ]
-                    }
-                }
-            },
-            "description": "Ordene la lista arrastrando los elementos al área de destino en el orden correcto.",
-            "group_reference": "match",
-            "hidden": [
-                "description"
-            ],
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/sort-list.png",
-            "name": "Lista Ordenada",
-            "reference": "63891006-450a-4ffe-9876-74d62efa0152"
         }
     ],
     "tokenhighlight": [
@@ -2096,9 +1600,7 @@
             },
             "description": "El usuario puede hacer clic en palabras / oraciones / párrafos para resaltarlos.",
             "group_reference": "highlight",
-            "hidden": [
-                "description"
-            ],
+            "hidden": ["description"],
             "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/token.png",
             "name": "Destacado de token",
             "reference": "47f0db98-79e8-4273-946f-90faf4a2ae40"
@@ -2181,7 +1683,7 @@
             },
             "description": "Permite a los usuarios elegir un valor de un rango preseleccionado.",
             "group_reference": "other",
-            "_image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/rating-v2.png",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/rating.png",
             "name": "Clasificación",
             "reference": "8e99fa69-b829-4a7d-ae2a-eb935fe3a2c6"
         }
@@ -2208,6 +1710,154 @@
                 }
             },
             "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd5"
+        }
+    ],
+    "choicematrix": [
+        {
+            "defaults": {
+                "options": ["Cierto", "Falso"],
+                "stems": ["[Vástago 1]", "[Vástago 2]", "[Vástago 3]", "[Vástago 4]"],
+                "stimulus": "<p>[Este es el tallo.]</p>",
+                "type": "choicematrix",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [null, null, null, null]
+                    }
+                }
+            },
+            "description": "Matriz de elección con 2 columnas de opciones en formato de tabla.",
+            "group_reference": "mcq",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrix-table.png",
+            "name": "Matriz de elección - estándar",
+            "hidden_search_terms": ["likert"],
+            "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
+        },
+        {
+            "defaults": {
+                "options": ["Cierto", "Falso"],
+                "stems": ["[Vástago 1]", "[Vástago 2]", "[Vástago 3]", "[Vástago 4]"],
+                "stimulus": "<p>[Este es el tallo.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "type": "inline"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [null, null, null, null]
+                    }
+                }
+            },
+            "description": "Matriz de opciones con 2 columnas de opciones en formato en línea.",
+            "group_reference": "mcq",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/matrix-inline.png",
+            "name": "Matriz de elección - en línea",
+            "hidden_search_terms": ["likert"],
+            "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
+        },
+        {
+            "defaults": {
+                "options": ["Cierto", "Falso"],
+                "stems": ["[Vástago 1]", "[Vástago 2]", "[Vástago 3]", "[Vástago 4]"],
+                "stimulus": "<p>[Este es el tallo.]</p>",
+                "type": "choicematrix",
+                "ui_style": {
+                    "stem_numeration": "upper-alpha",
+                    "type": "table"
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [null, null, null, null]
+                    }
+                }
+            },
+            "description": "Matriz de elección con 2 columnas de opciones en formato de tabla con numeración de tallos.",
+            "group_reference": "mcq",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/choicematrix-labels.png",
+            "name": "Matriz de elección - etiquetas",
+            "hidden_search_terms": ["likert"],
+            "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
+        },
+        {
+            "name": "Matriz de opciones – Puntuación NCLEX",
+            "group_reference": "other",
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/choicematrix-nclex.png",
+            "defaults": {
+                "options": ["Neumonía", "ITU", "Gripe"],
+                "stems": ["Fiebre", "Confusión", "Dolor corporal", "Tos y esputo", "Falta de aire"],
+                "stimulus": "<p>[Este es el enunciado NCLEX]</p>",
+                "type": "choicematrix",
+                "validation": {
+                    "scoring_type": "nclexScoringByColumn",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [null, null, null]
+                    },
+                    "penalty": 1
+                },
+                "multiple_responses": true
+            },
+            "description": "Matriz de opciones NCLEX",
+            "hidden": ["description", "validation.scoring_type", "validation.alt_responses", "shuffle_options", "multiple_responses"],
+            "include_options": {
+                "validation.scoring_type": [
+                    {
+                        "label": "Nclex scoring by column",
+                        "value": "nclexScoringByColumn"
+                    }
+                ]
+            },
+            "hidden_search_terms": ["likert"],
+            "reference": "b1b444e7-eea2-40a6-97e2-65b76d338d67"
+        }
+    ],
+    "bowtie": [
+        {
+            "defaults": {
+                "stimulus": "<p>[Este es el enunciado.]</p>",
+                "type": "bowtie",
+                "ui_style": {
+                    "column_titles": ["Área 1", "Área 2", "Área 3"],
+                    "show_drag_handle": false
+                },
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [[null, null], [null], [null, null]]
+                    }
+                },
+                "group_possible_responses": true,
+                "max_response_per_cell": 1,
+                "possible_response_groups": [
+                    {
+                        "title": "Columna 1",
+                        "responses": ["", "", "", ""]
+                    },
+                    {
+                        "title": "Columna 2",
+                        "responses": ["", "", "", ""]
+                    },
+                    {
+                        "title": "Columna 3",
+                        "responses": ["", "", "", ""]
+                    }
+                ]
+            },
+            "description": "Arrastra y suelta las respuestas en un diseño de diagrama de corbatín",
+            "group_reference": "other",
+            "hidden": ["description"],
+            "image": "https://raw.githubusercontent.com/Learnosity/learnosity-i18n/master/languages/es-ES/qe_template_thumbnails/bowtie.png",
+            "name": "Corbatín",
+            "reference": "b75d9f52-8e10-4113-bb08-f8b6e3e4141c"
         }
     ],
     "hotspot": [
