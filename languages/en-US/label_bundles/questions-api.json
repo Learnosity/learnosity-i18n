@@ -1,21 +1,35 @@
 {
     "addData": "Add Data",
     "ariaLabel": {
+        "audioPlayer": {
+            "triggerPlayback": "Press enter or space to play audio",
+            "continuePlayback": "Continue playback",
+            "pausePlayback": "Pause playback",
+            "stopPlayback": "Stop playback"
+        },
         "stemEnumerationItem": "Item {{index}}",
         "classification": {
             "cell": "Drop response in row {{row}} of column {{column}}",
             "instructions": "Put responses in the correct input to answer the question. Select a response, navigate to the desired input and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse."
         },
+        "bowtie": {
+            "cell": "Response area, \"{{column}}\"",
+            "instructions": "Put responses in the correct input to answer the question. Select a response, navigate to the desired input and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse."
+        },
         "association": {
+            "dropzoneAriaLabel": "{{responseArea}}, {{dropzoneNumber}} out of {{totalDropzones}}. Connected to {{dropzoneLabel}}.",
+            "responseArea": "Response input area",
             "draggableItemContainer": "Container for movable item",
             "draggableItem": "Movable item. {{item}}",
-            "instructions": "Put responses in the correct input to answer the question. Select a response, navigate to the desired input and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse."
+            "instructions": "Put responses in the correct response input area to answer the question. Select a response, navigate to the desired input area and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse."
         },
         "audioAdv": {
             "transcriptContent": "Transcript: {{transcript}}"
         },
         "clozeAssociation": {
-            "instructions": "Put responses in the correct input to answer the question. Select a response, navigate to the desired input and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse."
+            "dropzoneAriaLabel": "{{responseArea}}, {{dropzoneNumber}} out of {{totalDropzones}}.",
+            "dropzone": "Response input area",
+            "instructions": "Put responses in the correct response input area to answer the question. Select a response, navigate to the desired input area and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse."
         },
         "drawing": {
             "highlight": "To highlight the image, hold space and use your arrow keys.",
@@ -34,7 +48,8 @@
             "close": "Close Formula keypad",
             "symbolGroupRole": "Dropdown",
             "selectSymbolGroup": "Select the symbol group to use",
-            "currentSymbolGroup": "The current symbol groups is {{title}}. You can use this dropdown to select a new symbol group or continue to navigate the keyboard using arrow keys"
+            "currentSymbolGroup": "The current symbol groups is {{title}}. You can use this dropdown to select a new symbol group or continue to navigate the keyboard using arrow keys",
+            "imageCapture": "Math image capture"
         },
         "fileUpload": {
             "title": "File upload question type"
@@ -45,7 +60,6 @@
             "keyboardInstructionsCloseButton": "Keyboard instructions, close button",
             "graph": "You have entered the graph.",
             "toolbar": "You are in a toolbar, press tab to enter it and then use the arrows to move around the tools.",
-            "plotted": "You have plotted {{shape}}",
             "point": "Point with coordinates {{point}}",
             "circle": "Circle with origin on {{origin}} and passing through {{point}}",
             "segment": "Segment from {{startPoint}} to {{endPoint}}",
@@ -59,7 +73,8 @@
             "axisHeading": "Initial graph state",
             "horizontalAxisInfo": "The horizontal axis goes from {{min}} to {{max}} with ticks spaced every {{step}} unit(s).",
             "verticalAxisInfo": "The vertical axis goes from {{min}} to {{max}} with ticks spaced every {{step}} unit(s).",
-            "questionResponseShapesHeading": "Created graph shapes"
+            "questionResponseShapesHeading": "Created graph shapes",
+            "backgroundImageNotice": "Graph has a background image with description \"{{description}}\"."
         },
         "griddedText": {
             "decimalPointInput": "Enter a decimal point",
@@ -72,10 +87,77 @@
             "toolbar": "Image upload toolbar"
         },
         "numberLinePlot": {
-            "title": "Number Line Plot question"
+            "title": "Number Line Plot question",
+            "point": "Point",
+            "cross": "Cross",
+            "segment": "Segment",
+            "segmentOpenOnLeft": "Segment open on left",
+            "segmentOpenOnRight": "Segment open on right",
+            "segmentOpenOnBottom": "Segment open on bottom",
+            "segmentOpenOnTop": "Segment open on top",
+            "openSegment": "Open segment",
+            "leftwardRay": "Leftward ray",
+            "rightwardRay": "Rightward ray",
+            "leftwardOpenRay": "Leftward open ray",
+            "rightwardOpenRay": "Rightward open ray",
+            "downwardRay": "Downward ray",
+            "upwardRay": "Upward ray",
+            "downwardOpenRay": "Downward open ray",
+            "upwardOpenRay": "Upward open ray",
+            "delete": "Delete",
+            "correctAnswers": "Correct answers:",
+            "infinity": "infinity",
+            "negativeInfinity": "negative infinity",
+            "screenReader": {
+                "overallDescriptionSingular": "Numberline plot from {{firstPosition}} to {{lastPosition}} with {{responseCount}} response.",
+                "overallDescriptionPlural": "Numberline plot from {{firstPosition}} to {{lastPosition}} with {{responseCount}} responses.",
+                "numberlineDescriptionSingular": "Numberline from {{firstPosition}} to {{lastPosition}} with {{responseCount}} response.",
+                "numberlineDescriptionPlural": "Numberline from {{firstPosition}} to {{lastPosition}} with {{responseCount}} responses.",
+                "numberlineInstructionElementToolActive": "Press Enter or Space key to plot {{tool}} element.",
+                "numberlineInstructionRemoveToolActive": "Press Tab key to focus sequentially through responses, and then Enter or Space key to remove them.",
+                "numberlineInstructionNoToolActive": "Press Enter or Space key to move. Press Tab key to focus sequentially through responses.",
+                "reachedMaximumResponses": "You have reached the maximum responses allowed. You can delete previous responses to make adjustments.",
+                "toolDescription": "Select to plot {{tool}} on the line.",
+                "toolSelectedDescription": "{{tool}} is selected.",
+                "toolUnselectedDescription": "{{tool}} is unselected.",
+                "deleteToolDescription": "Press enter or space to activate, and then select a response to remove.",
+                "elementFocusedDeleteModeNotice": "Press enter or space to remove.",
+                "plottingInstructions": "Use arrow keys to move, Press Enter or Space key to plot {{tool}}, Escape key to cancel.",
+                "afterPlotMessageDefault": "{{tool}} plotted on the line, at position {{firstPosition}}.",
+                "afterPlotMessageSegment": "{{tool}} plotted on the line, from position {{firstPosition}} to position {{lastPosition}}.",
+                "elementResponsePoint": "{{validationAriaLabel}} Response, {{type}}, at {{firstPosition}}.",
+                "elementResponsePointShort": "{{validationAriaLabel}} {{type}} at {{firstPosition}}.",
+                "elementResponseRayOrSegment": "{{validationAriaLabel}} Response, {{type}}, from {{firstPosition}} to {{lastPosition}}, whole segment is focused.",
+                "elementResponseRayOrSegmentShort": "{{validationAriaLabel}} {{type}} from {{firstPosition}} to {{lastPosition}}.",
+                "elementResponseSegmentPoint": "{{validationAriaLabel}} Response, {{type}}, from {{firstPosition}} to {{lastPosition}}, point {{focusedPosition}} is focused.",
+                "elementActivated": "grabbed, Use arrow keys to move {{focusedElement}}, Press Enter or Space key to plot, Escape key to cancel.",
+                "elementDeactivated": "{{focusedElement}} plotted.",
+                "elementRemoved": "{{focusedElement}} removed.",
+                "pointMoved": "The element in position {{oldPosition}} has been moved to position {{newPosition}}.",
+                "segmentMoved": "The segment in from {{oldLeftPosition}}, {{oldRightPosition}} has been moved to {{newLeftPosition}}, {{newRightPosition}}.",
+                "newPointerPositionLabel": "The pointer is in position {{screenReaderPointerPos}}.",
+                "correctResponse": "Response correct.",
+                "incorrectResponse": "Response incorrect.",
+                "expected": "Expected",
+                "correct": "Correct",
+                "incorrect": "Incorrect"
+            }
+        },
+        "multiStepMath": {
+            "lineResponseAreaLabel": "Step {{stepNumber}}, response area",
+            "createANewLine": "Create a new line",
+            "newLine": "New line",
+            "screenReader": {
+                "lineValidatedCorrectAndComplete": "Step {{stepNumber}} validated as correct and complete",
+                "lineValidatedCorrect": "Step {{stepNumber}} validated as correct",
+                "lineValidatedIncorrect": "Step {{stepNumber}} validated as incorrect",
+                "stepThatIsIncorrect": "Step {{stepNumber}} of {{stepCount}} incorrect.",
+                "finalStepIncomplete": "Final step is incomplete."
+            }
         },
         "plainText": {
-            "answer": "Answer for {{stimulus}}"
+            "answer": "Answer for {{stimulus}}",
+            "currentNumWords": " words written of {{limit}} allowed."
         },
         "popUp": {
             "popUpScreenReaderHeading": "Pop-up content",
@@ -116,7 +198,7 @@
             "moveInstructions": "Select to move button with arrow keys",
             "moveDropped": "Calculator dropped",
             "moveGrabbed": "Calculator grabbed. Use arrow keys to move around the screen, press enter when finished.",
-            "inputLabel": "Calculator",
+            "inputLabel": "Calculator display",
             "toggleUnit": "Angle unit is {{currentUnit}}, click to change to {{newUnit}}",
             "clearEntireInput": "C (Clear the entire input)",
             "clearLastSymbol": "CE (Clear the last symbol entered)",
@@ -179,14 +261,20 @@
             "dropdownSelectionOption": "Please select an option - "
         },
         "imageclozeassociationV2": {
-            "dropZonesContainer": "Drop targets"
+            "dropZonesContainer": "Response input area"
         },
         "mcq": {
             "responses": "Responses"
         },
         "dragDrop": {
-            "possibleResponses": "Possible responses",
-            "responseZone": "Press a button below to begin moving the response to the drop targets or drop your response here to return it to possible responses pool."
+            "overlayNotificationlabel": "Expand response area.",
+            "dropzoneNameLabel": "{{dropzoneLabel}} {{dropzoneNumber}} out of {{totalDropzones}}.",
+            "overlayNotificationDescription": "Enter key to see list of responses, for response input area {{dropzoneNumber}} out of {{totalDropzones}}.",
+            "responseDescription": "Select to move response to a response input area.",
+            "possibleResponses": "{{response}} possible responses, select a response to begin moving the response to the desired drop area or drop your response here to return it to the possible responses pool.",
+            "emptyPossibleResponses": "{{response}} possible responses, all responses have been moved out of possible responses pool.",
+            "instructions": "Put responses in the correct response input area to answer the question. Select a response, navigate to the desired input area and insert the response. Responses can be selected and inserted using the space bar, enter key, left mouse button or touchpad. Responses can also be moved by dragging with a mouse.",
+            "responseZone": "Select a response to begin moving the response to the desired drop area or drop your response here to return it to the possible responses pool."
         },
         "clozeDropdown": {
             "selectOption": "Please select an option - "
@@ -204,7 +292,7 @@
         "correct": "{{prefix}}correct",
         "incorrect": "{{prefix}}incorrect",
         "selected": "selected",
-        "missed": "{{prefix}} not selected, this is the correct answer",
+        "missed": "{{prefix}}not selected, this is the correct answer",
         "noResponseGiven": "{{prefix}}no response given",
         "minResponseMessage": "{{prefix}} this question requires at least 1 answer",
         "minResponsesMessage": "{{prefix}} this question requires at least {{minSelection}} answers",
@@ -226,78 +314,116 @@
         "graphPlotting": {
             "positionUpdated": "x {{x}}, y {{y}}, is your current position",
             "movingPoint": "You are moving the point at x={{x}}, y={{y}}",
-            "pointMoved": "The point has been moved to x={{x}}, y={{y}}"
+            "pointMoved": "The point {{point}} has been moved to x={{x}}, y={{y}}",
+            "moved": "Move successful. You now have a {{shape}}",
+            "plotted": "You have plotted {{shape}}",
+            "removed": "You have removed {{shape}}",
+            "reset": "The graph has been reset"
         },
         "imageclozeassociationV2": {
             "correctAnswer": "correct answer",
             "incorrectAnswer": "incorrect answer",
             "expectedAnswer": "expected answer",
-            "dropTarget": "Drop target: {{target}}. "
+            "dropTarget": "Drop target: {{target}}. ",
+            "activatedResponse": "Selected {{response}}. Use tab or arrow keys to drop response to a response input area. Press enter key to drop, Escape key to cancel selection.",
+            "activatedResponseInDropzone": "Selected {{response}}. Use tab or arrow keys to drop response to another response input area or back to possible response pool. Press enter key to drop, Escape key to cancel selection.",
+            "deactivatedResponse": "Deselected {{response}}.",
+            "deactivatedResponseInDropzone": "Deselected {{response}}.",
+            "droppedResponseInDropzone": "Dropped {{response}} in response input area{{customAriaLabel}}, {{dropzoneNumber}} out of {{totalDropzones}}.",
+            "droppedResponseBackInList": "Dropped {{response}} to possible responses pool.",
+            "droppedResponseInDropzoneWithResponse": "Dropped {{response}} in response input area{{customAriaLabel}}, {{dropzoneNumber}} out of {{totalDropzones}}. {{previousResponse}} moved back to possible responses pool."
         },
         "orderList": {
             "itemValidity": "Item {{index}}: {{response}} - {{validity}}. ",
             "correctAnswer": "Correct answer for item {{index}}: {{text}}. "
         },
         "tokenHighlight": {
+            "highlighted": "Highlighted: {{content}}",
+            "notHighlighted": "Not highlighted: {{content}}",
             "correctAnswers": "correct answers: {{answers}} ",
             "incorrectAnswers": "incorrect answers: {{answers}} ",
             "expectedAnswers": "expected answers: {{answers}} ",
-            "explanation": "To interact with this question use tab to move through the text tokens. Use space or enter to select or deselect the relevant tokens",
-            "highlighted": "Highlighted: {{content}}",
-            "notHighlighted": "Not highlighted: {{content}}"
+            "explanation": "To interact with this question use tab to move through the text tokens. Use space or enter to select or deselect the relevant tokens"
         },
         "clozeAssociation": {
-            "activatedResponse": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been selected. Press tab to choose a response area, and spacebar to insert it. Press escape to cancel.",
-            "activatedResponseInDropzone": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been selected from position {{dropzoneNumber}} of {{totalDropzones}}. Press tab to choose a response area, and spacebar to insert it. Press escape to cancel.",
-            "deactivatedResponse": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been deselected.",
-            "deactivatedResponseInDropzone": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been deselected and is back in position {{dropzoneNumber}} of {{totalDropzones}}.",
-            "droppedResponseInDropzone": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been inserted in position {{dropzoneNumber}} of {{totalDropzones}}.",
-            "droppedResponseBackInList": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been inserted back into the option list."
+            "activatedResponse": "Selected {{response}}. Use tab or arrow keys to drop response to a response input area. Press enter key to drop, Escape key to cancel selection.",
+            "activatedResponseInDropzone": "Selected {{response}}. Use tab or arrow keys to drop response to another response input area or back to possible responses pool. Press enter key to drop, Escape key to cancel selection.",
+            "deactivatedResponse": "Deselected {{response}}.",
+            "deactivatedResponseInDropzone": "Deselected {{response}}.",
+            "droppedResponseInDropzone": "Dropped {{response}} in response input area{{customAriaLabel}}, {{dropzoneNumber}} out of {{totalDropzones}}.",
+            "droppedResponseBackInList": "Dropped {{response}} to possible responses pool.",
+            "droppedResponseInDropzoneWithResponse": "Dropped {{response}} in response input area{{customAriaLabel}}, {{dropzoneNumber}} out of {{totalDropzones}}. {{previousResponse}} moved back to possible responses pool."
         },
         "association": {
-            "activatedResponse": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been selected. Press tab to choose a response area, and spacebar to insert it. Press escape to cancel.",
-            "activatedResponseInDropzone": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been selected from position {{dropzoneNumber}} of {{totalDropzones}}. Press tab to choose a response area, and spacebar to insert it. Press escape to cancel.",
-            "deactivatedResponse": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been deselected.",
-            "deactivatedResponseInDropzone": "The operation has been cancelled. The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been released back into position {{dropzoneNumber}} of {{totalDropzones}} which corresponds to \"{{dropzoneLabel}}\". You are no longer moving any option.",
-            "droppedResponseInDropzone": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been inserted in position {{dropzoneNumber}} of {{totalDropzones}}.",
-            "droppedResponseBackInList": "The option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) has been inserted back into the option list."
+            "activatedResponse": "Selected {{response}}. Use tab or arrow keys to drop response to a response input area. Press enter key to drop, Escape key to cancel selection.",
+            "activatedResponseInDropzone": "Selected {{response}}. Use tab or arrow keys to drop response to another response input area or back to possible responses pool. Press enter key to drop, Escape key to cancel selection.",
+            "deactivatedResponse": "Deselected {{response}}.",
+            "deactivatedResponseInDropzone": "Deselected {{response}}.",
+            "droppedResponseInDropzone": "Dropped {{response}} in response input area, {{dropzoneNumber}} out of {{totalDropzones}}. Connected to {{dropzoneLabel}}",
+            "droppedResponseBackInList": "Dropped {{response}} to possible responses pool.",
+            "droppedResponseInDropzoneWithResponse": "Dropped {{response}} in response input area, {{dropzoneNumber}} out of {{totalDropzones}}. Connected to {{dropzoneLabel}}. {{previousResponse}} moved back to possible responses pool."
         },
         "mathKeyboard": {
             "mathKeyboardOpened": "Formula keypad has been opened. Press TAB to use it and then navigate using the arrows.",
-            "mathKeyboardClosed": "Formula keypad has been closed. Press Control + Backslash to open it again."
+            "mathKeyboardClosed": "Formula keypad has been closed. Press Control + Backslash to open it again.",
+            "blockKeyboardOpened": "Formula keypad has been opened. Press TAB to use it and then navigate using the arrows. Keypad can be found below the response input area."
+        },
+        "bowtie": {
+            "activatedResponse": "The option \"{{response}}\" has been selected. Press tab or shift tab to choose a response area, and spacebar to insert it. Press escape to cancel.",
+            "droppedResponse": "The option \"{{response}}\" has been inserted in {{responseAreaLabel}}."
         }
     },
     "ariaRoleDescription": {
         "clozeAssociation": {
-            "dropzone": "Insert option in position {{dropzoneNumber}} of {{totalDropzones}}.",
-            "dropzoneWithResponse": "Insert option in position {{dropzoneNumber}} of {{totalDropzones}}, which currently contains the option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}).",
-            "dropzoneReadOnly": "Empty response in position {{dropzoneNumber}} of {{totalDropzones}}.",
-            "dropzoneReadOnlyWithResponse": "Option \"{{response}}\" ({{responseNumber}} of {{totalResponses}}) in position {{dropzoneNumber}} of {{totalDropzones}}."
+            "dropzone": "Press enter key to drop response here.",
+            "dropzoneWithResponse": "Currently contains {{response}}.",
+            "dropzoneReadOnly": "Currently contains no response.",
+            "dropzoneReadOnlyWithResponse": "Currently contains {{response}}."
         },
         "association": {
-            "dropzone": "\"{{dropzoneLabel}}\"",
-            "dropzoneWithResponse": "\"{{dropzoneLabel}}\", which currently contains the option \"{{response}}\".",
-            "dropzoneReadOnly": "Empty response in \"{{dropzoneLabel}}\".",
-            "dropzoneReadOnlyWithResponse": "Option \"{{response}}\" in \"{{dropzoneLabel}}\"."
+            "dropzone": "Press enter key to drop response here.",
+            "dropzoneWithResponse": "Currently contains {{response}}.",
+            "dropzoneReadOnly": "Currently contains no response.",
+            "dropzoneReadOnlyWithResponse": "Currently contains {{response}}."
+        },
+        "bowtie": {
+            "dropzone": "Insert option in position {{dropzonePosition}} of {{totalDropzones}}",
+            "dropzoneWithResponse": "Insert option in position {{dropzonePosition}} of {{totalDropzones}}, which currently contains the option \"{{response}}"
+        },
+        "dragDrop": {
+            "dropzone": "Press enter key to drop response here.",
+            "dropzoneWithResponse": "Currently contains {{response}}.",
+            "dropzoneReadOnly": "Currently contains no response.",
+            "dropzoneReadOnlyWithResponse": "Currently contains {{response}}."
         }
     },
     "audioAdjustVolume": "Adjust Volume",
-    "audioContinuePlayback": "Continue",
+    "audioContinuePlayback": "Play",
     "audioContinueRecording": "Continue recording",
+    "audioHideCaption": "Turn off Captions",
+    "audioHideTranscript": "Turn off Transcript",
+    "audioMute": "Mute",
     "audioPausePlayback": "Pause",
     "audioPauseRecording": "Pause",
     "audioPlayRecording": "Play",
     "audioPlayer": "Audio Player",
     "audioRecorder": "Audio Recorder",
+    "audioShowCaption": "Turn on Captions",
+    "audioShowTranscript": "Turn on Transcript",
     "audioSoundWaves": "Sound waves",
     "audioStartRecording": "Start recording",
-    "audioStopPlayback": "Stop playback",
+    "audioStopPlayback": "Stop",
     "audioStopRecording": "Stop recording",
+    "audioTranscript": "Transcript",
+    "audioUnmute": "Unmute",
     "audioplaybackerror": "Unable to play audio asset. Click to try again in a moment.",
     "audioretrievalretry": "Trying to retrieve audio",
     "calculator": "Calculator",
     "calculatorControls": "Calculator controls",
+    "camera": "Camera",
     "cancel": "Cancel",
+    "captions": "Captions",
+    "characterLimitExceeded": "{{num}} characters over",
     "characterMapCharacters": [
         "¡",
         "¿",
@@ -438,6 +564,7 @@
         "correctTitle": "Correct"
     },
     "downloadAudio": "Download",
+    "downloadMP3": "Download MP3",
     "downloadVideo": "Download video file",
     "draggableItem": "Movable item",
     "drawing": {
@@ -543,7 +670,7 @@
     "editorUnderlineTitle": "Underline",
     "error": "Error",
     "fileUpload": {
-        "deleteFileMode": "Delete File Mode",
+        "deleteFileMode": "Delete File Mode. Tap to choose file to delete.",
         "fileDescriptionMode": "File Description Mode",
         "fileLimit": "File Limit",
         "characterLimit": "character limit",
@@ -563,7 +690,7 @@
         "uploadFiles": "Upload files",
         "uploadFailed": "upload failed",
         "photoCapture": {
-            "launch": "Capture photo",
+            "launch": "Capture photo with device camera",
             "accessToCamera": {
                 "title": "Waiting for camera access",
                 "description": "Before capturing, we will ask for access to the camera.",
@@ -582,6 +709,7 @@
             "close": "Close"
         }
     },
+    "flip": "Flip",
     "fontSize": {
         "small": "Small",
         "normal": "Normal",
@@ -612,7 +740,15 @@
         "delete": "Delete",
         "label": "Label"
     },
-    "handwritingApiError": "Unable to recognise handwriting. Please try again later.",
+    "hints": {
+        "showHintsButton": "Show hints",
+        "total": "Hint {num} of {total}",
+        "next": "Next",
+        "previous": "Previous",
+        "close": "Close",
+        "move": "Hints window. Select to move hints window",
+        "resize": "Resize hints window. Select to resize hints window"
+    },
     "imageTool": "Image Tool",
     "imageUpload": {
         "deleteMode": "Delete Mode",
@@ -654,8 +790,39 @@
         "ariaLabelMask": "Mask",
         "ariaLabelUnmask": "Unmask"
     },
+    "mathImageCapture": {
+        "close": "Close image capture",
+        "capture": "Capture",
+        "captureImageToConvert": "Capture image to convert",
+        "viaCamera": "Via camera",
+        "viaQRCode": "Via QR code",
+        "howToCaptureImage": "How do you want to capture the image?",
+        "scanQRCode": "Scan QR Code",
+        "scanQRCodeExplanation": "Scan this QR code on your mobile device to capture image",
+        "waitingForCameraAccess": "Waiting for camera access",
+        "waitingForCameraAccessExplanation": "Before capturing, we will ask for access to the camera",
+        "waitingForCameraAccessMobile": "Using your devices camera, take a photo of your handwritten math",
+        "openCameraMobile": "Tap to open camera",
+        "mirrorImage": "Mirror image",
+        "convertedAnswerFromImage": "Converted answer from image",
+        "retake": "Retake",
+        "accept": "Accept",
+        "cancel": "Cancel",
+        "unableToConvertImage": "Unable to convert image",
+        "unableToConvertImageAdviceGeneric": "Check image quality or your Internet connection and try capturing again",
+        "unableToConvertImageNoLatex": "Check your image only contains math and try capturing again",
+        "cameraAccessDenied": "Camera access denied or not available.",
+        "errorAccessingCamera": "Error accessing camera:",
+        "imageCapturedAlt": "image captured from webcam",
+        "answerHasBeenEntered": "Answer has been entered into response"
+    },
     "mathKeyboardHelp": {
         "title": "Keyboard Shortcuts",
+        "columnTitles": {
+            "symbol": "Symbol",
+            "name": "Name",
+            "shortcut": "Shortcut"
+        },
         "shortcuts": "You can always use ctrl + \\ (backslash) to reopen the Math Keyboard.",
         "disclaimer": "Keyboard shortcut combinations may differ from one region to another. These were created using an English: United States keyboard.",
         "close": "Close"
@@ -675,6 +842,10 @@
         "doubleprime": "Double Prime/Arcsecond",
         "dollars": "Dollars",
         "cents": "Cents",
+        "pound": "Pound",
+        "yen": "Yen",
+        "euro": "Euro",
+        "rupee": "Rupee",
         "plus": "Plus",
         "minus": "Minus",
         "times": "Multiply",
@@ -685,6 +856,8 @@
         "less": "Less than",
         "ge": "Greater than or equal to",
         "le": "Less than or equal to",
+        "geqq": "Greater than or equal to",
+        "leqq": "Less than or equal to",
         "ne": "Not equal to",
         "approx": "Approximately equal to",
         "perp": "Perpendicular to",
@@ -702,6 +875,7 @@
         "rightbraces": "Group in odd braces",
         "leftbracket": "Left square bracket",
         "rightbracket": "Right square bracket",
+        "angledbracket": "Grouped in angled brackets",
         "exponent": "Exponent",
         "square": "Square",
         "subscript": "Subscript",
@@ -709,6 +883,7 @@
         "fraction": "Fraction",
         "ratio": "Ratio",
         "percentage": "Percentage",
+        "questionmark": "Question mark",
         "abs": "Absolute value",
         "sqrt": "Square root",
         "cube": "Cube root",
@@ -933,7 +1108,6 @@
         "responseContainerIcon": "Response Container"
     },
     "mathKeyboardTitle": {
-        "handwriting": "Handwriting",
         "qwerty": "Keyboard",
         "basic": "Basic",
         "basic_junior": "Basic Junior",
@@ -953,7 +1127,20 @@
         "calculus": "Calculus",
         "misc": "Miscellaneous",
         "discrete": "Discrete",
-        "general": "General"
+        "general": "General",
+        "master": "All Symbols",
+        "numberPad": "Number pad",
+        "numberPadHorizontal": "Number pad",
+        "numberPadMobile": "123",
+        "custom": "Custom"
+    },
+    "mathResponseModal": {
+        "overallAriaLabel": "Math Response Modal",
+        "keypad": "Keypad",
+        "latex": "LaTeX",
+        "handwriting": "Handwriting",
+        "imageCapture": "Image Capture",
+        "keypadGridDescription": "Grid of math buttons"
     },
     "maxPlayAttempts": "You reached the playback limit",
     "maxRecordAttempts": "You used all your recording attempts",
@@ -983,27 +1170,26 @@
     "playing": "Playing",
     "previous": "Previous",
     "progress": "Progress",
+    "ratingGroup": "Responses",
     "ratingInfoIcon": "i",
     "ready": "Ready",
     "record": "Record",
-    "camera": "Camera",
-    "flip": "Flip",
     "recordAudioStatusLine": "Click to change microphone access settings.",
     "recordAudioStatusTitle": "Audio Status",
     "recordAuthRememberHtml": "Select <strong>remember</strong> before clicking <strong>allow</strong>. This will allow you to record audio and stop this pop-up box being shown again.",
     "recordAuthRememberTitle": "Microphone permission",
-    "recordAuthRememberTroubleLink": "Having trouble? <a target=\"_blank\" href=\"https://www.learnosity.com/guide/audioTroubleshooting.php\">Click here</a>.",
+    "recordAuthRememberTroubleLink": "Having trouble? <a target=\"_blank\" href=\"https://questions.learnosity.com/latest/readiness/audio\">Click here</a>.",
     "recordChromeAuth1st": "Click <strong>allow</strong> above, in the top right of your browser window:",
     "recordChromeAuth1stB": "Click the <strong>allow</strong> button to enable microphone permissions.",
     "recordChromeAuth2nd": "<strong>Close</strong> this window",
     "recordChromeAuthTitle": "Additional browser permissions",
-    "recordChromeAuthTroubleLink": "If the button is not displayed, refer to <a target='_blank' href='https://www.learnosity.com/guide/audioTroubleshooting.php'>this guide</a>.",
-    "recordMobileTroubleLink": "If you're using a mobile device, refer to <a target='_blank' href='https://www.learnosity.com/guide/audioTroubleshooting.php'>this guide</a>.",
+    "recordChromeAuthTroubleLink": "If the button is not displayed, refer to <a target=\"_blank\" href=\"{{url}}\">this guide</a>.",
+    "recordMobileTroubleLink": "If you're using a mobile device, refer to <a target=\"_blank\" href=\"https://questions.learnosity.com/latest/readiness/audio\">this guide</a>.",
     "recordSwfErrorLine1": "We've been unable to access flash. Please ensure a blocker",
     "recordSwfErrorLine2": "is not enabled and that you have the latest version of flash.",
     "recording": "Recording",
     "recordingComplete": "Recording complete",
-    "recordingCounterPreload": "Recording will begin in ...",
+    "recordingCounterPreload": "Recording starts in ...",
     "recordingPaused": "Recording paused",
     "recordingTooLong": "Recording too long. The maximum recording length is {maxLength} seconds.",
     "recordingUnavailable": "Recording unavailable",
@@ -1011,7 +1197,8 @@
     "replay": "Replay",
     "reset": "Reset",
     "response": "Response",
-    "responseArea": "Response area",
+    "responseArea": "Response input area",
+    "responseAreaDescription": "Press enter key to drop response here.",
     "resume": "Resume",
     "retry": "Retry",
     "rightClickAudioDownload": "Click to save audio file.",
@@ -1032,6 +1219,7 @@
     "submitInProgress": "Submitting...",
     "tapToStartPlayback": "Tap to start playback",
     "target": "Target",
+    "transcript": "Transcript",
     "uierrorfeedback": "A problem occurred. Please try again later. If the problem persists contact your administrator.",
     "unableToPlayAsset": "Unable to play, asset not available.",
     "unavailable": "Unavailable",
@@ -1039,7 +1227,7 @@
     "unsupportedBrowser": "Sorry, this item cannot be displayed because your browser is not supported.",
     "unsupportedCompatibilityMode": "Sorry, this item cannot be displayed because your browser is in an unsupported compatibility view.",
     "video": {
-        "recordingInstructionsBefore": "Before recording, we will ask for access to the camera and microphone.",
+        "recordingInstructionsBefore": "Before recording, access to the camera and microphone may be requested.",
         "recordingInstructionsAgain": "Then select the \"Take Video\" option",
         "recordingInstructionsCameraStart": "Press the camera button to start",
         "recordingInstructionsStart": "Press record to start",
