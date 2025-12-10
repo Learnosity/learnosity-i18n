@@ -32,10 +32,20 @@
             },
             "description": "Standard Multiple choice question.",
             "group_reference": "mcq",
-            "hidden": ["description", "penalty_score"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqdefault.png",
+            "hidden": [
+                "description",
+                "penalty_score"
+            ],
+            "image": "mcq.png",
             "name": "Multiple choice – standard",
-            "hidden_search_terms": ["mcq", "mc", "true", "false", "yes", "no"],
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
             "reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
         },
         {
@@ -71,10 +81,21 @@
             },
             "description": "Multiple choice question with multiple responses.",
             "group_reference": "mcq",
-            "hidden": ["multiple_responses", "description", "penalty_score"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqmulti.png",
+            "hidden": [
+                "multiple_responses",
+                "description",
+                "penalty_score"
+            ],
+            "image": "mcq-multi.png",
             "name": "Multiple choice – multiple response",
-            "hidden_search_terms": ["mcq", "mc", "true", "false", "yes", "no"],
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
             "reference": "908de244-5c71-4c09-b094-7fb49554f2f9"
         },
         {
@@ -105,11 +126,26 @@
             },
             "description": "True or false question.",
             "group_reference": "mcq",
-            "hidden_sections": ["scoring.scoring_type", "scoring.rounding"],
-            "hidden": ["shuffle_options", "multiple_responses", "validation.scoring_type", "validation.rounding"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqtruefalse.png",
+            "hidden_sections": [
+                "scoring.scoring_type",
+                "scoring.rounding"
+            ],
+            "hidden": [
+                "shuffle_options",
+                "multiple_responses",
+                "validation.scoring_type",
+                "validation.rounding"
+            ],
+            "image": "mcq-truefalse.png",
             "name": "True or false",
-            "hidden_search_terms": ["mcq", "mc", "true", "false", "yes", "no"],
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
             "reference": "3egs0b24-5gs8-49fc-fds9-4a450sdg31ca"
         },
         {
@@ -148,22 +184,40 @@
             },
             "description": "Multiple choice question with a Block layout.",
             "group_reference": "mcq",
-            "hidden": ["description", "penalty_score"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/mcqblock.png",
+            "hidden": [
+                "description",
+                "penalty_score"
+            ],
+            "image": "mcq-block.png",
             "name": "Multiple choice – block layout",
-            "hidden_search_terms": ["mcq", "mc", "true", "false", "yes", "no"],
+            "hidden_search_terms": [
+                "mcq",
+                "mc",
+                "true",
+                "false",
+                "yes",
+                "no"
+            ],
             "reference": "33d53a22-1a59-4a03-9671-7f5104edd62e"
         }
     ],
     "classification": [
         {
             "defaults": {
-                "possible_responses": ["[Choice A]", "[Choice B]", "[Choice C]", "[Choice D]"],
+                "possible_responses": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]",
+                    "[Choice D]"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "classification",
                 "ui_style": {
                     "column_count": 2,
-                    "column_titles": ["COLUMN 1", "COLUMN 2"],
+                    "column_titles": [
+                        "COLUMN 1",
+                        "COLUMN 2"
+                    ],
                     "row_count": 1
                 },
                 "validation": {
@@ -171,16 +225,24 @@
                     "valid_response": {
                         "score": 1,
                         "value": [
-                            [null, null],
-                            [null, null]
+                            [
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null
+                            ]
                         ]
                     }
                 }
             },
             "description": "Drag and drop responses into a grid with 2 columns and 1 row.",
             "group_reference": "match",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/classification.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "classification.png",
             "name": "Classification",
             "reference": "ef2648de-f826-4674-b17d-71e71889d8e6"
         }
@@ -188,22 +250,36 @@
     "association": [
         {
             "defaults": {
-                "possible_responses": ["[Choice A]", "[Choice B]", "[Choice C]"],
+                "possible_responses": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
-                "stimulus_list": ["[Stem 1]", "[Stem 2]", "[Stem 3]"],
+                "stimulus_list": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]"
+                ],
                 "type": "association",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": " Drag and Drop responses to match a predefined list.",
             "group_reference": "match",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/association.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "association.png",
             "name": "Match list",
             "reference": "1fa22aac-1f88-47f7-941b-3c77759549e6"
         }
@@ -211,7 +287,10 @@
     "clozeassociation": [
         {
             "defaults": {
-                "possible_responses": ["Choice A", "Choice B"],
+                "possible_responses": [
+                    "Choice A",
+                    "Choice B"
+                ],
                 "response_container": {
                     "pointer": "left"
                 },
@@ -222,14 +301,19 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null]
+                        "value": [
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Fill in the blanks drag and drop.",
             "group_reference": "cloze",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/cloze_dd.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "clozeassociation.png",
             "name": "Cloze with drag & drop",
             "reference": "51a8c1e7-f34f-4faf-b211-da458e891fcb"
         }
@@ -238,8 +322,18 @@
         {
             "defaults": {
                 "possible_responses": [
-                    ["Choice A", "Choice B", "Choice C", "Choice D"],
-                    ["Choice A", "Choice B", "Choice C", "Choice D"]
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C",
+                        "Choice D"
+                    ],
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C",
+                        "Choice D"
+                    ]
                 ],
                 "response_container": {
                     "pointer": "left"
@@ -251,14 +345,19 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null]
+                        "value": [
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Fill in the blanks with drop down menus.",
             "group_reference": "cloze",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozedropdown.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "clozedropdown.png",
             "name": "Cloze with drop down",
             "reference": "2fbba51b-e35e-441f-83c7-2662e2e81fa6"
         }
@@ -273,14 +372,19 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null]
+                        "value": [
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Fill in the blanks with text responses.",
             "group_reference": "cloze",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozet.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "clozetext.png",
             "name": "Cloze with text",
             "reference": "457fe101-0667-4a35-b193-b849653acb52"
         }
@@ -290,7 +394,10 @@
             "defaults": {
                 "is_math": true,
                 "stimulus": "<p>[This is the stem.]</p>",
-                "symbols": ["chemistry", "qwerty"],
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
                 "text_blocks": [],
                 "type": "chemistry",
                 "validation": {
@@ -312,10 +419,235 @@
             },
             "description": "Enter complex chemistry. Default response box.",
             "group_reference": "chemistry",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/chemistry_formula.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "chemistry.png",
             "name": "Chemistry formula",
             "reference": "e484fac0-4022-4b58-b86f-4a537002f449"
+        }
+    ],
+    "formulaV2": [
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex math. Default response box.",
+            "group_reference": "deprecated",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaV2.png",
+            "name": "Math formula [DEPRECATED]",
+            "reference": "e3a30485-ab2d-4ee8-9d0c-5749e96816c1"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "\\frac{{{response}}}{{{response}}}",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex math. Fraction Response boxes.",
+            "group_reference": "deprecated",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaV2-fraction.png",
+            "name": "Math with fractions [DEPRECATED]",
+            "reference": "764f1dc3-27b7-48a2-93f3-d6573e4c98f0"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "{{response}} + {{response}} =",
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Enter complex math. Add multiple response boxes.",
+            "group_reference": "deprecated",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaV2-fill.png",
+            "name": "Math – fill in the blanks [DEPRECATED]",
+            "reference": "23209785-6fa0-404e-87c2-c213b546d0ba"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "response_containers": [
+                    {
+                        "width": "60px"
+                    }
+                ],
+                "stimulus": "<p>[This is the stem.]</p>",
+                "type": "formulaV2",
+                "template": "{{response}}\\text{ sq ft}",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "89\\text{ sq ft}"
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Add text after response box.",
+            "group_reference": "deprecated",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaV2-text.png",
+            "name": "Math with text [DEPRECATED]",
+            "reference": "caaa3b3a-6eed-4ad3-b80d-be67515016e0"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2={{response}}",
+                "symbols": [
+                    "matrices",
+                    "general",
+                    "qwerty"
+                ],
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "\\begin{bmatrix}4&0\\\\1&-9\\end{bmatrix}\\times2=\\begin{bmatrix}8&0\\\\2&-18\\end{bmatrix}"
+                            }
+                        ]
+                    }
+                }
+            },
+            "description": "Use matrices within math.",
+            "group_reference": "deprecated",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaV2-matrices.png",
+            "name": "Math with matrices [DEPRECATED]",
+            "reference": "aadca3d1-ecdb-41fb-8efa-591fbeb79874"
+        },
+        {
+            "defaults": {
+                "is_math": true,
+                "stimulus": "<p>[This is the stem.]</p>",
+                "template": "{{response}}=1\\text{m}",
+                "symbols": [
+                    "units_si",
+                    "units_us",
+                    "qwerty"
+                ],
+                "type": "formulaV2",
+                "validation": {
+                    "scoring_type": "exactMatch",
+                    "valid_response": {
+                        "score": 1,
+                        "value": [
+                            {
+                                "method": "equivLiteral",
+                                "options": {
+                                    "inverseResult": false
+                                },
+                                "value": "100\\text{cm}=1\\text{m}"
+                            }
+                        ]
+                    }
+                },
+                "text_blocks": [
+                    "g",
+                    "kg",
+                    "mg",
+                    "m",
+                    "km",
+                    "cm",
+                    "mm",
+                    "L",
+                    "mL",
+                    "s",
+                    "ms",
+                    "oz",
+                    "lb",
+                    "in",
+                    "ft",
+                    "mi",
+                    "fl oz",
+                    "pt",
+                    "gal"
+                ]
+            },
+            "description": "Use SI/US units within math.",
+            "group_reference": "deprecated",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaV2-units.png",
+            "name": "Math with units [DEPRECATED]",
+            "reference": "dc098fc1-27b8-47d7-aa30-e8976d13c1ac"
         }
     ],
     "clozechemistry": [
@@ -323,7 +655,10 @@
             "is_math": true,
             "defaults": {
                 "stimulus": "<p>[This is the stem.]</p>",
-                "symbols": ["chemistry", "qwerty"],
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
                 "template": "<p>{{response}}\\(\\rightarrow C_6H_{12}O_6+6O_2\\)</p>\n",
                 "text_blocks": [],
                 "type": "clozechemistry",
@@ -355,8 +690,10 @@
             },
             "description": "Cloze question type with chemistry formula inputs.",
             "group_reference": "chemistry",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozechemistry.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "clozechemistry.png",
             "name": "Cloze chemistry",
             "reference": "36e1da6f-5966-4912-a547-75bffdd77950"
         }
@@ -396,8 +733,10 @@
             },
             "description": "Allows math input in one or more response boxes with advanced auto-scoring.",
             "group_reference": "math",
-            "hidden": ["description"],
-            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/clozeformulaV2.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "clozeformulaV2.png",
             "name": "Math",
             "reference": "ef0ab0ba-235f-459d-9380-a4a106280c9a"
         }
@@ -434,8 +773,10 @@
             },
             "description": "Allows multiline math input with step-by-step auto-scoring.",
             "group_reference": "math",
-            "hidden": ["description"],
-            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/multistepmath.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "multistepmath.png",
             "name": "Multi-step math",
             "reference": "7ebe931e-06b8-4fc8-95d2-c7ec4fbf1239"
         }
@@ -488,8 +829,10 @@
             },
             "description": "Allows math input on an image with advanced auto-scoring.",
             "group_reference": "math",
-            "hidden": ["description"],
-            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/imageclozeformulaV2.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "imageclozeformulaV2.png",
             "name": "Label image with math",
             "reference": "76504b1a-8f37-4ab8-bcbf-875c966c72af"
         }
@@ -527,8 +870,10 @@
             },
             "description": "Cloze question type with math formula inputs.",
             "group_reference": "math",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/clozeformula1.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "clozeformula.png",
             "name": "Cloze math",
             "reference": "57b0690f-4e99-4bbc-9c8f-aa3074baa495"
         }
@@ -538,13 +883,30 @@
             "is_math": true,
             "defaults": {
                 "stimulus": "<p>[This is the stem.]</p>",
-                "formatting_options": ["bold", "italic", "underline", "|", "indentIncrease", "indentDecrease", "|", "formulaEditor", "|", "undo", "redo"],
-                "symbols": ["chemistry", "qwerty"]
+                "formatting_options": [
+                    "bold",
+                    "italic",
+                    "underline",
+                    "|",
+                    "indentIncrease",
+                    "indentDecrease",
+                    "|",
+                    "formulaEditor",
+                    "|",
+                    "undo",
+                    "redo"
+                ],
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ]
             },
             "description": "Essay question type with a keypad that has chemistry symbols by default",
             "group_reference": "chemistry",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/chemistryessayV2.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "chemistryessayV2.png",
             "name": "Chemistry essay with rich text",
             "reference": "c07e5630-e0f4-4d0d-b1f8-3908e0d7e474"
         }
@@ -572,7 +934,10 @@
                     "type": "floating-keyboard"
                 },
                 "stimulus": "<p>[This is the stem.]</p>",
-                "symbols": ["chemistry", "qwerty"],
+                "symbols": [
+                    "chemistry",
+                    "qwerty"
+                ],
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
@@ -594,8 +959,10 @@
             },
             "description": "Question that supports chemistry input per line.",
             "group_reference": "chemistry",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozechemistry.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "imageclozechemistry.png",
             "name": "Cloze chemistry with image",
             "reference": "4d2a04cb-f8a9-4678-b8c6-0dd4bce25fbc"
         }
@@ -648,8 +1015,10 @@
             },
             "description": "Question that supports either math or text input per line.",
             "group_reference": "math",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageclozeformula.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "imageclozeformula.png",
             "name": "Cloze math with image",
             "reference": "11c9093a-dfd3-4852-b1ee-d5e5c3f032df"
         }
@@ -659,12 +1028,26 @@
             "is_math": true,
             "defaults": {
                 "stimulus": "<p>[This is the stem.]</p>",
-                "formatting_options": ["bold", "italic", "underline", "|", "indentIncrease", "indentDecrease", "|", "formulaEditor", "|", "undo", "redo"]
+                "formatting_options": [
+                    "bold",
+                    "italic",
+                    "underline",
+                    "|",
+                    "indentIncrease",
+                    "indentDecrease",
+                    "|",
+                    "formulaEditor",
+                    "|",
+                    "undo",
+                    "redo"
+                ]
             },
             "description": "Essay question type with a keypad for inputting math",
             "group_reference": "math",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/formulaessayV2.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "formulaessayV2.png",
             "name": "Math essay with rich text",
             "reference": "7b810c2c-9100-4ff1-96de-cda23bf34445"
         }
@@ -699,7 +1082,10 @@
                 "stimulus": "<p>[This is the stem.]</p>",
                 "toolbar": {
                     "default_tool": "point",
-                    "tools": ["point", "move"]
+                    "tools": [
+                        "point",
+                        "move"
+                    ]
                 },
                 "type": "graphplotting",
                 "validation": {
@@ -712,8 +1098,11 @@
             },
             "description": "10 x 10 unit quadrants (600px x 600px canvas) with Point tool.",
             "group_reference": "graph",
-            "hidden": ["description", "mode"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph.png",
+            "hidden": [
+                "description",
+                "mode"
+            ],
+            "image": "graphplotting.png",
             "name": "Graphing",
             "reference": "b7dc8b69-c12a-4c4f-ac17-181ac6e0da26"
         },
@@ -755,8 +1144,11 @@
             },
             "description": "10 x 10 1st quadrant graph (600px x 600px canvas) with all drawing tools.",
             "group_reference": "graph",
-            "hidden": ["description", "mode"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/graph4.png",
+            "hidden": [
+                "description",
+                "mode"
+            ],
+            "image": "graphplotting-firstquadrant.png",
             "name": "Graphing in the 1st quadrant",
             "reference": "f325a114-bb81-4e7f-86e0-1147416a78a8"
         }
@@ -769,14 +1161,18 @@
                     "width": 0,
                     "height": 0
                 },
-                "line_color": ["rgba(0, 116, 217, 1)"],
+                "line_color": [
+                    "rgba(0, 116, 217, 1)"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "drawing"
             },
             "description": "Allows the use of different drawing tools to draw on an image.",
             "group_reference": "highlight",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/drawing.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "drawing.png",
             "name": "Drawing",
             "reference": "c20d4103-5214-4cdd-bc17-29c98f0e7c0c"
         }
@@ -804,8 +1200,10 @@
             },
             "description": "Allows users to select areas on a grid.",
             "group_reference": "highlight",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/simpleshading.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "simpleshading.png",
             "name": "Shading",
             "reference": "b30bc5dc-b616-4913-a8b4-b5dd9c43bafd"
         }
@@ -818,7 +1216,11 @@
                     "width": 600,
                     "height": 400
                 },
-                "possible_responses": ["Choice A", "Choice B", "Choice C"],
+                "possible_responses": [
+                    "Choice A",
+                    "Choice B",
+                    "Choice C"
+                ],
                 "response_containers": [
                     {
                         "x": 11.56,
@@ -851,9 +1253,11 @@
             },
             "description": "Fill in the blanks on an image with drag & drop.",
             "group_reference": "cloze",
-            "hidden": ["description"],
+            "hidden": [
+                "description"
+            ],
             "hidden_from_tile_view": false,
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_association_v2.png",
+            "image": "imageclozeassociationV2.png",
             "name": "Label image with drag & drop",
             "reference": "6e77b403-8f0c-43af-b464-9450e1ac70dc"
         }
@@ -865,9 +1269,21 @@
                     "src": "//assets.learnosity.com/demos/docs/blank_us_map_v2.png"
                 },
                 "possible_responses": [
-                    ["Choice A", "Choice B", "Choice C"],
-                    ["Choice A", "Choice B", "Choice C"],
-                    ["Choice A", "Choice B", "Choice C"]
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C"
+                    ],
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C"
+                    ],
+                    [
+                        "Choice A",
+                        "Choice B",
+                        "Choice C"
+                    ]
                 ],
                 "response_container": {
                     "pointer": "left",
@@ -893,14 +1309,20 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Fill in the blanks image with drop down menus.",
             "group_reference": "cloze",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_dropdown.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "imageclozedropdown.png",
             "name": "Label image with drop-down",
             "reference": "f8364191-ada5-4806-83d4-8a36b8fad4b0"
         }
@@ -935,14 +1357,20 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Fill in the blanks with a text box on an image.",
             "group_reference": "cloze",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/image_cloze.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "imageclozetext.png",
             "name": "Label image with text",
             "reference": "35a850a7-9d3f-4e1c-880a-a340767942b6"
         }
@@ -955,8 +1383,10 @@
                 "label": "Protractor",
                 "alt": "A 180-degree standard protractor."
             },
-            "hidden": ["image"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/protractor.png",
+            "hidden": [
+                "image"
+            ],
+            "image": "imagetool-protractor.png",
             "name": "Protractor",
             "description": "Embed a protractor as a feature.",
             "reference": "26752c5b-4452-4a78-8819-dd8d4b587cbf"
@@ -968,7 +1398,7 @@
                 "label": "Ruler",
                 "alt": "A 15-centimetre ruler."
             },
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/rulers.png",
+            "image": "imagetool-ruler.png",
             "name": "Ruler",
             "description": "Embed a ruler as a feature.",
             "reference": "e7abff79-d5fc-450f-a789-6384c2dcbb64"
@@ -976,7 +1406,7 @@
         {
             "name": "Imagetool",
             "reference": "4aab1f61-3f1c-42b8-9f20-fedfd22a1bba",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imagetool.png"
+            "image": "imagetool.png"
         }
     ],
     "calculator": [
@@ -984,7 +1414,7 @@
             "defaults": {
                 "mode": "scientific"
             },
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/calculator-scientific.png",
+            "image": "calculator-scientific.png",
             "name": "Scientific calculator",
             "description": "Supply a scientific calculator to assist users on mathematical calculations.",
             "reference": "532767d1-40e7-47e4-be81-ec5cdbfb5fd8"
@@ -992,31 +1422,25 @@
         {
             "name": "Calculator",
             "reference": "d4f4cc0f-af17-4fd8-8faa-c8f88cf2d0d2",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/calculator.png"
+            "image": "calculator.png"
         }
     ],
     "audioplayer": [
         {
             "name": "Audio player",
-            "reference": "734ea0be-309b-4ff8-b004-3abd70094efd",
-            "description": "Embed an audio asset to be used as stimulus for your context. You can use your own audio or audio hosted on the Internet."
+            "reference": "734ea0be-309b-4ff8-b004-3abd70094efd"
         }
     ],
     "sharedpassage": [
         {
             "name": "Passage",
-            "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8",
-            "description": "Enabling a highlightable text passage that can be used across multiple items.",
-            "defaults": {
-                "content": "[Enter passage content here.]"
-            }
+            "reference": "d5d43bd6-d02a-4969-a79a-e10b344549a8"
         }
     ],
     "videoplayer": [
         {
             "name": "Video player",
-            "reference": "25368800-1ebe-4f2c-b220-6fe90a44883b",
-            "description": "Embed a video asset to be used as stimulus for your context. You can use your own video or video hosted on the Internet."
+            "reference": "25368800-1ebe-4f2c-b220-6fe90a44883b"
         }
     ],
     "longtextV2": [
@@ -1026,10 +1450,15 @@
             },
             "description": "Essay up to 10,000 words which may include text formatting controls.",
             "group_reference": "writespeak",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/LongTextV2.2.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "longtextV2.png",
             "name": "Essay with rich text",
-            "hidden_search_terms": ["constructed", "extended"],
+            "hidden_search_terms": [
+                "constructed",
+                "extended"
+            ],
             "reference": "1e6039f8-0676-495d-aca9-108710a51ce5"
         }
     ],
@@ -1044,8 +1473,10 @@
             },
             "description": "Essay up to 10,000 words does not include text formatting controls.",
             "group_reference": "writespeak",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/plaintext.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "plaintext.png",
             "name": "Essay with plain text",
             "reference": "0f559437-5072-475e-830d-1fa9d2f6bb0d"
         }
@@ -1064,8 +1495,10 @@
             },
             "description": "Short text respones.",
             "group_reference": "writespeak",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/shorttext.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "shorttext.png",
             "name": "Short text",
             "reference": "4fe6c726-419c-4aff-b189-4a9756a0ffda"
         }
@@ -1081,10 +1514,14 @@
             },
             "description": "Audio response with Block layout.",
             "group_reference": "writespeak",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/audio-block.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "audio-block.png",
             "name": "Audio recorder",
-            "hidden_search_terms": ["voice"],
+            "hidden_search_terms": [
+                "voice"
+            ],
             "reference": "4e9e4ec1-7441-462f-ad70-d94cbaf0d14e"
         }
     ],
@@ -1097,8 +1534,10 @@
             },
             "description": "Video and audio response.",
             "group_reference": "writespeak",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/video.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "video.png",
             "name": "Video recorder",
             "reference": "4e9e4ec1-7437-462f-ad70-d94cbaf0d14e"
         }
@@ -1116,7 +1555,11 @@
                     "max": 10,
                     "min": 0
                 },
-                "points": ["[Choice A]", "[Choice B]", "[Choice C]"],
+                "points": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]"
+                ],
                 "snap_to_ticks": true,
                 "stimulus": "<p>[This is the stem.]</p>",
                 "ticks": {
@@ -1134,8 +1577,10 @@
             },
             "description": "Place points on a number line.",
             "group_reference": "graph",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberline.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "numberline.png",
             "name": "Number line with drag & drop",
             "reference": "f5c683be-b5e0-421d-a593-f6a59312aba2"
         }
@@ -1175,8 +1620,10 @@
             },
             "description": "Plotting responses on number line.",
             "group_reference": "graph",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/numberlineplot.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "numberlineplot.png",
             "name": "Number line with plot",
             "reference": "02a2d2fe-c028-42d0-b139-e58a60780928"
         }
@@ -1184,21 +1631,33 @@
     "orderlist": [
         {
             "defaults": {
-                "list": ["[Choice A]", "[Choice B]", "[Choice C]", "[Choice D]"],
+                "list": [
+                    "[Choice A]",
+                    "[Choice B]",
+                    "[Choice C]",
+                    "[Choice D]"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "orderlist",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [0, 1, 2, 3]
+                        "value": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
                     }
                 }
             },
             "description": "List of Items to be arranged into the correct order.",
             "group_reference": "match",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/order_list.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "orderlist.png",
             "name": "Order list",
             "reference": "0c7f68f7-2be6-4ae0-8492-0ab78c8d0010"
         }
@@ -1247,10 +1706,14 @@
             },
             "description": "Create an interactive Bar chart.",
             "group_reference": "chart",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/barchart.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "simplechart-bar.png",
             "name": "Bar chart",
-            "hidden_search_terms": ["chart"],
+            "hidden_search_terms": [
+                "chart"
+            ],
             "reference": "24f76ba0-24af-4be4-aacf-c31c6efd33e3"
         },
         {
@@ -1335,10 +1798,14 @@
             },
             "description": "Create an interactive Line chart.",
             "group_reference": "chart",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/linechart.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "simplechart-line.png",
             "name": "Line chart",
-            "hidden_search_terms": ["chart"],
+            "hidden_search_terms": [
+                "chart"
+            ],
             "reference": "8c28ecfd-ab0b-43de-bfac-e572eeb06851"
         },
         {
@@ -1405,10 +1872,14 @@
             },
             "description": "Create an interactive Histogram.",
             "group_reference": "chart",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/histogram.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "simplechart-histogram.png",
             "name": "Histogram",
-            "hidden_search_terms": ["chart"],
+            "hidden_search_terms": [
+                "chart"
+            ],
             "reference": "cb9cb540-05b2-44e0-bef3-1b31727c1c37"
         },
         {
@@ -1472,10 +1943,14 @@
             },
             "description": "Create an interactive Dot plot.",
             "group_reference": "chart",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/dotplot.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "simplechart-dotplot.png",
             "name": "Dot plot",
-            "hidden_search_terms": ["chart"],
+            "hidden_search_terms": [
+                "chart"
+            ],
             "reference": "2f93c2f1-f7d9-423a-94c9-5df5aabdddc9"
         },
         {
@@ -1539,10 +2014,14 @@
             },
             "description": "Create an interactive Line plot.",
             "group_reference": "chart",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/lineplot.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "simplechart-lineplot.png",
             "name": "Line plot",
-            "hidden_search_terms": ["chart"],
+            "hidden_search_terms": [
+                "chart"
+            ],
             "reference": "1f20bb6e-8685-4eaa-9c70-ef80b811e483"
         }
     ],
@@ -1562,8 +2041,10 @@
             },
             "description": "User can click words/sentences/paragraphs to be highlighted.",
             "group_reference": "highlight",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/token.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "tokenhighlight.png",
             "name": "Token highlight",
             "reference": "47f0db98-79e8-4273-946f-90faf4a2ae49"
         }
@@ -1581,7 +2062,7 @@
             },
             "description": "Users can upload files from their device.",
             "group_reference": "other",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/file-upload.png",
+            "image": "fileupload.png",
             "name": "File upload",
             "reference": "8ff43fa9-804b-42e7-9b3e-4cdd7e3a882d"
         }
@@ -1604,7 +2085,7 @@
             },
             "description": "Users can upload and annotate an image, or annotate a provided image.",
             "group_reference": "other",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/imageupload.png",
+            "image": "imageupload.png",
             "name": "Image annotation upload",
             "reference": "8ff43fa9-804b-42e7-9b3e-3cdd7e3a882b"
         }
@@ -1645,7 +2126,7 @@
             },
             "description": "Allows users to choose a value from a preselected range.",
             "group_reference": "other",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/rating-v2.png",
+            "image": "rating.png",
             "name": "Rating",
             "reference": "8e99fa69-b829-4a7d-ae2a-eb935fe3a2c6"
         }
@@ -1654,7 +2135,7 @@
         {
             "name": "Gridded",
             "group_reference": "other",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/gridded.png",
+            "image": "gridded.png",
             "defaults": {
                 "type": "gridded",
                 "stimulus": "<p>[This is the stem.]</p>",
@@ -1677,30 +2158,55 @@
     "choicematrix": [
         {
             "defaults": {
-                "options": ["True", "False"],
-                "stems": ["[Stem 1]", "[Stem 2]", "[Stem 3]", "[Stem 4]"],
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "choicematrix",
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Choice Matrix with 2 option columns in a table format.",
             "group_reference": "mcq",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-table.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "choicematrix.png",
             "name": "Choice matrix – standard",
-            "hidden_search_terms": ["likert"],
+            "hidden_search_terms": [
+                "likert"
+            ],
             "reference": "14b7af71-e146-4747-aae5-ca71618a5038"
         },
         {
             "defaults": {
-                "options": ["True", "False"],
-                "stems": ["[Stem 1]", "[Stem 2]", "[Stem 3]", "[Stem 4]"],
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "choicematrix",
                 "ui_style": {
@@ -1710,22 +2216,39 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Choice Matrix with 2 option columns in an inline format.",
             "group_reference": "mcq",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-inline.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "choicematrix-inline.png",
             "name": "Choice matrix – inline",
-            "hidden_search_terms": ["likert"],
+            "hidden_search_terms": [
+                "likert"
+            ],
             "reference": "f109c77c-390e-4595-93b8-2dbd547251b6"
         },
         {
             "defaults": {
-                "options": ["True", "False"],
-                "stems": ["[Stem 1]", "[Stem 2]", "[Stem 3]", "[Stem 4]"],
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "stems": [
+                    "[Stem 1]",
+                    "[Stem 2]",
+                    "[Stem 3]",
+                    "[Stem 4]"
+                ],
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "choicematrix",
                 "ui_style": {
@@ -1736,48 +2259,73 @@
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
                     }
                 }
             },
             "description": "Choice Matrix with 2 option columns in a table Format with stem numeration.",
             "group_reference": "mcq",
-            "hidden": ["description"],
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/matrix-stem.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "choicematrix-labels.png",
             "name": "Choice matrix – labels",
-            "hidden_search_terms": ["likert"],
+            "hidden_search_terms": [
+                "likert"
+            ],
             "reference": "9de82e14-802c-4bea-a635-bf9ad0b622fb"
-        },
+        }
+    ],
+    "nclex": [
         {
             "name": "Choice matrix – NCLEX Scoring",
             "group_reference": "other",
-            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/choicematrix-nclex.png",
+            "image": "choicematrix-nclex.png",
             "defaults": {
-                "options": ["Pneumonia", "UTI", "Influenza"],
-                "stems": ["Fever", "Confusion", "Body soreness", "Cough and sputum", "Shortness of breath"],
+                "options": [
+                    "Pneumonia",
+                    "UTI",
+                    "Influenza"
+                ],
+                "stems": [
+                    "Fever",
+                    "Confusion",
+                    "Body soreness",
+                    "Cough and sputum",
+                    "Shortness of breath"
+                ],
                 "stimulus": "<p>[This is the stem NCLEX]</p>",
-                "type": "choicematrix",
+                "type": "nclex",
                 "validation": {
                     "scoring_type": "nclexScoringByColumn",
                     "valid_response": {
                         "score": 1,
-                        "value": [null, null, null]
+                        "value": [
+                            null,
+                            null,
+                            null
+                        ]
                     },
                     "penalty": 1
                 },
                 "multiple_responses": true
             },
             "description": "Choice Matrix NCLEX",
-            "hidden": ["description", "validation.scoring_type", "validation.alt_responses", "shuffle_options", "multiple_responses"],
-            "include_options": {
-                "validation.scoring_type": [
-                    {
-                        "label": "Nclex scoring by column",
-                        "value": "nclexScoringByColumn"
-                    }
-                ]
-            },
-            "hidden_search_terms": ["likert"],
+            "hidden": [
+                "description",
+                "validation.scoring_type",
+                "validation.alt_responses",
+                "shuffle_options",
+                "multiple_responses"
+            ],
+            "hidden_search_terms": [
+                "likert"
+            ],
             "reference": "b1b444e7-eea2-40a6-97e2-65b76d338d67"
         }
     ],
@@ -1787,14 +2335,30 @@
                 "stimulus": "<p>[This is the stem.]</p>",
                 "type": "bowtie",
                 "ui_style": {
-                    "column_titles": ["Area 1", "Area 2", "Area 3"],
+                    "column_titles": [
+                        "Area 1",
+                        "Area 2",
+                        "Area 3"
+                    ],
                     "show_drag_handle": false
                 },
                 "validation": {
                     "scoring_type": "exactMatch",
                     "valid_response": {
                         "score": 1,
-                        "value": [[null, null], [null], [null, null]]
+                        "value": [
+                            [
+                                null,
+                                null
+                            ],
+                            [
+                                null
+                            ],
+                            [
+                                null,
+                                null
+                            ]
+                        ]
                     }
                 },
                 "group_possible_responses": true,
@@ -1802,22 +2366,39 @@
                 "possible_response_groups": [
                     {
                         "title": "Column 1",
-                        "responses": ["", "", "", ""]
+                        "responses": [
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
                     },
                     {
                         "title": "Column 2",
-                        "responses": ["", "", "", ""]
+                        "responses": [
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
                     },
                     {
                         "title": "Column 3",
-                        "responses": ["", "", "", ""]
+                        "responses": [
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
                     }
                 ]
             },
             "description": "Drag and drop responses into a bow-tie chart layout.",
             "group_reference": "other",
-            "hidden": ["description"],
-            "image": "https://questioneditor.learnosity.com/latest/img/tiles/templates/bowtie.png",
+            "hidden": [
+                "description"
+            ],
+            "image": "bowtie.png",
             "name": "Bow-tie",
             "reference": "b75d9f52-8e10-4113-bb08-f8b6e3e4141c"
         }
@@ -1826,7 +2407,7 @@
         {
             "name": "Hotspot",
             "group_reference": "highlight",
-            "image": "https://assets.learnosity.com/questiontypes/templates/qev3/hotspot.png",
+            "image": "hotspot.png",
             "defaults": {
                 "type": "hotspot",
                 "stimulus": "<p>[This is the stem.]</p>",
@@ -2141,8 +2722,7 @@
                     }
                 }
             },
-            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4",
-            "description": "A question type that allows students to select hotspots on an image."
+            "reference": "f0416e39-72fc-4d40-8d6e-c6f97e621fd4"
         }
     ],
     "linereader": [
